@@ -1,4 +1,4 @@
-# Code reviews for Angular Flex-Layout
+Below are the team standards for Flex-Layout Code reviews:
 
 * Before any coding begins on new, large, or breaking work, a design discussion should take place.
 * All code changes require a review and approval.
