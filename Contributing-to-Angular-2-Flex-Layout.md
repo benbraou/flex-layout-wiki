@@ -1,5 +1,3 @@
-# Contributing to Angular 2 Flex-Layout
-
 We would love for you to contribute to Angular 2 Flex-Layout and help make it ever better!
 As a contributor, here are the guidelines we would like you to follow:
 
