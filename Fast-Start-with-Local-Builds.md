@@ -47,7 +47,9 @@ cp -rF ./dist/@angular/flex-layout <ngCLiProjectPath>/node_modules/@angular/
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
 
+<a href="https://cloud.githubusercontent.com/assets/210413/21205830/f58ca35c-c223-11e6-95e7-4ed90b044fb5.jpg" target="_blank">
 ![screen shot 2016-12-14 at 5 31 27 pm](https://cloud.githubusercontent.com/assets/210413/21205830/f58ca35c-c223-11e6-95e7-4ed90b044fb5.jpg)
+</a>
 
 <br/>
 
