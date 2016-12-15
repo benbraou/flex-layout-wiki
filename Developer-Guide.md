@@ -1,7 +1,3 @@
-# Developer Guide 
-
-<br/>
-
 ## Getting your environment set up
 
 1. Make sure you have `node` installed with a version at _least_ 5.5.0.
