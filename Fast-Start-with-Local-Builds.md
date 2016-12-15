@@ -1,4 +1,3 @@
-## Fast Start 
 
 Installing flex-layout with **NPM** is *not yet* available. Developers can, however, 
 easily install this `@angular/flex-layout` library using a **local repository build** 
@@ -15,7 +14,7 @@ after the the flex-layout v1.0.0-beta.1 release (week of December 20, 2016).
 
 <br/>
 
-#### 1) UMD + `<script>`
+### 1) UMD + `<script>`
 
 Use Gulp and Rollup to build `flex-layout.umd.js` UMD:
 
@@ -33,7 +32,7 @@ Use the bundle with an external script tag in the index.html of your Angular 2 a
 
 <br/>
 
-#### 2) Angular CLI + `@angular/flex-layout`
+### 2) Angular CLI + `@angular/flex-layout`
 
 If you are using the Angular CLI to bundle and serve your application (using `ng serve`), 
 you can use the `ngc` to build the *flex-layout* files; each with  generated metadata files. 
@@ -51,7 +50,7 @@ Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
 
 <br/>
 
-#### 3) SystemJS + UMD
+### 3) SystemJS + UMD
 
 If your approach follows those shown on the tutorials at **angular.io**, first build the 
 release with `gulp build:release`. The `./dist/@angular/flex-layout/flex-layout.umd.js` may be 
