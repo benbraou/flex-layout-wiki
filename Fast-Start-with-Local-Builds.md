@@ -1,11 +1,12 @@
 
-Installing flex-layout with **NPM** is *not yet* available. Developers can, however, 
-easily install this `@angular/flex-layout` library using a **local repository build** 
+Installing flex-layout with **NPM** is *not yet* available! 
+
+Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
 and a directory copy:
 
 ```console
 gulp build:release
-ditto ./dist/@angular/flex-layout <your project>/node_modules/@angular/flex-layout
+ditto ./dist/@angular/flex-layout <projectPath>/node_modules/@angular/flex-layout
 ```
 
 > The expected deployment process to **npm** (and the standardized use 
