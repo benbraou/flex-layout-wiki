@@ -22,7 +22,9 @@ is transformed (at runtime) with inline, injected styles:
 
 ```html
 <div fx-layout="row" fx-layout-align="center center"
-      style="display: flex; flex-direction: row; max-width: 100%; box-sizing: border-box; justify-content: center; align-content: center; align-items: center;">
+      style="display: flex; flex-direction: row; max-width: 100%; 
+             box-sizing: border-box; justify-content: center; 
+             align-content: center; align-items: center;">
   <div>one</div>
   <div>two</div>
   <div>three</div>
