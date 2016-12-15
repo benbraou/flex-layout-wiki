@@ -54,4 +54,4 @@ System.config({
 Developers are encouraged to review the live demos and source for the Flex-Layout Demos:
 
 *  [Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
-*  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
+*  [Demo Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
