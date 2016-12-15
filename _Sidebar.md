@@ -1,4 +1,4 @@
-*  Home 
+*  [Home](https://github.com/angular/flex-layout/wiki)
 *  Getting Started
   *  [Developer Guide](https://github.com/angular/flex-layout/wiki/Developer-Guide)
   *  [Fast Start with Local Builds](https://github.com/angular/flex-layout/wiki/Fast-Start-with-Local-Builds)
