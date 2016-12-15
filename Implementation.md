@@ -1,5 +1,6 @@
-The Angular 2 architecture for Layouts eliminates `all` external Flexbox stylesheets and SCSS files formerly used 
-in the Angular Material 1 Layout implementations.  This is pure typescript- Angular Layout engine that is 
+The Angular 2 architecture for Layouts eliminates `all` external Flexbox stylesheets and SCSS files formerly used in the Angular Material 1 Layout implementations.  
+
+This is pure typescript- Angular Layout engine that is 
 independent of Angular Material yet can be used easily within any Material 2 application.
 
 The Layout API directives are used to create DOM element style injectors which inject specific, custom Flexbox 
@@ -17,7 +18,7 @@ Static Markup:
 </div>
 ```
 
-is transformed with inline, injected styles:
+is transformed (at runtime) with inline, injected styles:
 
 ```html
 <div fx-layout="row" fx-layout-align="center center"
