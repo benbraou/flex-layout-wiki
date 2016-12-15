@@ -59,6 +59,7 @@ System.config({
 });
 ```
 
+<br/>
 
 ## Sample Angular 2 Flex-Layout projects
 
