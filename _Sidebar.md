@@ -1,7 +1,7 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
 *  Getting Started
   *  [Developer Guide](https://github.com/angular/flex-layout/wiki/Developer-Guide)
-  *  [Fast Start with Local Builds](https://github.com/angular/flex-layout/wiki/Fast-Start-with-Local-Builds)
+  *  [Fast Start with Local Builds](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
 
 * How it Works
