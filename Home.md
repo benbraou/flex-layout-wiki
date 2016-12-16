@@ -38,6 +38,7 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
   *  [Getting Started](https://github.com/angular/flex-layout/wiki/Developer-Guide)
   *  [Fast Start with Local Builds](https://github.com/angular/flex-layout/wiki/Fast-Start-with-Local-Builds)
   *  [Using Flex-Layout with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
+
 Demos 
 
 *  [Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
