@@ -36,12 +36,12 @@ Integrating **mediaQuery** features into the Layout engine enables the API to be
 </div> 
 ```
 
-### Under-the-hood
+### Using Flex-Layout
 
 Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only implementations published in other Flexbox libraries  and the JS+CSS implementation of Angular Material v1.x Layouts. 
 
-*  This implementation of Flex Layouts is independent of Angular Material (v1 or v2).
-*  This implementation is currently only available for Angular applications.
+*  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
+*  This implementation is currently only available for Angular (v2.x and higher) applications.
 
 <br/>
 
