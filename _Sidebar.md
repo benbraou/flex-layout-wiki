@@ -1,6 +1,6 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
 *  Getting Started
-  *  [Developer Guide](https://github.com/angular/flex-layout/wiki/Developer-Guide)
+  *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
   *  [Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
 
