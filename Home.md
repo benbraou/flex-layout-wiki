@@ -97,7 +97,6 @@ Angular Flex Layout - in contrast - is a pure-Typescript UI Layout engine with a
 
 <br/>
 
-----
 
 ### Featured Demo
 
