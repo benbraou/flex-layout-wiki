@@ -9,11 +9,16 @@ can be used on HTML containers and elements:
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
 |  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
 |  fx-layout-align   | `start|center|end|space-around|space-between` `start|center|end|stretch`|                   
-|  fx-flex           | "" , px , %                                                             |              
-|  fx-flex-fill      |                                                                         |
+|  fx-layout-margin  | %, px, vw, vh                                                           |                   
+|  fx-layout-padding | %, px, vw, vh                                                           |         
+|  fx-layout-gap     | %, px, vw, vh                                                           |     
+|  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fx-flex-order     | int                                                                     |                       
-|  fx-flex-offset    | %, px                                                                   |     
-|  fx-flex-align     | `start|baseline|center|end`                                             |                   
+|  fx-flex-offset    | %, px, vw, vh                                                           |     
+|  fx-align          | `start|baseline|center|end`                                             |                   
+|  fx-fill           |                                                                         |
+|  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
+|  fx-show           | TRUE, FALSE, 0, ""                                                      |     
 
 Static Markup Example:
 
