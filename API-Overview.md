@@ -44,7 +44,9 @@ Flex Layout directives **assign CSS styles** directly in-line to the host elemen
 
 To extend the static API with responsive features, we first associate specific breakpoint aliases with mediaQuery values. And if we use Breakpoints as specified by Material Design:
 
+<a href="https://material.io/guidelines/layout/responsive-ui.html" target="_blank">
 ![](http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png)
+</a>
 
 <br/>
 
@@ -68,8 +70,10 @@ If we combine the breakpoint `alias` with the Layout API we can easily support R
 simple markup convention: the `alias` is used as **suffix** extensions to the Layout API:
 
 ```html
-<api>.<breakpoint alias>='<value>'
+<api>.<breakpoint alias>="<value>"
+[<api>.<breakpoint alias>]="<expression>"
 ```
+
 
 Below is an example usage of the Responsive Layout API:
 
