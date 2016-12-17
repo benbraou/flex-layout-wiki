@@ -1,8 +1,8 @@
 ### API Overview
 
-The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create 
-responsive and adaptive layouts using Flexbox CSS. The public **Layout API** is a simply list of HTML attributes that 
-can be used on HTML containers and elements:
+The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
+
+The public **Layout API** is a simply list of HTML attributes that can be used on HTML containers and elements:
 
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
