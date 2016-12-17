@@ -47,17 +47,21 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
 
 ----
 
-### Useful Resources
+### Quick Links
 
-*  [Flex-Layout Wiki](https://github.com/angular/flex-layout/wiki/Code-reviews)
-  *  [Getting Started](https://github.com/angular/flex-layout/wiki/Developer-Guide)
-  *  [Fast Start with Local Builds](https://github.com/angular/flex-layout/wiki/Fast-Start-with-Local-Builds)
-  *  [Using Flex-Layout with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
+*  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
+
+Developers
+
+*  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
+*  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
+*  [Builds + Fast Start](https://github.com/angular/flex-layout/wiki/Fast-Starts)
+*  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
 
 Demos 
 
-*  [Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
-*  [Demo Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
+*  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
+*  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
 
 Templates
 
@@ -65,10 +69,59 @@ Templates
 
 ----
 
+
+### Why choose Flex-Layout
+
+While other Flexbox CSS libraries are implementations of:
+
+* pure CSS-only implementations, or 
+* the JS+CSS Stylesheets implementation of Angular Material v1.x Layouts.
+
+Angular Flex Layout - in contrast - is a pure-Typescript UI Layout engine with an implementation that: 
+
+*  uses HTML attributes (aka Layout API) to specify the layout configurations
+*  is currently only available for Angular (v2.x or higher) Applications.
+*  is independent of Angular Material (v1 or v2).
+*  requires no external stylesheets.
+*  requires Angular v2.x or higher.
+
 <br/>
 
+### Browser Support
 
-Compared to the Layout API embedded in Angular Material v1.x, this codebase easier to maintain and debug, other more important benefits have been realized:
+<a href="http://caniuse.com/#feat=flexbox" target="_blank">
+![caniuseflexbox](https://cloud.githubusercontent.com/assets/210413/21288118/917e3faa-c440-11e6-9b08-28aff590c7ae.png)
+</a>
+
+<br/>
+
+----
+
+### Featured Demo
+
+One of the hardest features to implement is a grid layout with specific column spans. Our online demo shows how easy this is!
+
+Live Demo:
+
+<a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
+![screen shot 2016-12-16 at 1 00 51 pm](https://cloud.githubusercontent.com/assets/210413/21274826/bc8553f2-c38f-11e6-8188-bc7fd36026c2.png)
+</a>
+
+Source Code:
+
+<a href="https://github.com/angular/flex-layout/blob/master/src/demo-app/app/stack-overflow/columnSpan.demo.ts#L23" target="_blank">
+![screen shot 2016-12-16 at 1 05 45 pm](https://cloud.githubusercontent.com/assets/210413/21274996/6b640f8a-c390-11e6-87ac-ca85eb6c3983.png)
+</a>
+
+ 
+<br/>
+
+----
+
+### Advantages 
+
+Compared to the Layout API in Angular Material v1.x, this codebase is easier to maintain and debug.
+And other more important benefits have also been realized:
 
 *  Independent of Angular Material 
 *  No external CSS requirements
@@ -81,5 +134,3 @@ Compared to the Layout API embedded in Angular Material v1.x, this codebase easi
 *  MediaQuery Activation detection 
 *  Support for raw values or interpolated values
 *  Support for raw, percentage or px-suffix values
-
-
