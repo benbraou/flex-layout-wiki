@@ -20,7 +20,8 @@ The public **Layout API** is a simply list of HTML attributes that can be used o
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
 
-Static Markup Example:
+
+### Static Markup Example
 
 ```html
 <div fx-layout='column' class="zero">
