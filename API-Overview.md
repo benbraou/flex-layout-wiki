@@ -2,8 +2,11 @@
 
 The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
 
-The public **Layout API** is a simply list of HTML attributes that can be used on HTML containers and elements:
+The public **Layout API** is a simply list of HTML attributes that can be used on HTML containers and elements.
 
+An important fundamental concept is the separation of the API:
+
+* API for DOM containers:  
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
@@ -12,11 +15,15 @@ The public **Layout API** is a simply list of HTML attributes that can be used o
 |  fx-layout-margin  | %, px, vw, vh                                                           |                   
 |  fx-layout-padding | %, px, vw, vh                                                           |         
 |  fx-layout-gap     | %, px, vw, vh                                                           |     
+
+* API for DOM elements in a DOM container (with Layout attributes):   
 |  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fx-flex-order     | int                                                                     |                       
 |  fx-flex-offset    | %, px, vw, vh                                                           |     
 |  fx-align          | `start|baseline|center|end`                                             |                   
 |  fx-fill           |                                                                         |
+
+* API for any element:  **fx-hide**, **fx-show**
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
 
