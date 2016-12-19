@@ -26,12 +26,15 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fx-align          | `start|baseline|center|end`                                             |                   
 |  fx-fill           |                                                                         |
 
-#### API for any element:  **fx-hide**, **fx-show**
+#### API for any element: 
 
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
+
+
+Shown below is sample HTML markup that uses both the container and element API:
 
 
 ### Static Markup Example
@@ -51,9 +54,10 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 </div>
 ```
+
 Flex Layout directives **assign CSS styles** directly in-line to the host element. These in-line styles override inherited styles, **ShadowDOM** styles and even ShadowDOM tree stylings on the element  `:host`
 
-### Responsive Features
+## Responsive Features
 
 To extend the static API with responsive features, we first associate specific breakpoint aliases with mediaQuery values. And if we use Breakpoints as specified by Material Design:
 
