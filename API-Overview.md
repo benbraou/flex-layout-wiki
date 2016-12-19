@@ -16,7 +16,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fx-layout-padding | %, px, vw, vh                                                           |         
 |  fx-layout-gap     | %, px, vw, vh                                                           |     
 
-#### API for DOM elements in a DOM container (with Layout attributes):   
+#### API for DOM elements:   
 
 | HTML API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
@@ -25,6 +25,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fx-flex-offset    | %, px, vw, vh                                                           |     
 |  fx-align          | `start|baseline|center|end`                                             |                   
 |  fx-fill           |                                                                         |
+
+> This API expects their elements to inside a DOM container which is itself using the Layout API for containers.
 
 #### API for any element: 
 
