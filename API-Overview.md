@@ -7,6 +7,7 @@ The public **Layout API** is a simply list of HTML attributes that can be used o
 An important fundamental concept is the separation of the API:
 
 * API for DOM containers:  
+
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
@@ -17,6 +18,9 @@ An important fundamental concept is the separation of the API:
 |  fx-layout-gap     | %, px, vw, vh                                                           |     
 
 * API for DOM elements in a DOM container (with Layout attributes):   
+
+| HTML Markup API    | Allowed values (raw or interpolated)                                    |
+|--------------------|-------------------------------------------------------------------------|
 |  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fx-flex-order     | int                                                                     |                       
 |  fx-flex-offset    | %, px, vw, vh                                                           |     
@@ -24,6 +28,9 @@ An important fundamental concept is the separation of the API:
 |  fx-fill           |                                                                         |
 
 * API for any element:  **fx-hide**, **fx-show**
+
+| HTML Markup API    | Allowed values (raw or interpolated)                                    |
+|--------------------|-------------------------------------------------------------------------|
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
 
