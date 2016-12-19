@@ -3,12 +3,11 @@
 The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
 
 The public **Layout API** is a simply list of HTML attributes that can be used on HTML containers and elements.
+An important [fundamental] concept is understanding which APIs are used on DOM containers versus APIs used on DOM elements in those containers.  
 
-An important fundamental concept is the separation of the API:
+#### API for DOM containers:  
 
-* API for DOM containers:  
-
-| HTML Markup API    | Allowed values (raw or interpolated)                                    |
+| HTML Markup API    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
 |  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
@@ -17,7 +16,7 @@ An important fundamental concept is the separation of the API:
 |  fx-layout-padding | %, px, vw, vh                                                           |         
 |  fx-layout-gap     | %, px, vw, vh                                                           |     
 
-* API for DOM elements in a DOM container (with Layout attributes):   
+#### API for DOM elements in a DOM container (with Layout attributes):   
 
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
@@ -27,7 +26,7 @@ An important fundamental concept is the separation of the API:
 |  fx-align          | `start|baseline|center|end`                                             |                   
 |  fx-fill           |                                                                         |
 
-* API for any element:  **fx-hide**, **fx-show**
+#### API for any element:  **fx-hide**, **fx-show**
 
 | HTML Markup API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
