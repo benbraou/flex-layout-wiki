@@ -36,6 +36,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
 
 
+<br/>
+
 Shown below is sample HTML markup that uses both the container and element API:
 
 
