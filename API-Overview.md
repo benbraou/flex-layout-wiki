@@ -7,7 +7,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for DOM containers:  
 
-| HTML Markup API    | Allowed values                                                          |
+| HTML API    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
 |  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
@@ -18,7 +18,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for DOM elements in a DOM container (with Layout attributes):   
 
-| HTML Markup API    | Allowed values (raw or interpolated)                                    |
+| HTML API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fx-flex-order     | int                                                                     |                       
@@ -28,7 +28,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for any element: 
 
-| HTML Markup API    | Allowed values (raw or interpolated)                                    |
+| HTML API    | Allowed values (raw or interpolated)                                    |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
