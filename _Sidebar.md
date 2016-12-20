@@ -1,8 +1,10 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
+
 *  Getting Started
   *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
   *  [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
+  *  [CSS Flexbox Reference](http://cssreference.io/#flex-direction)
 
 * How it Works
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
@@ -16,6 +18,13 @@
   *  [Contributing](https://github.com/angular/flex-layout/wiki/Contributing-to-Angular-2-Flex-Layout)
   *  [Coding Standards](https://github.com/angular/flex-layout/wiki/Angular-Flex-Layout-Coding-Standards)
   *  [Code Review](https://github.com/angular/flex-layout/wiki/Code-reviews)
-  
 
+Demos 
+
+*  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
+*  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
+
+Templates
+
+*  [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview)
 
