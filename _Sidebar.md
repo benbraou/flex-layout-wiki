@@ -1,5 +1,5 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
-  * [Why choose Flex-Layout](https://github.com/angular/flex-layout#why-choose-flex-layout)
+  * [Why use it?](https://github.com/angular/flex-layout#why-choose-flex-layout)
   * [Browser Support](https://github.com/angular/flex-layout#browser-support)
 
 *  Getting Started
@@ -7,7 +7,7 @@
   *  [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
 
-* How it Works
+* How it Works?
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
   *  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
   *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
