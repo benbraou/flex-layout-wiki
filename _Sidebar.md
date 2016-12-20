@@ -20,7 +20,7 @@
   *  [Code Review](https://github.com/angular/flex-layout/wiki/Code-reviews)
 
 * Demos 
-  *  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
+  *  [Live Online](https://tburleson-layouts-demos.firebaseapp.com/)
   *  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
 
 * Templates
