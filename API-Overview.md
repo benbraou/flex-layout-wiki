@@ -115,3 +115,35 @@ Below is an example usage of the Responsive Layout API:
 ```
 
 In the markup above the layout directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
+
+### Developer Alert
+
+Known Issue: If responsive directives are used WITHOUT its associated static API, the Angular template parser will throw errors. 
+
+```html
+<div [fx-layout.md]="direction" 
+      fx-layout-align="center stretch" 
+      fx-layout-align.md="end stretch">
+</div>
+```
+
+When compiled:
+
+```terminal
+ Error: Template parse errors:
+        Can't bind to 'fx-layout.md' since it isn't a known property of 'div'. ("
+                <div [ERROR ->][fx-layout.md]="direction" 
+                     fx-layout-align="center stretch" 
+                     fx-layout-ali"): TestLayoutComponent@1:13
+            at SyntaxError.BaseError [as constructor] (dist/vendor/@angular/compiler/bundles/compiler.umd.js:
+```
+
+A simple fix is to add the *static* API attribute:
+
+```html
+<div  fx-layout
+     [fx-layout.md]="direction" 
+      fx-layout-align="center stretch" 
+      fx-layout-align.md="end stretch">
+</div>
+```
