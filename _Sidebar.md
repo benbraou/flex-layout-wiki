@@ -13,6 +13,7 @@
   *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
   *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
   *  [Use Cases](https://github.com/angular/flex-layout/wiki/Use-Cases) 
+  *  [Known Issues](https://github.com/angular/flex-layout/wiki/API-Overview#known-issues)
 
 * Developer Guides
   *  [Contributing](https://github.com/angular/flex-layout/wiki/Contributing-to-Angular-2-Flex-Layout)
