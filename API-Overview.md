@@ -121,7 +121,7 @@ In the markup above the layout directives use both static values and expression 
 
 1) Template Parser Exceptions:
 
-If responsive directives are used WITHOUT its associated static API, the Angular template parser will throw errors. 
+The Angular Template Parser will throw errors if responsive directives are used WITHOUT their associated static API/markup 
 
 ```html
 <div [fx-layout.md]="direction" 
