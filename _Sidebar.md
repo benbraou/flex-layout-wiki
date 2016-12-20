@@ -19,12 +19,10 @@
   *  [Coding Standards](https://github.com/angular/flex-layout/wiki/Angular-Flex-Layout-Coding-Standards)
   *  [Code Review](https://github.com/angular/flex-layout/wiki/Code-reviews)
 
-Demos 
+* Demos 
+  *  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
+  *  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
 
-*  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
-*  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
-
-Templates
-
-*  [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview)
+* Templates
+  *  [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview)
 
