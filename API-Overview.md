@@ -16,7 +16,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for DOM elements:   
 
-| HTML API    | Allowed values (raw or interpolated)                                    |
+| HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fx-flex-order     | int                                                                     |                       
@@ -28,7 +28,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for any element: 
 
-| HTML API    | Allowed values (raw or interpolated)                                    |
+| HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
 |  fx-show           | TRUE, FALSE, 0, ""                                                      |     
