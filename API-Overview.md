@@ -7,7 +7,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 #### API for DOM containers:  
 
-| HTML API    | Allowed values                                                          |
+| HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
 |  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
