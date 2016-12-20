@@ -116,9 +116,12 @@ Below is an example usage of the Responsive Layout API:
 
 In the markup above the layout directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
 
-### Developer Alert
+### Known Issues
 
-Known Issue: If responsive directives are used WITHOUT its associated static API, the Angular template parser will throw errors. 
+
+1) Template Parser Exceptions:
+
+If responsive directives are used WITHOUT its associated static API, the Angular template parser will throw errors. 
 
 ```html
 <div [fx-layout.md]="direction" 
@@ -135,7 +138,8 @@ When compiled:
                 <div [ERROR ->][fx-layout.md]="direction" 
                      fx-layout-align="center stretch" 
                      fx-layout-ali"): TestLayoutComponent@1:13
-            at SyntaxError.BaseError [as constructor] (dist/vendor/@angular/compiler/bundles/compiler.umd.js:
+            at SyntaxError.BaseError [as constructor] 
+           (dist/vendor/@angular/compiler/bundles/compiler.umd.js:
 ```
 
 A simple fix is to add the *static* API attribute:
@@ -147,3 +151,5 @@ A simple fix is to add the *static* API attribute:
       fx-layout-align.md="end stretch">
 </div>
 ```
+
+> This will be fixed in Angular 4.x. See [Issue #13355](https://github.com/angular/angular/issues/13355)
