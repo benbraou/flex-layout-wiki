@@ -12,8 +12,6 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
 |  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
 |  fx-layout-align   | `start|center|end|space-around|space-between` `start|center|end|stretch`|                   
-|  fx-layout-margin  | %, px, vw, vh                                                           |                   
-|  fx-layout-padding | %, px, vw, vh                                                           |         
 |  fx-layout-gap     | %, px, vw, vh                                                           |     
 
 #### API for DOM elements:   
