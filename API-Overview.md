@@ -116,8 +116,10 @@ Below is an example usage of the Responsive Layout API:
 
 In the markup above the layout directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
 
-### Known Issues
+<br/>
 
+
+### Known Issues
 
 1) Template Parser Exceptions:
 
