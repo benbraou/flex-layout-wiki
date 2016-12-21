@@ -12,8 +12,8 @@ Animations can also be extended to support MediaQuery activations: different ani
 
 Developers can use the following directives to achieve some Adaptive UX goals:
 
-*  `fx-hide`
-*  `fx-show`
+*  `fxHide`
+*  `fxShow`
 *  `ngIf`
 
 For examples of `fx-hide` usages in Adaptive layouts, please review the demo **Show & Hide Directives**:
