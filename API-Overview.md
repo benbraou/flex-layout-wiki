@@ -9,10 +9,10 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
-|  fx-layout         | `row | column | row-reverse | column-reverse`                           |                  
-|  fx-layout-wrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
-|  fx-layout-align   | `start|center|end|space-around|space-between` `start|center|end|stretch`|                   
-|  fx-layout-gap     | %, px, vw, vh                                                           |     
+|  fxLayout         | `row | column | row-reverse | column-reverse`                           |                  
+|  fxLayoutAlign   | `start|center|end|space-around|space-between` `start|center|end|stretch`|                   
+|  fxLayoutWrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
+|  fxLayoutGap     | %, px, vw, vh                                                           |     
 
 > These directives affect the flow and layout children elements in the container
 
@@ -20,11 +20,11 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
-|  fx-flex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
-|  fx-flex-order     | int                                                                     |                       
-|  fx-flex-offset    | %, px, vw, vh                                                           |     
-|  fx-align          | `start|baseline|center|end`                                             |                   
-|  fx-fill           |                                                                         |
+|  fxFlex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
+|  fxFlexOrder     | int                                                                     |                       
+|  fxFlexOffset    | %, px, vw, vh                                                           |     
+|  fxAlign          | `start|baseline|center|end`                                             |                   
+|  fxFill           |                                                                         |
 
 > These directives affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
 
@@ -32,8 +32,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
-|  fx-hide           | TRUE, FALSE, 0, ""                                                      |     
-|  fx-show           | TRUE, FALSE, 0, ""                                                      |     
+|  fxHide           | TRUE, FALSE, 0, ""                                                      |     
+|  fxShow           | TRUE, FALSE, 0, ""                                                      |     
 
 
 <br/>
@@ -44,17 +44,17 @@ Shown below is sample HTML markup that uses both the container and element API:
 ### Static Markup Example
 
 ```html
-<div fx-layout='column' class="zero">
+<div fxLayout='column' class="zero">
 
-  <div fx-flex="33"                          class="one" ></div>
-  <div fx-flex="33%" [fx-layout]="direction" class="two">
+  <div fxFlex="33"                          class="one" ></div>
+  <div fxFlex="33%" [fxLayout]="direction" class="two">
 
-    <div fx-flex="22%"    class="two_one"></div>
-    <div fx-flex="205px"  class="two_two"></div>
-    <div fx-flex="30"     class="two_three"></div>
+    <div fxFlex="22%"    class="two_one"></div>
+    <div fxFlex="205px"  class="two_two"></div>
+    <div fxFlex="30"     class="two_three"></div>
 
   </div>
-  <div fx-flex class="three"></div>
+  <div fxFlex class="three"></div>
 
 </div>
 ```
@@ -101,15 +101,15 @@ Below is an example usage of the Responsive Layout API:
 ```html
 <div fx-layout='column' class="zero">
 
-  <div fx-flex="33" [fx-flex.md]="box1Width" class="one" ></div>
-  <div fx-flex="33" [fx-layout]="direction" layout.md="row" class="two">
+  <div fxFlex="33" [fxFlex.md]="box1Width" class="one" ></div>
+  <div fxFlex="33" [fxLayout]="direction" fxLayout.md="row" class="two">
 
-    <div fx-flex="22"    fx-flex.md="10px" fx-hide.lg                       class="two_one"></div>
-    <div fx-flex="205"   fx-flex.md="65"                                    class="two_two"></div>
-    <div fx-flex="30px"  fx-flex.md="25"   fx-show [fx-hide.md]="hideBox"   class="two_three"></div>
+    <div fxFlex="22"    fxFlex.md="10px" fxHide.lg                       class="two_one"></div>
+    <div fxFlex="205"   fxFlex.md="65"                                    class="two_two"></div>
+    <div fxFlex="30px"  fxFlex.md="25"   fxShow [fxHide.md]="hideBox"   class="two_three"></div>
 
   </div>
-  <div fx-flex class="three"></div>
+  <div fxFlex class="three"></div>
 
 </div>
 ```
@@ -126,9 +126,9 @@ In the markup above the layout directives use both static values and expression 
 The Angular Template Parser will throw errors if responsive directives are used WITHOUT their associated static API/markup 
 
 ```html
-<div [fx-layout.md]="direction" 
-      fx-layout-align="center stretch" 
-      fx-layout-align.md="end stretch">
+<div [fxLayout.md]="direction" 
+      fxLayoutAlign="center stretch" 
+      fxLayoutAlign.md="end stretch">
 </div>
 ```
 
@@ -136,10 +136,10 @@ When compiled:
 
 ```terminal
  Error: Template parse errors:
-        Can't bind to 'fx-layout.md' since it isn't a known property of 'div'. ("
-                <div [ERROR ->][fx-layout.md]="direction" 
-                     fx-layout-align="center stretch" 
-                     fx-layout-ali"): TestLayoutComponent@1:13
+        Can't bind to 'fxLayout.md' since it isn't a known property of 'div'. ("
+                <div [ERROR ->][fxLayout.md]="direction" 
+                     fxLayoutAlign="center stretch" 
+                     fxLayoutAli"): TestLayoutComponent@1:13
             at SyntaxError.BaseError [as constructor] 
            (dist/vendor/@angular/compiler/bundles/compiler.umd.js:
 ```
@@ -147,10 +147,10 @@ When compiled:
 A simple fix is to add the *static* API attribute:
 
 ```html
-<div  fx-layout
-     [fx-layout.md]="direction" 
-      fx-layout-align="center stretch" 
-      fx-layout-align.md="end stretch">
+<div  fxLayout
+     [fxLayout.md]="direction" 
+      fxLayoutAlign="center stretch" 
+      fxLayoutAlign.md="end stretch">
 </div>
 ```
 
