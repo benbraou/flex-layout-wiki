@@ -13,7 +13,7 @@ alignments, resizing, and padding. These layouts can be nested and easily used w
 Since the Layout applies/injects **Flexbox CSS**, DOM elements will fluidly update their positioning and sizes as the  viewport size changes. 
 
 ```html
-<div class="flex-container" fx-layout="row" fx-layout-align="center center">
+<div class="flex-container" fxLayout="row" fxLayoutAlign="center center">
   <div class="flex-item"></div>
   <div class="flex-item"></div>
   <div class="flex-item"></div>
@@ -28,8 +28,8 @@ Integrating **mediaQuery** features into the Layout engine enables the API to be
 
 ```html
 <div class="flex-container" 
-     fx-layout="row" fx-layout.xs="column" 
-     fx-layout-align="center center" fx-layout-align.xs="start start">
+     fxLayout="row" fxLayout.xs="column" 
+     fxLayoutAlign="center center" fxLayoutAlign.xs="start start">
   <div class="flex-item"></div>
   <div class="flex-item"></div>
   <div class="flex-item"></div>
