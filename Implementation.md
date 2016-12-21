@@ -6,12 +6,12 @@ independent of Angular Material yet can be used easily within any Material 2 app
 The Layout API directives are used to create DOM element style injectors which inject specific, custom Flexbox 
 CSS directly as inline styles onto the DOM element. 
 
-For example, consider the use of the `fx-layout="row"` and `fx-layout-align="center center"` directives.
+For example, consider the use of the `fxLayout="row"` and `fxLayoutAlign="center center"` directives.
 
 Static Markup:
 
 ```html
-<div [fx-layout]="direction" fx-layout-align="center center">
+<div [fxLayout]="direction" fxLayoutAlign="center center">
   <div>one</div>
   <div>two</div>
   <div>three</div>
@@ -21,7 +21,7 @@ Static Markup:
 is transformed (at runtime) with inline, injected styles:
 
 ```html
-<div fx-layout="row" fx-layout-align="center center"
+<div fxLayout="row" fxLayoutAlign="center center"
       style="display: flex; flex-direction: row; max-width: 100%; 
              box-sizing: border-box; justify-content: center; 
              align-content: center; align-items: center;">
