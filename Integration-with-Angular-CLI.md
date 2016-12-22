@@ -14,13 +14,11 @@ Using Flex-Layout with the the Angular CLI is easy.
 
 The new command creates a project with a build system for your Angular app.
 
-## Install Angular Flex-Layout components  (available Q1, 2017)
+## NPM Install Angular Flex-Layout components  
 
 ```bash
 npm install --save @angular/flex-layout
 ```
-
-> **npm** installs will only be available **on/after the v1.0.0-beta.1 release**. Developers should read the [Fast Start](https://github.com/angular/flex-layout#fast-start) for alternative installs.
 
 ## Import the Angular Flex-Layout NgModule
   
@@ -44,7 +42,7 @@ System.config({
   // existing configuration options
   map: {
     ...,
-    '@angular/flex-layout': 'npm:@angular/flex-layout/flex-layout.umd.js'
+    '@angular/flex-layout': 'npm:@angular/flex-layout/bundles/flex-layout.umd.js'
   }
 });
 ```
