@@ -1,6 +1,34 @@
 ### NPM Install
 
-Use `npm -i @angular/flex-layout` to 
+```terminal
+npm - @angular/flex-layout -D
+```
+
+Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
+
+```js
+import { NgModule }         from '@angular/core';
+import { BrowserModule }    from '@angular/platform-browser';
+import { MaterialModule }   from "@angular/material";
+import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { DemoApp }          from './demo-app/demo-app';
+
+@NgModule({
+  declarations    : [ DemoApp ],
+  bootstrap       : [ DemoApp ],
+  imports         : [
+    BrowserModule,
+    MaterialModule.forRoot(),
+    FlexLayoutModule.forRoot()
+  ]
+})
+export class DemoAppModule { }
+```
+
+<br/>
+
+----
 
 Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
 and a directory copy:
