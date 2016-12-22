@@ -1,5 +1,6 @@
+### NPM Install
 
-Installing flex-layout with **NPM** is *not yet* available! 
+Use `npm -i @angular/flex-layout` to 
 
 Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
 and a directory copy:
@@ -47,9 +48,25 @@ cp -rF ./dist/@angular/flex-layout <ngCLiProjectPath>/node_modules/@angular/
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
 
-<a href="https://cloud.githubusercontent.com/assets/210413/21205830/f58ca35c-c223-11e6-95e7-4ed90b044fb5.jpg" target="_blank">
-![screen shot 2016-12-14 at 5 31 27 pm](https://cloud.githubusercontent.com/assets/210413/21205830/f58ca35c-c223-11e6-95e7-4ed90b044fb5.jpg)
-</a>
+```js
+import { NgModule }         from '@angular/core';
+import { BrowserModule }    from '@angular/platform-browser';
+import { MaterialModule }   from "@angular/material";
+import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { DemoApp }          from './demo-app/demo-app';
+
+@NgModule({
+  declarations    : [ DemoApp ],
+  bootstrap       : [ DemoApp ],
+  imports         : [
+    BrowserModule,
+    MaterialModule.forRoot(),
+    FlexLayoutModule.forRoot()
+  ]
+})
+export class DemoAppModule { }
+```
 
 <br/>
 
@@ -65,4 +82,58 @@ Here is a Plunkr [Flex-Layout Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7D
 <a href="https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview" target="_blank">
 ![screen shot 2016-12-14 at 1 37 51 pm](https://cloud.githubusercontent.com/assets/210413/21197851/9bb2de6c-c202-11e6-9165-53c08663d788.png)
 </a>
+
+```js
+System.config({
+  //use typescript for compilation
+  transpiler: 'typescript',
+  //typescript compiler options
+  typescriptOptions: {
+      // Copy of compiler options in standard tsconfig.json
+      "target": "es5",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true
+  },
+  meta: {
+      'typescript': {
+        "exports": "ts"
+      }
+    },  
+  paths: {
+    'npm:': 'https://unpkg.com/'
+  },
+  //map tells the System loader where to look for things
+  map: {
+    
+    'app': './src',
+
+    '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
+    '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
+    '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
+    '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
+    '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+    '@angular/flex-layout' : 'npm:@angular/flex-layout/bundles/flex-layout.umd.js',
+    
+    // other libraries
+    'rxjs':                      'npm:rxjs',
+    'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+    'typescript':                'npm:typescript@2.0.10/lib/typescript.js',    
+  },
+  //packages defines our app package
+  packages: {
+    app: {
+      main: './boot.ts',
+      defaultExtension: 'ts'
+    },
+    rxjs: {
+      defaultExtension: 'js'
+    }
+  }
+});
+```
 
