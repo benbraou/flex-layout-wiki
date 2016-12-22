@@ -22,8 +22,6 @@
 
 Developers should read the [Fast Start](https://github.com/angular/flex-layout#fast-start) for alternate integration instructions.
 
-> **npm** installs will only be available **on/after the v1.0.0-beta.1 release**. 
-
 <br/>
 
 ### Running tests
