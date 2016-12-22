@@ -28,7 +28,76 @@ export class DemoAppModule { }
 
 <br/>
 
+### SystemJS + UMD
+
+If your approach follows those shown on the tutorials at **angular.io**, then use the npm-installed file `@angular/flex-layout/bundles/flex-layout.umd.js` to easily add **Flex Layout** API features to your application 
+(which uses SystemJS to load modules and transcompile).
+
+Here is a Plunkr [Flex-Layout Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview):
+
+<a href="https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview" target="_blank">
+![screen shot 2016-12-14 at 1 37 51 pm](https://cloud.githubusercontent.com/assets/210413/21197851/9bb2de6c-c202-11e6-9165-53c08663d788.png)
+</a>
+
+<br/>
+
+```js
+System.config({
+  //use typescript for compilation
+  transpiler: 'typescript',
+  //typescript compiler options
+  typescriptOptions: {
+      // Copy of compiler options in standard tsconfig.json
+      "target": "es5",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true
+  },
+  meta: {
+      'typescript': {
+        "exports": "ts"
+      }
+    },  
+  paths: {
+    'npm:': 'https://unpkg.com/'
+  },
+  //map tells the System loader where to look for things
+  map: {
+    
+    'app': './src',
+
+    '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
+    '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
+    '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
+    '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
+    '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
+    '@angular/flex-layout' : 'npm:@angular/flex-layout/bundles/flex-layout.umd.js',
+    
+    // other libraries
+    'rxjs':                      'npm:rxjs',
+    'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
+    'typescript':                'npm:typescript@2.0.10/lib/typescript.js',    
+  },
+  //packages defines our app package
+  packages: {
+    app: {
+      main: './boot.ts',
+      defaultExtension: 'ts'
+    },
+    rxjs: {
+      defaultExtension: 'js'
+    }
+  }
+});
+```
+
 ----
+
+### Local Builds
 
 Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
 and a directory copy:
@@ -96,72 +165,4 @@ import { DemoApp }          from './demo-app/demo-app';
 export class DemoAppModule { }
 ```
 
-<br/>
-
-### 3) SystemJS + UMD
-
-If your approach follows those shown on the tutorials at **angular.io**, first build the 
-release with `gulp build:release`. The `./dist/@angular/flex-layout/flex-layout.umd.js` may be 
-then used to easily add **Flex Layout** API features to your application 
-(which uses SystemJS to load modules and transcompile).
-
-Here is a Plunkr [Flex-Layout Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview):
-
-<a href="https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview" target="_blank">
-![screen shot 2016-12-14 at 1 37 51 pm](https://cloud.githubusercontent.com/assets/210413/21197851/9bb2de6c-c202-11e6-9165-53c08663d788.png)
-</a>
-
-```js
-System.config({
-  //use typescript for compilation
-  transpiler: 'typescript',
-  //typescript compiler options
-  typescriptOptions: {
-      // Copy of compiler options in standard tsconfig.json
-      "target": "es5",
-      "module": "es2015",
-      "moduleResolution": "node",
-      "sourceMap": true,
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "noImplicitAny": true,
-      "suppressImplicitAnyIndexErrors": true
-  },
-  meta: {
-      'typescript': {
-        "exports": "ts"
-      }
-    },  
-  paths: {
-    'npm:': 'https://unpkg.com/'
-  },
-  //map tells the System loader where to look for things
-  map: {
-    
-    'app': './src',
-
-    '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
-    '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
-    '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
-    '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
-    '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
-    '@angular/flex-layout' : 'npm:@angular/flex-layout/bundles/flex-layout.umd.js',
-    
-    // other libraries
-    'rxjs':                      'npm:rxjs',
-    'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-    'typescript':                'npm:typescript@2.0.10/lib/typescript.js',    
-  },
-  //packages defines our app package
-  packages: {
-    app: {
-      main: './boot.ts',
-      defaultExtension: 'ts'
-    },
-    rxjs: {
-      defaultExtension: 'js'
-    }
-  }
-});
-```
 
