@@ -60,7 +60,7 @@ Developers
 *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
 *  [Builds + Fast Start](https://github.com/angular/flex-layout/wiki/Fast-Starts)
 *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
-*  [From scratch with Webpack](https://github.com/angular/flex-layout/wiki/Webpack-From-Scratch)
+*  [Webpack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
 
 Demos 
 
