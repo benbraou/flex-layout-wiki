@@ -6,7 +6,7 @@
   *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
   *  [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
-  *  [WebPack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-From-Scratch)
+  *  [WebPack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
 
 * How it Works?
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
