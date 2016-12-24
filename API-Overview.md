@@ -99,7 +99,7 @@ simple markup convention: the `alias` is used as **suffix** extensions to the La
 Below is an example usage of the Responsive Layout API:
 
 ```html
-<div fx-layout='column' class="zero">
+<div fxLayout='column' class="zero">
 
   <div fxFlex="33" [fxFlex.md]="box1Width" class="one" ></div>
   <div fxFlex="33" [fxLayout]="direction" fxLayout.md="row" class="two">
