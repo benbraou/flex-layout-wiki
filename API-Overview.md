@@ -154,4 +154,4 @@ A simple fix is to add the *static* API attribute:
 </div>
 ```
 
-> This will be fixed in Angular 4.x. See [Issue #13355](https://github.com/angular/angular/issues/13355)
+> This will be fixed in Angular 2.5.x. See [Issue #13355](https://github.com/angular/angular/issues/13355)
