@@ -41,7 +41,7 @@ Add the code below into an existing component ( or add something similar ) to ve
 **home.component.html**
 ```html
 <div class="flexDemoContainer">
-  <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex></div>
+  <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlex>
     <div fxFlex> I'm above on mobile, and left on larger devices. </div>
     <div fxFlex> I'm below on mobile, and right on larger devices. </div>
   </div>
