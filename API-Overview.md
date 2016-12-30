@@ -14,7 +14,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fxLayoutWrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
 |  fxLayoutGap     | %, px, vw, vh                                                           |     
 
-> These directives affect the flow and layout children elements in the container
+> These directives ^ affect the flow and layout children elements in the container
 
 #### API for DOM elements:   
 
@@ -26,7 +26,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fxAlign          | `start|baseline|center|end`                                             |                   
 |  fxFill           |                                                                         |
 
-> These directives affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
+> These directives ^ affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
 
 #### API for any element: 
 
