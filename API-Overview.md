@@ -23,8 +23,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  fxFlex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fxFlexOrder     | int                                                                     |                       
 |  fxFlexOffset    | %, px, vw, vh                                                           |     
-|  fxAlign          | `start|baseline|center|end`                                             |                   
-|  fxFill           |                                                                         |
+|  fxFlexAlign      | `start|baseline|center|end`                                             |                   
+|  fxFlexFill       |                                                                         |
 
 > These directives ^ affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
 
