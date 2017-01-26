@@ -1,6 +1,6 @@
 # Flex Layout
 
-Angular Flex Layout provides a sophisticated layout API using FlexBox CSS + mediaQuery. This module provides Angular (v2.x and higher) developers with component layout features using a custom Layout API, mediaQuery observables,and injected DOM flexbox-2016 css stylings.  
+Angular Flex Layout provides a sophisticated layout API using FlexBox CSS + mediaQuery. This module provides Angular (v2.4.3 and higher) developers with component layout features using a custom Layout API, mediaQuery observables,and injected DOM flexbox-2016 css stylings.  
 
 The Layout engine intelligently automates the process of applying appropriate FlexBox CSS to browser view hierarchies. This automation also addresses many of the complexities and workarounds encountered with the traditional, manual, CSS-only application of Flexbox CSS. 
 
@@ -43,7 +43,7 @@ Integrating **mediaQuery** features into the Layout engine enables the API to be
 Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only implementations published in other Flexbox libraries  and the JS+CSS implementation of Angular Material v1.x Layouts. 
 
 *  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
-*  This implementation is currently only available for Angular (v2.x and higher) applications.
+*  This implementation is currently only available for Angular (v2.4.3 and higher) applications.
 
 <br/>
 
@@ -88,7 +88,7 @@ Angular Flex Layout - in contrast - is a pure-Typescript UI Layout engine with a
 *  is currently only available for Angular (v2.x or higher) Applications.
 *  is independent of Angular Material (v1 or v2).
 *  requires no external stylesheets.
-*  requires Angular v2.x or higher.
+*  requires Angular v2.4.3 or higher.
 
 <br/>
 
