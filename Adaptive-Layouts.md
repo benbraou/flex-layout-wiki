@@ -21,11 +21,15 @@ For examples of `fx-hide` usages in Adaptive layouts, please review the demo **S
 * [Demo](https://tburleson-layouts-demos.firebaseapp.com/#/responsive)
 * [Source](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/docs-layout-responsive/responsiveShowHide.demo.ts#L15) 
 
+---- 
+
+Responsive features for core Angular directives:
+
 *  `*ngIf.<breakpoint alias>=""` is not yet supported. 
 *  `[ngStyle.<alias>]=""` is not yet supported. 
 *  `[ngClass.<alias>]=""` is not yet supported. 
 
-The current solution solution for **`*ngIf`** is here:
+Here is the current solution solution to enabled responsive/adaptive features with **`*ngIf`**:
 
 ```js
 import import {ObservableMediaService} from '@angular/flex-layout/media-query/observable-media-service';
