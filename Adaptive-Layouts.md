@@ -34,7 +34,7 @@ Responsive features for core Angular directives:
 Here is the current solution solution to enabled responsive/adaptive features with **`*ngIf`**:
 
 ```js
-import import {ObservableMediaService} from '@angular/flex-layout';
+import {ObservableMediaService} from '@angular/flex-layout';
 
 @Component({
   selector : 'my-mobile-component',
