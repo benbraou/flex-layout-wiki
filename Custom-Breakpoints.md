@@ -52,9 +52,9 @@ export class MyBreakPointsModule { }
 
 ### Constraints to customization
 
-Developers have, however, **one** (1) significant constraint to the customization processes. Developers should note that each flex-layout directive has hard-coded selectors that use these specific alias. 
+Developers have, however, **one** (1) significant constraint to the customization processes. 
 
-Consider, for example, the **[layout.ts](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout.ts#L34-L45)** directive:
+Developers should note that each flex-layout directive has hard-coded selectors that use these specific alias. Consider, for example, the **[layout.ts](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout.ts#L34-L45)** directive:
 
 ```js
 @Directive({selector: `
