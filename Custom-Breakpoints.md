@@ -33,8 +33,12 @@ import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
             .map((it:BreakPoint) => {
               // For mobile and tablet, reset ranges
               switch(it.alias) {
-                case 'xs' : it.mediaQuery =  '(max-width: 470px)';                        break;
-                case 'sm' : it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; break;
+                case 'xs' : 
+                  it.mediaQuery =  '(max-width: 470px)';                        
+                  break;
+                case 'sm' : 
+                  it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; 
+                  break;
               }
             });
       }
