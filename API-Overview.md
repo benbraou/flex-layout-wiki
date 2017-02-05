@@ -119,39 +119,3 @@ In the markup above the layout directives use both static values and expression 
 <br/>
 
 
-### Known Issues
-
-1) Template Parser Exceptions:
-
-The Angular Template Parser will throw errors if responsive directives are used WITHOUT their associated static API/markup 
-
-```html
-<div [fxLayout.md]="direction" 
-      fxLayoutAlign="center stretch" 
-      fxLayoutAlign.md="end stretch">
-</div>
-```
-
-When compiled:
-
-```terminal
- Error: Template parse errors:
-        Can't bind to 'fxLayout.md' since it isn't a known property of 'div'. ("
-                <div [ERROR ->][fxLayout.md]="direction" 
-                     fxLayoutAlign="center stretch" 
-                     fxLayoutAli"): TestLayoutComponent@1:13
-            at SyntaxError.BaseError [as constructor] 
-           (dist/vendor/@angular/compiler/bundles/compiler.umd.js:
-```
-
-A simple fix is to add the *static* API attribute:
-
-```html
-<div  fxLayout
-     [fxLayout.md]="direction" 
-      fxLayoutAlign="center stretch" 
-      fxLayoutAlign.md="end stretch">
-</div>
-```
-
-> This will be fixed in Angular 2.5.x. See [Issue #13355](https://github.com/angular/angular/issues/13355)
