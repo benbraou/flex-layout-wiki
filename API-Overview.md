@@ -84,7 +84,7 @@ We can associate breakpoints with mediaQuery definitions using breakpoint **alia
 | gt-md | 'screen and (min-width: 1280px)'                        |
 | lg    | 'screen and (min-width: 1280px) and (max-width: 1919px)'|
 | gt-lg | 'screen and (min-width: 1920px)'                        |
-| xl    | 'screen and (min-width: 1920px)'                        |
+| xl    | 'screen and (min-width: 1920px) and (max-width: 5000px)'|
 <br/>
 
 If we combine the breakpoint `alias` with the Layout API we can easily support Responsive breakpoints with a 
