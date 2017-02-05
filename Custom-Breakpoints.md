@@ -49,6 +49,7 @@ import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
 export class MyBreakPointsModule { }
 ```
 
+---- 
 
 ### Constraints to customization
 
@@ -74,11 +75,9 @@ export class LayoutDirective extends BaseFxDirective {
 }
 ```
 
----- 
+
 
 These **hard-coded** responsive selectors present two (2) requirements:
-
-> This is a known issue and the @angular core team is considering how to appropriate address such dynamic selector features.
 
 ##### (1) Required Aliases
 
@@ -98,6 +97,11 @@ To support the directive selectors, the custom breakpoints list MUST contain the
 Other custom aliases will not be available as selectors UNLESS the flex-layout directives classes are modified or **extended** with those additional custom selectors.
 
 These additional aliases my be usefule, for example, if your application wants to support additional aliases/mediaQueries that support orientation (e.g. landascape, portraint), specific devices (kindle tablets, ipads, iphones, apple watch, etc.)
+
+
+> This is a known issue and the @angular core team is considering how to appropriate address such dynamic selector features.
+
+---- 
 
 ### Resources
 
