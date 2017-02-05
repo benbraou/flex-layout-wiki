@@ -16,9 +16,34 @@ export const BreakPointsProvider = {
 
 > Please review the [Responsive API](https://github.com/angular/flex-layout/wiki/API-Overview#responsive-features) to review the specific, default breakpoint range values and the alias suffices used.
 
-### Customizing with your own MediaQuery ranges
+### Customizing with your own @media query ranges
 
-Developers should build custom providers to override this default **BreakPointRegistry** dataset provider.
+Developers should build custom providers to override the default **BreakPointRegistry** provider.
+
+``js
+import {NgModule } from '@angular/core';
+import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
+
+@NgModule({
+  providers: [
+    {
+      provide : BREAKPOINTS,
+      useFactory : function customizeBreakPoints() {
+          return RAW_DEFAULTS
+            .map((it:BreakPoint) => {
+              // For mobile and tablet, reset ranges
+              switch(it.alias) {
+                case 'xs' : it.mediaQuery =  '(max-width: 470px)';                        break;
+                case 'sm' : it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; break;
+              }
+            });
+      }
+    }
+  ]
+})
+export class MyBreakPointsModule { }
+
+```
 
 
 ### Constraints to customization
