@@ -23,7 +23,7 @@ Developers should build custom providers to override this default **BreakPointRe
 
 Developers have, however, **one** (1) significant constraint to the customization processes. 
 
-Each flex-layout directive has hard-coded selectors that use these specific selectors (e.g. [layout.ts](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout.ts#L34-L45)
+Note that each flex-layout directive has hard-coded selectors that use these specific selectors (e.g. [layout.ts](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout.ts#L34-L45)
 ```js
 @Directive({selector: `
   [fxLayout],
