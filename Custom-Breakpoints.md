@@ -14,6 +14,8 @@ export const BreakPointsProvider = {
 };
 ```
 
+> Please review the [Responsive API](https://github.com/angular/flex-layout/wiki/API-Overview#responsive-features) to review the specific, default breakpoint range values and the alias suffices used.
+
 ### Customizing with your own MediaQuery ranges
 
 Developers should build custom providers to override this default **BreakPointRegistry** dataset provider.
