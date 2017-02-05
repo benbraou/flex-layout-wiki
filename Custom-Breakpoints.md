@@ -26,6 +26,7 @@ import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
 
 @NgModule({
   providers: [
+    // register a custom provider
     {
       provide : BREAKPOINTS,
       useFactory : function customizeBreakPoints() {
