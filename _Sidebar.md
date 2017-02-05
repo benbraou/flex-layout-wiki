@@ -12,6 +12,7 @@
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
   *  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
   *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
+  *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
   *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
   *  [Use Cases](https://github.com/angular/flex-layout/wiki/Use-Cases) 
   *  [Known Issues](https://github.com/angular/flex-layout/wiki/API-Overview#known-issues)
