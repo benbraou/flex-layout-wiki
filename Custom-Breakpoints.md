@@ -2,7 +2,7 @@ Developers can easily override the default breakpoints used within Flex-Layout.
 
 ### Default Breakpoints
 
-The default breakpoints are defined in [break-points-provider.ts](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/providers/break-points-provider.ts#L15) and are registered as a provider using the `BREAKPOINTS` opaque token.
+The default breakpoints are defined in [break-points-provider.ts](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/providers/break-points-provider.ts#L15) and are registered as a provider using the [`BREAKPOINTS`](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/providers/break-points-provider.ts#L76) opaque token.
 
 ```js
 /**
