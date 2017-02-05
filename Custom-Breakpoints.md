@@ -8,9 +8,9 @@ The default breakpoints are defined in [break-points-provider.ts](https://github
 /**
  *  Provider to return a list to ALL known BreakPoint(s)
  */
-export const BreakPointsProvider = { // tslint:disable-line:variable-name
-  provide: BREAKPOINTS,
-  useValue: RAW_DEFAULTS
+export const BreakPointsProvider = { 
+  provide: BREAKPOINTS,       // opaque token
+  useValue: RAW_DEFAULTS      // raw object list
 };
 ```
 
