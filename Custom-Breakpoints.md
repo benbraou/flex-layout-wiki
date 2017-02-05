@@ -98,3 +98,9 @@ To support the directive selectors, the custom breakpoints list MUST contain the
 Other custom aliases will not be available as selectors UNLESS the flex-layout directives classes are modified or **extended** with those additional custom selectors.
 
 These additional aliases my be usefule, for example, if your application wants to support additional aliases/mediaQueries that support orientation (e.g. landascape, portraint), specific devices (kindle tablets, ipads, iphones, apple watch, etc.)
+
+### Resources
+
+*  [CSS Media Queries](http://cssmediaqueries.com/)
+*  [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+*  [Why you don't need device-specific Breakpoints](https://responsivedesign.is/articles/why-you-dont-need-device-specific-breakpoints)
