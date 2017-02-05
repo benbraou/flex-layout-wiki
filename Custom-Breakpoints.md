@@ -38,7 +38,9 @@ Consider, for example, the **[layout.ts](https://github.com/angular/flex-layout/
   [fxLayout.gt-lg],
   [fxLayout.xl]
 `})
-export class LayoutDirective extends BaseFxDirective implements OnInit, OnChanges, OnDestroy { ... }
+export class LayoutDirective extends BaseFxDirective { 
+ ... 
+}
 ```
 
 These **hard-coded** responsive selectors force a requirements:
