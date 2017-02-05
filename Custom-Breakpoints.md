@@ -47,7 +47,17 @@ export class LayoutDirective extends BaseFxDirective {
 
 These **hard-coded** responsive selectors force a requirements:
 
-* the custom breakpoints list MUST contain the following aliases & suffixes: **xs, gt-xs, sm, gt-sm, md, gt-md, lg, gt-lg, xl**.  
+* the custom breakpoints list MUST contain the following aliases & suffixes: **
+  *  xs, 
+  *  gt-xs, 
+  *  sm, 
+  *  gt-sm, 
+  *  md, 
+  *  gt-md, 
+  *  lg, 
+  *  gt-lg, 
+  *  xl
+**  
 * other custom aliases will not be available as selectors UNLESS the flex-layout directives classes are modified or **extended** with those additional custom selectors.
 
 > This is a known issue and the @angular core team is considering how to appropriate address such dynamic selector features.
