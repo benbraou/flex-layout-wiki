@@ -20,7 +20,7 @@ export const BreakPointsProvider = {
 
 Developers should build custom providers to override the default **BreakPointRegistry** provider.
 
-``js
+```js
 import {NgModule } from '@angular/core';
 import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
 
@@ -42,7 +42,6 @@ import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
   ]
 })
 export class MyBreakPointsModule { }
-
 ```
 
 
