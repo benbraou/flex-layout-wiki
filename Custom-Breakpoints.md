@@ -76,9 +76,9 @@ export class LayoutDirective extends BaseFxDirective {
 
 ---- 
 
-These **hard-coded** responsive selectors force a requirements:
+These **hard-coded** responsive selectors present two (2) requirements:
 
-##### Required Aliases
+##### (1) Required Aliases
 
 To support the directive selectors, the custom breakpoints list MUST contain the following aliases & suffixes: 
   *  **xs**, 
@@ -91,7 +91,7 @@ To support the directive selectors, the custom breakpoints list MUST contain the
   *  **gt-lg**, 
   *  **xl**
 
-##### Extra Aliases
+##### (2) Extra Aliases
 
 Other custom aliases will not be available as selectors UNLESS the flex-layout directives classes are modified or **extended** with those additional custom selectors.
 
