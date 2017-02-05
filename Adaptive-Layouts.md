@@ -49,7 +49,7 @@ import {ObservableMediaService} from '@angular/flex-layout';
 })
 export class MyMobileComponent {
   public state = '';
-  constructor( @Inject(ObservableMediaService) public media) {
+  constructor( @Inject(ObservableMediaService) public media:any ) {
     media.asObservable()
       .subscribe((change:MediaChange) => {
         this.state = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : ""
