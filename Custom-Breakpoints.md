@@ -74,6 +74,8 @@ export class LayoutDirective extends BaseFxDirective {
 }
 ```
 
+---- 
+
 These **hard-coded** responsive selectors force a requirements:
 
 ##### Required Aliases
