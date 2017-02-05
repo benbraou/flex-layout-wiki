@@ -14,7 +14,7 @@ export const BreakPointsProvider = {
 };
 ```
 
-> Please review the [Responsive API](https://github.com/angular/flex-layout/wiki/API-Overview#responsive-features) to review the specific, default breakpoint range values and the alias suffices used.
+Please review the wiki [Responsive API](https://github.com/angular/flex-layout/wiki/API-Overview#responsive-features) to review the specific, default breakpoint range values and the alias suffices used.
 
 ### Customizing with your own @media query ranges
 
