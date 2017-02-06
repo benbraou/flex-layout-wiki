@@ -84,7 +84,7 @@ These **hard-coded** responsive selectors present two (2) requirements:
 To support the directive selectors, the custom breakpoints list MUST contain the following aliases & suffixes: 
 
 
-| alias      | fxLayout       | fxFlex        |
+| alias      | fxLayout (selector)      | fxFlex (selector)       |
 | ---------- | -------------- | ------------- |
 |  **xs**    | fxLayout.xs    | fxFlex.xs     |
 |  **gt-xs** | fxLayout.gt-xs | fxFlex.gt-xs  |
