@@ -99,7 +99,7 @@ If your requirements need to support additional aliases/mediaQueries that suppor
 *  modify the `mediaQuery` ranges (as shown above), or
 *  add additional aliases and selectors 
 
-Other custom aliases will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. Consider the **`LayoutExt` class below which provides support for the *print* and *tablet* selectors.
+Other custom aliases will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. Consider the **`LayoutExt`** class below which provides support for the *print* and *tablet* selectors.
 e.g.
 
 ```js
