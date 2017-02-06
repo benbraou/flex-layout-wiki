@@ -104,6 +104,8 @@ If your requirements need to support additional aliases/mediaQueries that suppor
 *  modify the `mediaQuery` ranges (as shown above), or
 *  add additional aliases and selectors 
 
+<br/>
+
 Note that any extra **custom aliases** will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. 
 
 > This is a known issue and the @angular core team is considering how to appropriately address such dynamic selector features.
