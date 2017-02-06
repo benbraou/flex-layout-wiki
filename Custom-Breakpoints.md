@@ -83,15 +83,15 @@ These **hard-coded** responsive selectors present two (2) requirements:
 
 To support the directive selectors, the custom breakpoints list MUST contain the following aliases & suffixes: 
 
-*  **xs** --> **fxLayout.xs**, **fxFlex.xs**, etc., 
-*  **gt-xs** --> **fxLayout.gt-xs**, **fxFlex.gt-xs**, etc., 
-*  **sm** --> **fxLayout.sm**, **fxFlex.sm**, etc.,  
-*  **gt-sm** --> **fxLayout.gt-sm**, **fxFlex.gt-sm**, etc., 
-*  **md** --> **fxLayout.md**, **fxFlex.md**, etc., 
-*  **gt-md** --> **fxLayout.gt-md**, **fxFlex.gt-md**, etc., 
-*  **lg** --> **fxLayout.lg**, **fxFlex.lg**, etc., 
-*  **gt-lg** --> **fxLayout.gt-lg**, **fxFlex.gt-lg**, etc., 
-*  **xl** --> **fxLayout.xl**, **fxFlex.xl**, etc., 
+*  **xs** --> fxLayout.xs, fxFlex.xs, etc., 
+*  **gt-xs** --> fxLayout.gt-xs, fxFlex.gt-xs, etc., 
+*  **sm** --> fxLayout.sm, fxFlex.sm, etc.,  
+*  **gt-sm** --> fxLayout.gt-sm, fxFlex.gt-sm, etc., 
+*  **md** --> fxLayout.md, fxFlex.md, etc., 
+*  **gt-md** --> fxLayout.gt-md, fxFlex.gt-md, etc., 
+*  **lg** --> fxLayout.lg, fxFlex.lg, etc., 
+*  **gt-lg** --> fxLayout.gt-lg, fxFlex.gt-lg, etc., 
+*  **xl** --> fxLayout.xl, fxFlex.xl, etc., 
 
 #### (2) Extra Aliases
 
