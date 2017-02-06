@@ -117,12 +117,18 @@ export class LayoutExtDirective extends LayoutDirective {
   constructor(monitor: MediaMonitor, elRef: ElementRef, renderer: Renderer) {
     super(monitor, elRef, renderer);
   }
+
+  @Input('fxLayout.print')            
+  set layoutPrint(val){ this._cacheInput('layoutPrint', val); };
   
-  @Input('fxLayout.print')            set layoutPrint(val){ this._cacheInput('layoutPrint', val); };
-  @Input('fxLayout.tablet.landscape') set layoutHTab(val) { this._cacheInput('layoutHTab', val); };
-  @Input('fxLayout.tablet.portrait')  set layoutVTab(val) { this._cacheInput('layoutVTab', val); };
+  @Input('fxLayout.tablet.landscape') 
+  set layoutHTab(val) { this._cacheInput('layoutHTab', val); };
+  
+  @Input('fxLayout.tablet.portrait')  
+  set layoutVTab(val) { this._cacheInput('layoutVTab', val); };
 
 }
+
 ```
 
 
