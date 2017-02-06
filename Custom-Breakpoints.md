@@ -99,10 +99,10 @@ To support the directive selectors, the custom breakpoints list MUST contain the
 
 #### (2) Extra Aliases
 
-If your requirements need to support additional aliases/mediaQueries that support orientation (e.g. landascape, portraint), specific devices (kindle tablets, ipads, iphones, apple watch, etc.)... developers may either:
+If project features have requirements to support additional aliases/mediaQueries for orientation (e.g. landascape, portraint), or specific devices (kindle tablets, ipads, iphones, apple watch, etc.)... then developers may need to either:
 
 *  modify the `mediaQuery` ranges (as shown above), or
-*  add additional aliases and selectors 
+*  add additional aliases and selectors (as shown below)
 
 <br/>
 
