@@ -99,8 +99,9 @@ If your requirements need to support additional aliases/mediaQueries that suppor
 *  modify the `mediaQuery` ranges (as shown above), or
 *  add additional aliases and selectors 
 
-Other custom aliases will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. Consider the **`LayoutExtDirective`** class below which provides support for the *print* and *tablet* selectors.
-e.g.
+Other custom aliases will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. 
+
+Consider the **`LayoutExtDirective`** class below which provides support for the *print* and *tablet* selectors:
 
 ```js
 import {Directive, Input, ElementRef, Renderer} from '@angular/core';
