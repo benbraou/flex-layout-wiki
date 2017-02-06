@@ -94,9 +94,36 @@ To support the directive selectors, the custom breakpoints list MUST contain the
 
 #### (2) Extra Aliases
 
-Other custom aliases will not be available as selectors UNLESS the flex-layout directives classes are modified or **extended** with those additional custom selectors.
+If your requirements need to support additional aliases/mediaQueries that support orientation (e.g. landascape, portraint), specific devices (kindle tablets, ipads, iphones, apple watch, etc.)... developers may either:
 
-These additional aliases my be usefule, for example, if your application wants to support additional aliases/mediaQueries that support orientation (e.g. landascape, portraint), specific devices (kindle tablets, ipads, iphones, apple watch, etc.)
+*  modify the `mediaQuery` ranges (as shown above), or
+*  add additional aliases and selectors 
+
+Other custom aliases will not be available as selectors UNLESS the flex-layout Directives classes are modified or **extended** with those additional custom selectors. Consider the **`LayoutExt` class below which provides support for the *print* and *tablet* selectors.
+e.g.
+
+```js
+import {Directive, Input, ElementRef, Renderer} from '@angular/core';
+import {LayoutDirective} from 'flexbox/api/layout';
+import {MediaMonitor} from '../../media-query/media-monitor';
+
+@Directive({selector: `
+  [fxLayout.print],
+  [fxLayout.tablet.landscape],
+  [fxLayout.tablet.portrait]
+`})
+export class LayoutExtDirective extends LayoutDirective {
+
+  constructor(monitor: MediaMonitor, elRef: ElementRef, renderer: Renderer) {
+    super(monitor, elRef, renderer);
+  }
+  
+  @Input('fxLayout.print')            set layoutPrint(val){ this._cacheInput('layoutPrint', val); };
+  @Input('fxLayout.tablet.landscape') set layoutHTab(val) { this._cacheInput('layoutHTab', val); };
+  @Input('fxLayout.tablet.portrait')  set layoutVTab(val) { this._cacheInput('layoutVTab', val); };
+
+}
+```
 
 
 > This is a known issue and the @angular core team is considering how to appropriate address such dynamic selector features.
