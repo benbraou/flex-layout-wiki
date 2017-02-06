@@ -110,6 +110,8 @@ Note that any extra **custom aliases** will not be available as selectors UNLESS
 
 > This is a known issue and the @angular core team is considering how to appropriately address such dynamic selector features.
 
+<br/>
+
 Consider the **`LayoutExtDirective`** class below which provides support for the *print* and *tablet* selectors:
 
 ```js
