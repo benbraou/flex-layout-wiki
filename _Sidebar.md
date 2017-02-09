@@ -10,8 +10,9 @@
 
 * How it Works?
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
-  *  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
   *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
+  *  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
+  *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
   *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
   *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
   *  [Use Cases](https://github.com/angular/flex-layout/wiki/Use-Cases) 
