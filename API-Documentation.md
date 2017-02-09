@@ -1,8 +1,6 @@
-## Overview
-
 # JavaScript API (Imperative)
 
-# HTML-Based API (Declarative)
+# HTML API (Declarative)
 
 ## fxLayout
 
