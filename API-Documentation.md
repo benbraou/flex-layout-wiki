@@ -1,10 +1,6 @@
-# Conventions
-
-----
+# Overview
 
 # JavaScript API (Imperative)
-
-----
 
 # HTML-Based API (Declarative)
 
