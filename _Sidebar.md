@@ -1,5 +1,6 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
   * [Why use it?](https://github.com/angular/flex-layout#why-choose-flex-layout)
+  *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
   * [Browser Support](https://github.com/angular/flex-layout#browser-support)
 
 *  Getting Started
@@ -10,7 +11,6 @@
 
 * How it Works?
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
-  *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
   *  [API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)
   *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
   *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
