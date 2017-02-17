@@ -3,21 +3,31 @@ Using Flex-Layout with the the Angular CLI is easy.
 ## Install the CLI
  
  ```bash
- npm install -g angular-cli
- ```
+# Global
+npm uninstall -g @angular/cli
+npm cache clean
+npm install -g @angular/cli
+```
  
 ## Create a new project
  
- ```bash
+```bash
  ng new my-project
- ```
+```
+
+## Use with existing project
+
+```bash
+rm -rf node_modules/
+npm install
+```
 
 The new command creates a project with a build system for your Angular app.
 
 ## NPM Install Angular Flex-Layout components  
 
 ```bash
-npm install --save @angular/flex-layout
+npm install --save @angular/flex-layout@latest
 ```
 
 ## Import the Angular Flex-Layout NgModule
@@ -27,7 +37,7 @@ npm install --save @angular/flex-layout
 import { FlexLayoutModule } from '@angular/flex-layout';
 // other imports 
 @NgModule({
-  imports: [FlexLayoutModule.forRoot()],
+  imports: [FlexLayoutModule],
   ...
 })
 export class PizzaPartyAppModule { }
