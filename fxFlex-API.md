@@ -2,11 +2,13 @@ The **fxFlex** directive should be used on elements within a **fxLayout** contai
 
 ![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
-This directive is the most powerful, smartest directive within the **flex-layout** API. Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
+This directive is the most powerful, smartest directive within the **flex-layout** API. 
 
-* flex-grow:  defines how much a flexbox item should **grow** if there's space available
-* flex-shrink: defines how much a flexbox item should **shrink** if there is **not enough** space available.
-* flex-basis: defines the initial size of a flexbox item.
+Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
+
+* **flex-grow**:  defines how much a flexbox item should **grow** if there's space available
+* **flex-shrink**: defines how much a flexbox item should **shrink** if there is **not enough** space available.
+* **flex-basis**: defines the initial size of a flexbox item.
 
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
 
