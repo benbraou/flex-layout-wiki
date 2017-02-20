@@ -124,7 +124,8 @@ The notation:
 to mean 
 
 ```console
-Resize the div elements to fill 1/3rd each the available space along horizontal main-axis. 
+Resize the div elements to fill 1/3rd each the available space 
+along horizontal main-axis. 
 ```
 
 ----
