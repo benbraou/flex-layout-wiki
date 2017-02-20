@@ -1,4 +1,4 @@
-The **fxFlex** directive should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. **fxFlex** is essentially the FlexBox API for resizing elements in horizontal or vertical stacks. 
+The [**fxFlex** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/flex.ts) should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. **fxFlex** is essentially the FlexBox API for resizing elements in horizontal or vertical stacks. 
 
 ![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
@@ -16,7 +16,7 @@ Note that the resizing occurs along the main-axis of the layout and maybe affect
 
 ### fxFlex Attribute Usages
 
-The **fxFlex** directive supports two (2) usages: short-form & long-form.
+The [**fxFlex** directive supports two (2) usages: short-form & long-form.
 
 *  The **long-form** enables the developer to specify the grow, shrink, and basis values inline.
   *  fxFlex="1 1 52%"
@@ -77,7 +77,7 @@ When a parent **fxLayout** container changes flow-direction, the **fxFlex** dire
 
 ### Default fxFlex Values
 
-When the Angular compiler builds an instance of the **FlexDirective**, it initializes the 
+When the Angular compiler builds an instance of the [**FlexDirective**](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/flex.ts#L65-L67), it initializes the 
 
 ```js
 @Input('fxFlex') set(val) {....} 
