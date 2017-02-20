@@ -134,7 +134,7 @@ along horizontal main-axis.
 
 While Flex-Layout makes every attempt to assign smart, valid flexbox stylings... some usages and some browsers will manifest layout issues.
 
-[CanIuse.com](http://CanIuse.com] reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. 
+[CanIuse.com](http://CanIuse.com) reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. 
 
 Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)** and the [Resources](http://caniuse.com/#feat=flexbox) sections.
 
