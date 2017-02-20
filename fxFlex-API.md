@@ -94,19 +94,38 @@ flex: 1 1 0.000000001px
 > Another usage (with distinct grow and shrink values) such as `<div fxFlex fxShrink="0" fxGrow="2"></div>`
 would result in an inline styling of `flex : 2 0 0.000000001px`.
 
-This means that developers should consider the notation 
+What this means to the developer is an intuitive resizing for elements:
+
+The notation 
 
 ```html
-<div fxFlex><div>
+<div fxLayout="row">
+   <div fxFlex><div>
+</div>
 ```
 
 to mean 
 
 ```console
 Resize the div element to fill the available space along the 
-main-axis flow of its parent container!
+horizontal, main-axis flow of its parent container!
 ```
 
+The notation:
+
+```html
+<div fxLayout="row">
+   <div fxFlex><div>
+   <div fxFlex><div>
+   <div fxFlex><div>
+</div>
+```
+
+to mean 
+
+```console
+Resize the div elements to fill 1/3rd each the available space along horizontal main-axis. 
+```
 
 ----
 
