@@ -12,12 +12,16 @@ Note that the resizing occurs along the main-axis of the layout and maybe affect
 
 > Developer's seeking details on FlexBox should review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & long-form.
+### fxFlex Attribute Usages
+
+The **fxFlex** directive supports two (2) usages: short-form & long-form.
 
 *  The **long-form** enables the developer to specify the grow, shrink, and basis values inline.
   *  fxFlex="1 1 52%"
   *  fxFlex="3 3 calc(15em + 20px)"
   *  fxFlex="1 1 auto"
+
+
 *  The **short-form** enables developers to specify only the **flex-basis** and uses defaults for the shrink and grow options: (default values == 1).
   *  fxFlex
   *  fxFlex=""
