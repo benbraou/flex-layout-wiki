@@ -28,7 +28,7 @@ Note the above examples are using static values. To use runtime expressions, dev
 
 ### fxFlex Options
 
-The **flex-basis** values can be pixels, percentages, calcs, or known aliases.
+The **flex-basis** values can be pixels, percentages, calcs, em, vw, vh, or known *aliases*.
 
   *  fxFlex
   *  fxFlex=""
@@ -82,6 +82,19 @@ would result in an inline styling of
 ```css
 flex : 2 0 0.000000001px
 ```
+
+### Additional fxFlex Stylings
+
+**fxFlex** also auto-assign additional stylings, dependent upon the fxFlex value used and the layout, main-axis direction:
+
+* box-sizing : `border-box`
+* max-width: when direction == `row` and use fixed sizes+shrink or `0%`
+* max-height: when direction == `column` and use fixed sizes or `0%` 
+* min-width: when direction == `row` and use fixed sizes+grow or `0%`
+* min-height: when direction == `column` and use fixed sizes+grow or `0%`
+
+
+When a parent fxLayout container changes flow-direction, the fxFlex directive will automatically update the element's inline-styling with corrected stylings.
 
 ----
 
