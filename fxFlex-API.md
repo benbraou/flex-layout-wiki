@@ -43,7 +43,7 @@ Here is an example of a non-trivial layout using fxFlex options:
 </a>
 
 
-Flex-basis aliases are accepted short-hand terms used to easily specify Flexbox stylings. Here are the industry mappings:
+Flex-basis aliases are accepted shorthand terms used to easily specify Flexbox stylings. Here are the industry mappings:
 
 
 | alias | Equivalent CSS | 
@@ -58,7 +58,7 @@ Flex-basis aliases are accepted short-hand terms used to easily specify Flexbox 
 
 #### Empty fxFlex Values
 
-When the Angular compiler builds an instance of the FlexDirective, it initializes the 
+When the Angular compiler builds an instance of the **FlexDirective**, it initializes the 
 
 ```js
 @Input('fxFlex') set(val) {....} 
@@ -70,7 +70,7 @@ with the static value of "". **fxFlex** is the same/equivalent as **fxFlex=""**.
 flex: 1 1 0.000000001px
 ```
 
-... assuming the default values of shrink and grow have not been overridden.
+... assuming the values of *shrink* and *grow* have not been overridden from the default `1`.
 
 Another usage with distinct grow and shrink values:
 
@@ -87,14 +87,14 @@ flex : 2 0 0.000000001px
 
 **fxFlex** also auto-assign additional stylings, dependent upon the fxFlex value used and the layout, main-axis direction:
 
-* box-sizing : `border-box`
-* max-width: when direction == `row` and use fixed sizes+shrink or `0%`
-* max-height: when direction == `column` and use fixed sizes or `0%` 
-* min-width: when direction == `row` and use fixed sizes+grow or `0%`
-* min-height: when direction == `column` and use fixed sizes+grow or `0%`
+* **box-sizing** : `border-box`
+* **max-width**: when direction == `row` and use fixed sizes+shrink or `0%`
+* **max-height**: when direction == `column` and use fixed sizes or `0%` 
+* **min-width**: when direction == `row` and use fixed sizes+grow or `0%`
+* **min-height**: when direction == `column` and use fixed sizes+grow or `0%`
 
 
-When a parent fxLayout container changes flow-direction, the fxFlex directive will automatically update the element's inline-styling with corrected stylings.
+When a parent **fxLayout** container changes flow-direction, the **fxFlex** directive will automatically update the element's inline-styling with corrected stylings.
 
 ----
 
