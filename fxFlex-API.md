@@ -32,10 +32,23 @@ When the Angular compiler builds an instance of the FlexDirective, it initialize
 @Input('fxFlex') set(val) {....} 
 ```
 
-with the static value of "". So fxFlex is the same/equivalent as fxFlex="". This empty string value is internally interpreted (by the FlexDirective) to assign an inline element-styling of
+with the static value of "". **fxFlex** is the same/equivalent as **fxFlex=""**. And this empty string value is internally interpreted (by the FlexDirective) and instruction to assign an inline element-styling of
 
 ```css
 flex: 1 1 0.000000001px
+```
+
+... assuming the default values of shrink and grow have not been overridden.
+
+A more detailed usage might be:
+
+```html
+<div fxFlex fxShrink="0" fxGrow="2"></div>
+```
+which would result in an inline styling of 
+
+```css
+flex : 2 0 0.000000001px
 ```
 
 #### *flex-basis* Values
