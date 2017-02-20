@@ -110,7 +110,9 @@ main-axis flow of its parent container!
 
 ### Known Issues with fxFlex
 
-CanIuse.com reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)** and the [Resources](http://caniuse.com/#feat=flexbox) sections.
+While Flex-Layout makes every attempt to assign smart, valid flexbox stylings... some usages and some browsers will manifest layout issues.
+
+[CanIuse.com](http://CanIuse.com] reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)** and the [Resources](http://caniuse.com/#feat=flexbox) sections.
 
 <a href="http://caniuse.com/#feat=flexbox" target="_blank">
 ![caniuseflexbox](https://cloud.githubusercontent.com/assets/210413/21288118/917e3faa-c440-11e6-9b08-28aff590c7ae.png)
