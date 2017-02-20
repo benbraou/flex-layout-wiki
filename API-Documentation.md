@@ -8,9 +8,13 @@
 
 ## fxLayoutGap
 
-## fxFlex
+----
 
-The **fxFlex** directive should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. This is FlexBox's API for positioning elements in horizontal or vertical stacks.  
+## **fxFlex**
+
+The **fxFlex** directive should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. This is FlexBox's API for positioning elements in horizontal or vertical stacks. 
+
+> Developer's seeking details on FlexBox should review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
 This directive is the most powerful, smartest directive within the **flex-layout** API. Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
 
@@ -36,10 +40,11 @@ Note that the resizing occurs along the main-axis of the layout and maybe affect
 
 The **flex-basis** values can be pixels, percentages, calcs, or none
 
+----
 
 ### Known Issues with fxFlex
 
-CanIuse.com reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)** and the [Resources](http://caniuse.com/#feat=flexbox) sections on CanIUse.com.
+CanIuse.com reports and tracks many browsers issues using FlexBox; especially with **IE browsers** and **Column** stacking layouts. Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)** and the [Resources](http://caniuse.com/#feat=flexbox) sections.
 
 <a href="http://caniuse.com/#feat=flexbox" target="_blank">
 ![caniuseflexbox](https://cloud.githubusercontent.com/assets/210413/21288118/917e3faa-c440-11e6-9b08-28aff590c7ae.png)
