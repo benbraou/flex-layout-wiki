@@ -26,7 +26,7 @@ Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & lo
 
 Note the above examples are using static values. To use runtime expressions, developers should use the box-notation to specify 1-way DataBind (to an expression). E.g. [fxFlex]="twoColumnSpan".
 
-#### *flex-basis* Values
+### fxFlex Options
 
 The **flex-basis** values can be pixels, percentages, calcs, or known aliases.
 
