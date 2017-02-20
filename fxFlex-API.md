@@ -141,3 +141,7 @@ Developers should consult the **[Known Issues](http://caniuse.com/#feat=flexbox)
 <a href="http://caniuse.com/#feat=flexbox" target="_blank">
 ![caniuseflexbox](https://cloud.githubusercontent.com/assets/210413/21288118/917e3faa-c440-11e6-9b08-28aff590c7ae.png)
 </a>
+
+Developer's seeking details on FlexBox should 
+* Review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), or 
+* Play with the online [Flex-Layout Demos](https://tburleson-layouts-demos.firebaseapp.com/#/docs).
