@@ -60,7 +60,20 @@ Here is an example of a non-trivial layout using fxFlex options:
 ![screen shot 2017-02-20 at 3 38 07 pm](https://cloud.githubusercontent.com/assets/210413/23142663/c106c196-f782-11e6-8079-9d49ba83ea3a.png)
 </a>
 
-#### Empty fxFlex Values
+
+### Additional fxFlex Stylings
+
+**fxFlex** also auto-assign additional stylings, dependent upon the fxFlex value used and the layout, main-axis direction:
+
+* **box-sizing** : `border-box`
+* **max-width**: when direction == `row` and use fixed sizes+shrink or `0%`
+* **max-height**: when direction == `column` and use fixed sizes or `0%` 
+* **min-width**: when direction == `row` and use fixed sizes+grow or `0%`
+* **min-height**: when direction == `column` and use fixed sizes+grow or `0%`
+
+When a parent **fxLayout** container changes flow-direction, the **fxFlex** directive will automatically update the element's inline-styling with corrected stylings.
+
+### Default fxFlex Values
 
 When the Angular compiler builds an instance of the **FlexDirective**, it initializes the 
 
@@ -87,18 +100,6 @@ would result in an inline styling of
 flex : 2 0 0.000000001px
 ```
 
-### Additional fxFlex Stylings
-
-**fxFlex** also auto-assign additional stylings, dependent upon the fxFlex value used and the layout, main-axis direction:
-
-* **box-sizing** : `border-box`
-* **max-width**: when direction == `row` and use fixed sizes+shrink or `0%`
-* **max-height**: when direction == `column` and use fixed sizes or `0%` 
-* **min-width**: when direction == `row` and use fixed sizes+grow or `0%`
-* **min-height**: when direction == `column` and use fixed sizes+grow or `0%`
-
-
-When a parent **fxLayout** container changes flow-direction, the **fxFlex** directive will automatically update the element's inline-styling with corrected stylings.
 
 ----
 
