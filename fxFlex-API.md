@@ -89,7 +89,10 @@ flex: 1 1 0.000000001px
 
 ... assuming the values of *shrink* and *grow* have not been overridden from the default `1`.
 
-Developers should consider the notation 
+> Another usage (with distinct grow and shrink values) such as `<div fxFlex fxShrink="0" fxGrow="2"></div>`
+would result in an inline styling of `flex : 2 0 0.000000001px`.
+
+This means that developers should consider the notation 
 
 ```html
 <div fxFlex><div>
@@ -99,9 +102,6 @@ to mean
 
 "**Resize the div element to fill the available space along the main-axis flow of its parent container!**"
 
-
-> Another usage (with distinct grow and shrink values) such as `<div fxFlex fxShrink="0" fxGrow="2"></div>`
-would result in an inline styling of `flex : 2 0 0.000000001px`.
 
 ----
 
