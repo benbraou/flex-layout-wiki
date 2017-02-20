@@ -1,12 +1,12 @@
 The **fxFlex** directive should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. This is FlexBox's API for positioning elements in horizontal or vertical stacks. 
 
+![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
+
 This directive is the most powerful, smartest directive within the **flex-layout** API. Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
 
 * flex-grow:  defines how much a flexbox item should **grow** if there's space available
 * flex-shrink: defines how much a flexbox item should **shrink** if there is **not enough** space available.
 * flex-basis: defines the initial size of a flexbox item.
-
-![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
 
@@ -20,10 +20,25 @@ Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & lo
   *  fxFlex="1 1 auto"
 *  The **short-form** enables developers to specify only the **flex-basis** and uses defaults for the shrink and grow options: (default values == 1).
   *  fxFlex
+  *  fxFlex=""
   *  fxFlex="2 2 calc(10em + 10px);"
   *  fxFlex="102px"
 
-> Note the above examples are using static values. To use expressions, developers use the box-notation to indicate 1-way databinding to an expression. E.g. [fxFlex]="twoColumnSpan".
+Note the above examples are using static values. To use runtime expressions, developers should use the box-notation to specify 1-way DataBind (to an expression). E.g. [fxFlex]="twoColumnSpan".
+
+When the Angular compiler builds an instance of the FlexDirective, it initializes the 
+
+```js
+@Input('fxFlex') set(val) {....} 
+```
+
+with the static value of "". So fxFlex is the same/equivalent as fxFlex="". This empty string value is internally interpreted (by the FlexDirective) to assign an inline element-styling of
+
+```css
+flex: 1 1 0.000000001px
+```
+
+#### *flex-basis* Values
 
 The **flex-basis** values can be pixels, percentages, calcs, or none
 
