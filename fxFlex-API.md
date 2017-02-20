@@ -12,7 +12,9 @@ Flexbox element resizing leverages [three (3) features](http://cssreference.io/f
 
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
 
-> Developer's seeking details on FlexBox should review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) or play with the online [Flex-Layout Demos](https://tburleson-layouts-demos.firebaseapp.com/#/docs).
+> Developer's seeking details on FlexBox should 
+*  Review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), or 
+*  Play with the online [Flex-Layout Demos](https://tburleson-layouts-demos.firebaseapp.com/#/docs).
 
 ### fxFlex Attribute Usages
 
