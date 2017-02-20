@@ -4,7 +4,7 @@ The [**fxFlex** directive](https://github.com/angular/flex-layout/blob/master/sr
 
 This directive is the smartest, most powerful directive within the **flex-layout** API toolbox. 
 
-Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
+Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/flexbox/):
 
 * **flex-grow**:  defines how much a flexbox item should **grow** if there's space available
 * **flex-shrink**: defines how much a flexbox item should **shrink** if there is **not enough** space available.
