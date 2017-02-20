@@ -22,9 +22,11 @@ This directive is the most powerful, smartest directive within the **flex-layout
 
 ![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
+Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
+
 > Developer's seeking details on FlexBox should review [CSS-Tricks - A Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
 
-Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & long-form.
+Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & long-form.
 
 *  The **long-form** enables the developer to specify the grow, shrink, and basis values inline.
   *  fxFlex="1 1 52%"
