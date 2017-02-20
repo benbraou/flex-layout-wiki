@@ -83,7 +83,7 @@ When the Angular compiler builds an instance of the [**FlexDirective**](https://
 @Input('fxFlex') set(val) {....} 
 ```
 
-with the static value of "". **fxFlex** is the same/equivalent as **fxFlex=""**. And this empty string value is internally interpreted (by the FlexDirective) and instruction to assign an inline element-styling of
+with the static value of "". `fxFlex` is the same/equivalent as `fxFlex=""`. And this empty string value is internally interpreted (by the FlexDirective) and instruction to assign an inline element-styling of
 
 ```css
 flex: 1 1 0.000000001px
