@@ -1,5 +1,3 @@
-## **fxFlex**
-
 The **fxFlex** directive should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. This is FlexBox's API for positioning elements in horizontal or vertical stacks. 
 
 This directive is the most powerful, smartest directive within the **flex-layout** API. Flexbox element resizing leverages [three (3) features](http://cssreference.io/flexbox/):
