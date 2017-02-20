@@ -101,7 +101,8 @@ This means that developers should consider the notation
 to mean 
 
 ```console
-Resize the div element to fill the available space along the main-axis flow of its parent container!
+Resize the div element to fill the available space along the 
+main-axis flow of its parent container!
 ```
 
 
