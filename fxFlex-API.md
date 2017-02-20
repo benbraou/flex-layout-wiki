@@ -24,9 +24,26 @@ Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & lo
   *  fxFlex="2 2 calc(10em + 10px);"
   *  fxFlex="102px"
 
-#### Empty fxFlex Values
-
 Note the above examples are using static values. To use runtime expressions, developers should use the box-notation to specify 1-way DataBind (to an expression). E.g. [fxFlex]="twoColumnSpan".
+
+#### *flex-basis* Values
+
+The **flex-basis** values can be pixels, percentages, calcs, or known aliases.
+
+Alias are accepted industry flex-basis terms used to auto-create specific Flexbox stylings. Here are some mappings:
+
+
+| alias | Equivalent CSS | 
+| ----- | -------------- |
+|  `grow`     | `{flex: 1 1 100%}` |
+|  `initial`  | `{flex: 0 1 auto}` |
+|  `auto`     | `{flex: <grow> <shrink> 100%}` |
+|  `none`     | `{flex: 0 0 auto}` |
+|  `nogrow`   | `{flex: 0 1 auto}` |
+|  `noshrink` | `{flex: 1 0 auto}` |
+
+
+#### Empty fxFlex Values
 
 When the Angular compiler builds an instance of the FlexDirective, it initializes the 
 
@@ -42,20 +59,16 @@ flex: 1 1 0.000000001px
 
 ... assuming the default values of shrink and grow have not been overridden.
 
-A more detailed usage might be:
+Another usage with distinct grow and shrink values:
 
 ```html
 <div fxFlex fxShrink="0" fxGrow="2"></div>
 ```
-which would result in an inline styling of 
+would result in an inline styling of 
 
 ```css
 flex : 2 0 0.000000001px
 ```
-
-#### *flex-basis* Values
-
-The **flex-basis** values can be pixels, percentages, calcs, or none
 
 ----
 
