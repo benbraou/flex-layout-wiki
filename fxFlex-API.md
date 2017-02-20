@@ -30,7 +30,13 @@ Note the above examples are using static values. To use runtime expressions, dev
 
 The **flex-basis** values can be pixels, percentages, calcs, or known aliases.
 
-Alias are accepted industry flex-basis terms used to auto-create specific Flexbox stylings. Here are some mappings:
+  *  fxFlex
+  *  fxFlex=""
+  *  fxFlex="2 2 calc(10em + 10px);"
+  *  fxFlex="102px"
+  *  fxFlex="auto"
+
+Flex-basis aliases are accepted short-hand terms used to easily specific Flexbox stylings. Here are the industry mappings:
 
 
 | alias | Equivalent CSS | 
