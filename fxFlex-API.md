@@ -36,7 +36,14 @@ The **flex-basis** values can be pixels, percentages, calcs, or known aliases.
   *  fxFlex="102px"
   *  fxFlex="auto"
 
-Flex-basis aliases are accepted short-hand terms used to easily specific Flexbox stylings. Here are the industry mappings:
+Here is an example of a non-trivial layout using fxFlex options:
+
+<a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
+![screen shot 2017-02-20 at 3 38 07 pm](https://cloud.githubusercontent.com/assets/210413/23142663/c106c196-f782-11e6-8079-9d49ba83ea3a.png)
+</a>
+
+
+Flex-basis aliases are accepted short-hand terms used to easily specify Flexbox stylings. Here are the industry mappings:
 
 
 | alias | Equivalent CSS | 
