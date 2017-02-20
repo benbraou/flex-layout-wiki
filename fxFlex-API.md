@@ -100,7 +100,15 @@ would result in an inline styling of
 flex : 2 0 0.000000001px
 ```
 
-Developers should consider the notation `<div fxFlex><div>` to mean "**Resize the div element to fill the available space along its parent container main-axis flow**". 
+Developers should consider the notation 
+
+```html
+<div fxFlex><div>
+```
+
+to mean 
+
+"**Resize the div element to fill the available space along the main-axis flow of its parent container!**"
 
 ----
 
