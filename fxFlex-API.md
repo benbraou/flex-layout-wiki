@@ -24,6 +24,8 @@ Flex-Layout supports two (2) usages of the **fxFlex** directive: short-form & lo
   *  fxFlex="2 2 calc(10em + 10px);"
   *  fxFlex="102px"
 
+#### Empty fxFlex Values
+
 Note the above examples are using static values. To use runtime expressions, developers should use the box-notation to specify 1-way DataBind (to an expression). E.g. [fxFlex]="twoColumnSpan".
 
 When the Angular compiler builds an instance of the FlexDirective, it initializes the 
