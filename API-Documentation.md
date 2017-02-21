@@ -8,6 +8,6 @@
 
 ## fxLayoutGap
 
-## [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)
+## [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API) :  `<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
 
