@@ -8,6 +8,7 @@ Below are the links to the documentation pages for each individual API:
 * **fxLayoutWrap**  : `<div fxLayoutWrap> </div>`
 * **fxLayoutGap** &nbsp;&nbsp;: `<div fxLayoutGap="10px">  </div>`
 
+<br/>
 #### API for Child Elements within FlexBox Containers
 
 * **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  `<div fxFlex="1 2 calc(15em + 20px)"></div>`
