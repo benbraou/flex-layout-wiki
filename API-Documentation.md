@@ -8,6 +8,8 @@ Below are the links to the documentation pages for each individual API:
 * **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  `<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
 
+<br/>
+
 ## JavaScript API (Imperative)
 
 The programmatic API for **flex-layout** is deliberately minimized. 
