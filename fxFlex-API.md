@@ -11,8 +11,8 @@ Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/
 * **flex-basis**: defines the initial size of a flexbox item.
 
 ```html
-<div fxFlex="<grow> <shrink> <basis>" ></div>
-<div fxFlex="<basis>" ></div>
+<div fxFlex="<grow> <shrink> <basis>"> </div>
+<div fxFlex="<basis>">                 </div>
 ```
 
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
