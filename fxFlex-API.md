@@ -10,6 +10,10 @@ Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/
 * **flex-shrink**: defines how much a flexbox item should **shrink** if there is **not enough** space available.
 * **flex-basis**: defines the initial size of a flexbox item.
 
+```html
+<div fxFlex="<grow> <shrink> <basis>"></div>
+```
+
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
 
 > Developer's seeking details on FlexBox should 
