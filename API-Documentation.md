@@ -2,14 +2,18 @@
 
 Below are the links to the documentation pages for each individual API:
 
-#### API for FlexBox Containers
+#### Containers
+
+This API is useful as directives/attributes on container elements with 1 or more nested child elements:
 
 * **fxLayout** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: `<div fxLayout="column">  </div>`
 * **fxLayoutWrap**  : `<div fxLayoutWrap> </div>`
 * **fxLayoutGap** &nbsp;&nbsp;: `<div fxLayoutGap="10px">  </div>`
 
 <br/>
-#### API for Child Elements within FlexBox Containers
+#### Child Elements within Containers
+
+This API is useful as directives/attributes on elements nested within FlexBox container elements:
 
 * **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:  `<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
