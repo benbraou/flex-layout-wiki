@@ -1,6 +1,6 @@
 ## HTML API (Declarative)
 
-Below are the links to the documentation pages for each individual API:
+Below are the links to the documentation pages for each individual **@angular/flex-layout** API.
 
 #### Containers
 
