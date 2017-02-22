@@ -7,8 +7,8 @@ Below are the links to the documentation pages for each individual **@angular/fl
 API for container elements [with 1 or more nested child elements]:
 
 * **fxLayout**: <br/>Defines the flow order of child items within a flexbox container.<br/>`<div fxLayout="column">  </div>`
-* **fxLayoutWrap**  : `<div fxLayoutWrap> </div>`
-* **fxLayoutGap** &nbsp;&nbsp;: `<div fxLayoutGap="10px">  </div>`
+* **fxLayoutWrap**  : <br/>Defines if child items appear on a single line or on multiple lines within a flexbox container.<br/>`<div fxLayoutWrap> </div>`
+* **fxLayoutGap**:<br/>Defines if child items within a flexbox container should have a gap using `margin-right` or `margin-left`. `<div fxLayoutGap="10px">  </div>`
 
 <br/>
 #### Child Elements within Containers
