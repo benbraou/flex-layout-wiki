@@ -51,7 +51,7 @@ The **flex-basis** values can be pixels, percentages, calcs, em, vw, vh, or know
   *  fxFlex="auto"
 
 
-Flex-basis aliases are accepted shorthand terms used to easily specify Flexbox stylings. Here are the industry mappings:
+Flex-basis **aliases** are accepted shorthand terms used to quickly specify Flexbox stylings. Here are the industry mappings of the alias to its resulting CSS styling:
 
 
 | alias | Equivalent CSS | 
@@ -64,7 +64,7 @@ Flex-basis aliases are accepted shorthand terms used to easily specify Flexbox s
 |  `noshrink` | `{flex: 1 0 auto}` |
 
 
-Here is an example of a non-trivial layout using fxFlex options:
+Shown below is an example of a non-trivial layout using various **fxFlex** options:
 
 <a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
 ![screen shot 2017-02-20 at 3 38 07 pm](https://cloud.githubusercontent.com/assets/210413/23142663/c106c196-f782-11e6-8079-9d49ba83ea3a.png)
