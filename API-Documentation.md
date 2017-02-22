@@ -9,7 +9,7 @@ API for container elements [with 1 or more nested child elements]:
 * **[fxLayout]()**: <br/>Defines the flow order of child items within a flexbox container.<br/>e.g. `<div fxLayout="column">  </div>`<br/>&nbsp;
 * **[fxLayoutWrap]()**  : <br/>Defines if child items appear on a single line or on multiple lines within a flexbox container.<br/>e.g. `<div fxLayoutWrap> </div>`<br/>&nbsp;
 * **[fxLayoutGap]()**:<br/>Defines if child items within a flexbox container should have a gap. <br/>e.g. `<div fxLayoutGap="10px">  </div>`<br/>&nbsp;
-* **[fxLayoutAlign]()**:<br/>Defines how flexbox items are aligned according to both the main-axis and the cross-axis, within a flexbox container. <br/>e.g. `<div fxLayoutAlign="start stretch">  </div>`
+* **[fxLayoutAlign]()**:<br/>Defines how flexbox items are aligned according to both the main-axis and the cross-axis, within a flexbox container. <br/><span style="font-size:0.7em;">e.g. </span>`<div fxLayoutAlign="start stretch">  </div>`
 
 
 <br/>
