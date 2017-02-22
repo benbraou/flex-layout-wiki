@@ -2,7 +2,7 @@
 
 Below are the links to the documentation pages for each directive within the **@angular/flex-layout** API.
 
-*  **[API Overview](https://github.com/angular/flex-layout/wiki/API-Overview): <br/>Introduction to static and responsive API, BreakPoints, etc .**<br/>
+*  **[API Overview](https://github.com/angular/flex-layout/wiki/API-Overview)**: <br/>Introduction to static and responsive API, BreakPoints, etc .**<br/>
 
 ### Containers
 
