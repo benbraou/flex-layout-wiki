@@ -25,8 +25,8 @@ Note that the resizing occurs along the main-axis of the layout and maybe affect
 The [**fxFlex** directive supports two (2) usages: short-form & long-form.
 
 ```html
-<div fxFlex="<grow> <shrink> <basis>"> </div>, or
-<div fxFlex="<basis>">                 </div>
+<div fxFlex="<basis>">                 </div>, or
+<div fxFlex="<grow> <shrink> <basis>"> </div>
 ```
 
 *  The **long-form** enables the developer to specify the grow, shrink, and basis values inline.
