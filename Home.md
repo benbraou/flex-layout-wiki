@@ -54,6 +54,7 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
 *  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
 *  [CSS Flexbox Reference](http://cssreference.io/flexbox/)
 *  [Learning How Flexbox Works](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.dfi1sit87)
+*  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 *  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
 
 Developers
