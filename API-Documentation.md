@@ -17,15 +17,15 @@ API for DOM container elements [with 1 or more nested child elements]:
 
 API for DOM elements nested within FlexBox container elements:
 
-* **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)**<br/>This markup specifies the resizing of its host element within a flexbox container flow.<br/>`<div fxFlex="1 2 calc(15em + 20px)"></div>`
+* **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)**: <br/>This markup specifies the resizing of its host element within a flexbox container flow.<br/>`<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
-* **fxFlexOrder**<br/>Defines the order of a flexbox item. <br/>`<div fxFlexOrder="2"></div>`
+* **fxFlexOrder**: <br/>Defines the order of a flexbox item. <br/>`<div fxFlexOrder="2"></div>`
 
-* **fxFlexOffset**<br/>Offset a flexbox item in its parent container flow layout. <br/>`<div fxFlexOffset="20px"></div>`
+* **fxFlexOffset**: <br/>Offset a flexbox item in its parent container flow layout. <br/>`<div fxFlexOffset="20px"></div>`
 
-* **fxFlexAlign**<br/>Works like fxLayoutAlign, but applies only to a single flexbox item, instead of all of them. <br/>`<div fxFlexAlign="center"></div>`
+* **fxFlexAlign**: <br/>Works like fxLayoutAlign, but applies only to a single flexbox item, instead of all of them. <br/>`<div fxFlexAlign="center"></div>`
 
-* **fxFlexFill**<br/> Maximizes width and height of element in a layout container <br/>`<div fxFlexFill></div>`
+* **fxFlexFill**: <br/> Maximizes width and height of element in a layout container <br/>`<div fxFlexFill></div>`
 
 
 <br/>
@@ -33,19 +33,25 @@ API for DOM elements nested within FlexBox container elements:
 
 API for any DOM element:
 
-* **fxShow**<br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow></div>`
+* **fxShow**: <br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow></div>`
 
-* **fxHide**<br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide></div>`
+* **fxHide**: <br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide></div>`
 
-* **class**<br/>Enhances the **ngClass** directive with support for mediaQuery activations. <br/>`<div [class.sm]="{'fxClass-sm': hasStyle}"></div>`
+* **class**: <br/>Enhances the **ngClass** directive with support for mediaQuery activations. <br/>`<div [class.sm]="{'fxClass-sm': hasStyle}"></div>`
 
-* **style**<br/>Enhances the **ngStyle** directive with suport for mediaQuery activations. <br/>`<div [style.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
+* **style**: <br/>Enhances the **ngStyle** directive with suport for mediaQuery activations. <br/>`<div [style.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
 
 
 <br/>
 
 ## JavaScript API (Imperative)
 
-The programmatic API for **flex-layout** is deliberately minimized. 
+The programmatic API for **flex-layout** is deliberately minimized; since most of the functionality is provided via Directives.
 
 
+* **ObservableMedia**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
+`constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
+
+* **BREAKPOINTS**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
+
+* **BaseFxDirectiveAdapter**: <br/> Adapter class useful to extend existing Directives with MediaQuery activation features. <br/> `export class ClassDirective extends NgClass { ... }` 
