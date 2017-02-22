@@ -126,7 +126,7 @@ The notation
 </div>
 ```
 
-to mean 
+means 
 
 ```console
 Resize the div element to fill the available space along the 
@@ -143,7 +143,7 @@ The notation:
 </div>
 ```
 
-to mean 
+means
 
 ```console
 Resize the div elements to fill 1/3rd each the available space 
