@@ -13,9 +13,9 @@ API for DOM container elements [with 1 or more nested child elements]:
 
 
 <br/>
-### DOM Child Elements within Containers
+### Child Elements within Containers
 
-API for elements nested within FlexBox container elements:
+API for DOM elements nested within FlexBox container elements:
 
 * **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)**<br/>This markup specifies the resizing of its host element within a flexbox container flow.<br/>`<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
