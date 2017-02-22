@@ -16,6 +16,8 @@ Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/
 <div fxFlex="<basis>">                 </div>
 ```
 
+<img width="459" alt="screen shot 2017-02-21 at 10 53 18 pm" src="https://cloud.githubusercontent.com/assets/210413/23197825/9742cf4c-f888-11e6-8812-b287f8aad15f.png">
+
 Note that the resizing occurs along the main-axis of the layout and maybe affected by the **fxLayoutAlign** options. 
 
 > Developer's seeking details on FlexBox should 
