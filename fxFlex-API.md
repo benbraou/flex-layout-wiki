@@ -69,9 +69,18 @@ Flex-basis **aliases** are accepted shorthand terms used to quickly specify Flex
 
 Shown below is an example of a non-trivial layout using various **fxFlex** options:
 
-<a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
-![screen shot 2017-02-20 at 3 38 07 pm](https://cloud.githubusercontent.com/assets/210413/23142663/c106c196-f782-11e6-8079-9d49ba83ea3a.png)
+Source Code:
+
+<a href="https://github.com/angular/flex-layout/blob/master/src/demo-app/app/stack-overflow/columnSpan.demo.ts#L23" target="_blank">
+![screen shot 2016-12-16 at 1 05 45 pm](https://cloud.githubusercontent.com/assets/210413/21274996/6b640f8a-c390-11e6-87ac-ca85eb6c3983.png)
 </a>
+
+Live Demo:
+
+<a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
+![screen shot 2016-12-16 at 1 00 51 pm](https://cloud.githubusercontent.com/assets/210413/21274826/bc8553f2-c38f-11e6-8188-bc7fd36026c2.png)
+</a>
+
 
 
 ### Additional fxFlex Stylings
