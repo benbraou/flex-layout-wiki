@@ -28,6 +28,21 @@ API for DOM elements nested within FlexBox container elements:
 * **[fxFlexFill]()**<br/> Maximizes width and height of element in a layout container <br/>`<div fxFlexFill></div>`
 
 
+<br/>
+### Special Features
+
+API for any DOM element:
+
+* **[fxShow]()**<br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow></div>`
+
+* **[fxHide]()**<br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide></div>`
+
+* **[class]()**<br/>Enhances the **ngClass** directive with support for mediaQuery activations. <br/>`<div [class.sm]="{'fxClass-sm': hasStyle}"></div>`
+
+* **[style]()**<br/>Enhances the **ngStyle** directive with suport for mediaQuery activations. <br/>`<div [style.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
+
+* **[fxFlexFill]()**<br/> Maximizes width and height of element in a layout container <br/>`<div fxFlexFill></div>`
+
 
 
 <br/>
