@@ -24,7 +24,7 @@ Shown below are the supported **fxLayout** directive values and their resulting 
 
 | Value | Equivalent CSS | 
 | ----- | -------------- |
-|  ``     | `{flex-direction: row}` |
+|  ''     | `{flex-direction: row}` |
 |  `row`     | `{flex-direction: row}` |
 |  `row-reverse`  | `{flex-direction: row-reverse}` |
 |  `column`     | `{flex-direction: column}` |
