@@ -34,8 +34,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |--------------------|-------------------------------------------------------------------------|
 |  fxHide           | TRUE, FALSE, 0, ""                                                      |     
 |  fxShow           | TRUE, FALSE, 0, ""                                                      |     
-|  class            | @see ngClass                                                      |     
-|  style            | @see ngStyle                                                      |      
+|  class            | @see [ngClass](https://angular.io/docs/ts/latest/api/common/index/NgClass-directive.html)                                                      |     
+|  style            | @see [ngStyle](https://angular.io/docs/ts/latest/api/common/index/NgStyle-directive.html)                                                      |      
 
 
 <br/>
