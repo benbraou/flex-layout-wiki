@@ -1,10 +1,9 @@
 The [**fxFlex** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/flex.ts) should be used on elements within a **fxLayout** container and identifies the resizing of that element within the flexbox container flow. 
 
-**fxFlex** is essentially the FlexBox API for resizing elements in horizontal or vertical stacks. 
 
 ![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
-This directive is the smartest, most powerful directive within the **flex-layout** API toolbox. 
+This directive is the smartest, most powerful directive within the **flex-layout** API toolbox and is essentially the FlexBox API for resizing elements in horizontal or vertical stacks. 
 
 Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/flexbox/):
 
