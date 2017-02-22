@@ -7,9 +7,9 @@ This directive is the smartest, most powerful directive within the **flex-layout
 
 Flexbox element resizing utilizes [three (3) parameters](http://cssreference.io/flexbox/):
 
-* **flex-grow**:  defines how much a flexbox item should **grow** if there's space available
+* **flex-grow**:  defines how much a flexbox item should **grow** (proportional to the others) if there's space available. The flex-grow value overrides the width.
 * **flex-shrink**: defines how much a flexbox item should **shrink** if there is **not enough** space available.
-* **flex-basis**: defines the initial size of a flexbox item.
+* **flex-basis**: controls the default size of an element, before it is manipulated by other Flexbox properties
 
 <img width="459" alt="screen shot 2017-02-21 at 10 53 18 pm" src="https://cloud.githubusercontent.com/assets/210413/23197825/9742cf4c-f888-11e6-8812-b287f8aad15f.png">
 
