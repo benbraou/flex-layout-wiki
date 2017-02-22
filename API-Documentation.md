@@ -2,7 +2,7 @@
 
 Below are the links to the documentation pages for each directive within the **@angular/flex-layout** API.
 
-#### Containers
+### Containers
 
 API for container elements [with 1 or more nested child elements]:
 
@@ -13,7 +13,7 @@ API for container elements [with 1 or more nested child elements]:
 
 
 <br/>
-#### Child Elements within Containers
+### Child Elements within Containers
 
 API for elements nested within FlexBox container elements:
 
