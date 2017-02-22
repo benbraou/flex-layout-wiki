@@ -29,3 +29,11 @@ Shown below are the supported **fxLayout** directive values and their resulting 
 |  `row-reverse`  | `{flex-direction: row-reverse}` |
 |  `column`     | `{flex-direction: column}` |
 |  `column-reverse`     | `{flex-direction: column-reverse}` |
+
+### fxLayout Side-Effects
+
+Changes to the fxLayout value will cause the following directives to update and modify their element stylings:
+
+*  **fxLayoutGap**
+*  **fxFlex**
+*  **fxLayoutAlign**
