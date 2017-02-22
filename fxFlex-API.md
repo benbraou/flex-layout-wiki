@@ -111,7 +111,7 @@ with the static value of "". `fxFlex` is the same/equivalent as `fxFlex=""`. And
 flex: 1 1 0.000000001px
 ```
 
-... assuming the values of *shrink* and *grow* have not been overridden from the default `1`.
+Where the default values of *flew-shrink* and *flex-grow* are `1` and have not been overridden.
 
 > Another usage (with distinct grow and shrink values) such as `<div fxFlex fxShrink="0" fxGrow="2"></div>`
 would result in an inline styling of `flex : 2 0 0.000000001px`.
