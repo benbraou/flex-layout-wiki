@@ -17,6 +17,7 @@ or
 
 ![fxlayout](https://cloud.githubusercontent.com/assets/210413/23197582/eda570ee-f886-11e6-95ff-d25736d3dfdb.png)
 
+<br/>
 
 ### fxLayout Options
 
@@ -29,6 +30,8 @@ Shown below are the supported **fxLayout** directive values and their resulting 
 |  `row-reverse`  | `{flex-direction: row-reverse}` |
 |  `column`     | `{flex-direction: column}` |
 |  `column-reverse`     | `{flex-direction: column-reverse}` |
+
+<br/>
 
 ### fxLayout Side-Effects
 
