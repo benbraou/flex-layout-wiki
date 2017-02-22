@@ -4,7 +4,7 @@ Below are the links to the documentation pages for each directive within the **@
 
 ### Containers
 
-API for container elements [with 1 or more nested child elements]:
+API for DOM container elements [with 1 or more nested child elements]:
 
 * **[fxLayout]()**: <br/>Defines the flow order of child items within a flexbox container.<br/>`<div fxLayout="column">  </div>`<br/>&nbsp;
 * **[fxLayoutWrap]()**  : <br/>Defines if child items appear on a single line or on multiple lines within a flexbox container.<br/>`<div fxLayoutWrap> </div>`<br/>&nbsp;
@@ -13,7 +13,7 @@ API for container elements [with 1 or more nested child elements]:
 
 
 <br/>
-### Child Elements within Containers
+### DOM Child Elements within Containers
 
 API for elements nested within FlexBox container elements:
 
