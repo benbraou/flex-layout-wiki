@@ -48,7 +48,7 @@ API for any DOM element:
 
 ## JavaScript API (Imperative)
 
-Most of the **@angular/flex-layout** functionality is provided via Directives. The Flex-Layou API, however, does publish three (3) important features important for programmatic purposes:
+Most of the **@angular/flex-layout** functionality is provided via Directives. The Flex-Layout API, however, does publish three (3) features for programmatic purposes:
 
 * **ObservableMedia**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
 `constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
