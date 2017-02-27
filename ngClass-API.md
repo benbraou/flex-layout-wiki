@@ -10,10 +10,10 @@ The CSS classes are updated as follows, depending on the type of the expression 
 ```html
 <some-element [ngClass]="stringExp|arrayExp|objExp">...</some-element>
 
-<some-element  ngClass="first second"> ... </some-element>
-<some-element [ngClass]="['first', 'second']"> ... </some-element>
-<some-element [ngClass]="{'first': true, 'second': true, 'third': false}"> ... </some-element>
-<some-element [ngClass]="{'class1 class2 class3' : true}"> ... </some-element>
+<some-element  ngClass="first second"> </some-element>
+<some-element [ngClass]="['first', 'second']"> </some-element>
+<some-element [ngClass]="{'first': true, 'second': true, 'third': false}"> </some-element>
+<some-element [ngClass]="{'class1 class2 class3' : true}"> </some-element>
 ```
 
 ### Responsive Features
