@@ -81,7 +81,7 @@ asObservable(): Observable<MediaChange>
 
 The **ObservableMedia** is not an actual **Observable**. It is a wrapper of an Observable used to publish additional methods like `isActive(<alias>). 
 
-To access the **Observable** and use **RxJS** operators, use `.asObservable()` with syntax like `media.asObservable().filter(....)`.
+Use the `.asObservable()` accessor method to access the **Observable** and use **RxJS** operators; such as `media.asObservable().filter(....)`.
 
 > Do not forget to **import** the specific RxJS operators you wish to use!
 
