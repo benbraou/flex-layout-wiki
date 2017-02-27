@@ -22,7 +22,7 @@ The features of Flex-Layout are best used, however, declaratively in template HT
 
 This API set applies flexbox CSS stylings for DOM **container elements** with 1 or more nested flex children:
 
-* [**fxLayout**](https://github.com/angular/flex-layout/wiki/fxLayout-API): <br/>Defines the flow order of child items within a flexbox container.<br/>`<div fxLayout="column">  </div>`<br/>&nbsp;
+* [**fxLayout**](https://github.com/angular/flex-layout/wiki/fxLayout-API): <br/>Defines the flow order of child items within a flexbox container.<br/>`<div fxLayout="row" fxLayout.xs="column">  </div>`<br/>&nbsp;
 * **fxLayoutWrap**  : <br/>Defines if child items appear on a single line or on multiple lines within a flexbox container.<br/>`<div fxLayoutWrap> </div>`<br/>&nbsp;
 * **fxLayoutGap**:<br/>Defines if child items within a flexbox container should have a gap. <br/>`<div fxLayoutGap="10px">  </div>`<br/>&nbsp;
 * **fxLayoutAlign**:<br/>Defines how flexbox items are aligned according to both the main-axis and the cross-axis, within a flexbox container. <br/>`<div fxLayoutAlign="start stretch">  </div>`
