@@ -23,13 +23,13 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS clas
 
 ```html
 <some-element  
-   ngClass="first" 
-  [ngClass.xs]="{'first':false, 'third':true}">  
+     ngClass="first" 
+    [ngClass.xs]="{'first':false, 'third':true}">  
 </some-element>
 <br/>
 <some-element 
-  [ngClass]="['first', 'second']" 
-  ngClass.gt-xm="third" >
+    [ngClass]="['first', 'second']" 
+    ngClass.gt-xm="third" >
 </some-element>
 <br/>
 <some-element 
@@ -43,6 +43,9 @@ Note that the default classes (specified by `class=""` and `ngClass="..."` will 
 Below the class === "first" used all mediaQuery activations **except** for 'xs' (mobile) where it is explicitly removed;
 
 ```html
-<some-element  ngClass="first" [ngClass.xs]="{'first':false, 'third':true}"> ... </some-element>
+<some-element  
+    ngClass="first" 
+    [ngClass.xs]="{'first':false, 'third':true}">
+</some-element>
 ```
 
