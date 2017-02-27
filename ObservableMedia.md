@@ -6,7 +6,7 @@ currently active.
 
 >  !! Only mediaChange activations (not deactivations) are announced by the ObservableMedia
 
-### API
+### API Summary 
 
 The injectable **ObservableMedia** service has three (3) APIs:
 
@@ -15,7 +15,7 @@ The injectable **ObservableMedia** service has three (3) APIs:
 * **`isActive**(query: string): boolean`
 
 
-####  **`.subscribe()`**
+####  API - **`.subscribe()`**
 
 ```js
 subscribe(next?: (value: MediaChange) => void,
