@@ -20,7 +20,7 @@ The features of Flex-Layout are best used, however, declaratively in template HT
 
 ### Containers
 
-API for DOM container elements [with 1 or more nested child elements]:
+This API set applies flexbox CSS stylings for DOM **container elements** with 1 or more nested flex children:
 
 * [**fxLayout**](https://github.com/angular/flex-layout/wiki/fxLayout-API): <br/>Defines the flow order of child items within a flexbox container.<br/>`<div fxLayout="column">  </div>`<br/>&nbsp;
 * **fxLayoutWrap**  : <br/>Defines if child items appear on a single line or on multiple lines within a flexbox container.<br/>`<div fxLayoutWrap> </div>`<br/>&nbsp;
@@ -31,7 +31,7 @@ API for DOM container elements [with 1 or more nested child elements]:
 <br/>
 ### Child Elements within Containers
 
-API for DOM elements nested within FlexBox container elements:
+This API set applies flexbox CSS stylings for a DOM element nested within FlexBox DOM container:
 
 * **[fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)**: <br/>This markup specifies the resizing of its host element within a flexbox container flow.<br/>`<div fxFlex="1 2 calc(15em + 20px)"></div>`
 
