@@ -1,7 +1,7 @@
 
 ## JavaScript API (Imperative)
 
-Most of the **@angular/flex-layout** functionality is provided via Directives and used **declaratively** in template HTML. There are three (3) programmatic features, however, that are published for developer access:
+Most of the **@angular/flex-layout** functionality is provided via Directives used **declaratively** in template HTML. There are three (3) programmatic features, however, that are published for programmatic developer access:
 
 * **[ObservableMedia](https://github.com/angular/flex-layout/wiki/ObservableMedia)**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
 `constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
