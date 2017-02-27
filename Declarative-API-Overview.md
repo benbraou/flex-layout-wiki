@@ -9,7 +9,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
-|  fxLayout         | `row | column | row-reverse | column-reverse`                           |                  
+|  [fxLayout](https://github.com/angular/flex-layout/wiki/fxLayout-API)         | `row | column | row-reverse | column-reverse`                           |                  
 |  fxLayoutAlign   | `start|center|end|space-around|space-between` `start|center|end|stretch`|                   
 |  fxLayoutWrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
 |  fxLayoutGap     | %, px, vw, vh                                                           |     
@@ -20,7 +20,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
-|  fxFlex           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
+|  [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fxFlexOrder     | int                                                                     |                       
 |  fxFlexOffset    | %, px, vw, vh                                                           |     
 |  fxFlexAlign      | `start|baseline|center|end`                                             |                   
@@ -34,8 +34,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |--------------------|-------------------------------------------------------------------------|
 |  fxHide           | TRUE, FALSE, 0, ""                                                      |     
 |  fxShow           | TRUE, FALSE, 0, ""                                                      |     
-|  class            | @see [ngClass](https://angular.io/docs/ts/latest/api/common/index/NgClass-directive.html)                                                      |     
-|  style            | @see [ngStyle](https://angular.io/docs/ts/latest/api/common/index/NgStyle-directive.html)                                                      |      
+|  ngClass          | @see [ngClass](https://angular.io/docs/ts/latest/api/common/index/NgClass-directive.html)                                                      |     
+|  ngStyle          | @see [ngStyle](https://angular.io/docs/ts/latest/api/common/index/NgStyle-directive.html)                                                      |      
 
 
 <br/>
