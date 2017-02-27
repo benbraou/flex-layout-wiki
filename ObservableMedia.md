@@ -19,6 +19,7 @@ The injectable **ObservableMedia** service has three (3) APIs:
 
 ----
 
+<br/>
 
 ####  (1) **`.subscribe()`**
 
@@ -69,6 +70,7 @@ those fields will be ''.
 
 > This method is useful when the developer is not interested in using RxJS operators (eg `.map()`, `.filter()`).
 
+<br/>
 
 #### (2) **`.asObservable()`**
 
@@ -108,6 +110,8 @@ export class MyDemo implements OnDestroy {
   loadMobileContent() {  }
 }
 ```
+
+<br/>
 
 #### (3) **`.isActive()`**
 
