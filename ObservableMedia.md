@@ -4,7 +4,7 @@ This service is essential an Observable that exposes both features to subscribe 
 changes and a validator method `.isActive()` to test if a mediaQuery (or alias) is
 currently active.
 
->  !! Only mediaChange activations (not deactivations) are announced by the ObservableMedia
+>  Only mediaChange activations (not deactivations) are announced by the ObservableMedia!
 
 ----
 
