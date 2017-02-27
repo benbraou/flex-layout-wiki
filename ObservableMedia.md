@@ -128,7 +128,7 @@ import {MediaChange, ObservableMedia} from "@angular/flex-layout";
 @Component({
    selector : 'responsive-component',
    template: `
-      <div class="ad-content" *ngIf="media$.isActive('xs')">
+      <div class="ad-content" *ngIf="media.isActive('xs')">
         Only shown if on mobile viewport sizes
       </div>
    `
