@@ -1,6 +1,6 @@
 The injectable **ObservableMedia** service will provide mediaQuery **activations** notifications for all [registered BreakPoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints). 
 
-This service is essential an Observable with that exposes a feature to subscribe to mediaQuery
+This service is essential an Observable that exposes both a feature to subscribe to mediaQuery
 changes and a validator method (`isActive(<alias>)`) to test if a mediaQuery (or alias) is
 currently active.
 
@@ -14,6 +14,7 @@ The injectable **ObservableMedia** service has three (3) APIs:
 * **`asObservable**(): Observable<MediaChange>`
 * **`isActive**(query: string): boolean`
 
+----
 
 ####  API - **`.subscribe()`**
 
@@ -110,7 +111,10 @@ export class MyDemo implements OnDestroy {
 isActive(query: string): boolean
 ```
 
-This method is useful both for expressions in component templates and in component imperative logic.
+This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias OR an mediaQuery:
+
+*  `xs`,
+*  `screen and (min-width: 600px) and (max-width: 959px)`
 
 ```js
 import {MediaChange, ObservableMedia} from "@angular/flex-layout";
