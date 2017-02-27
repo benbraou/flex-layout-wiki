@@ -21,7 +21,7 @@ The injectable **ObservableMedia** service has three (3) APIs:
 
 <br/>
 
-####  (1) **`.subscribe()`**
+####  (1) **`ObservableMedia::subscribe()`**
 
 ```js
 subscribe(
@@ -74,7 +74,7 @@ those fields will be ''.
 
 <br/>
 
-#### (2) **`.asObservable()`**
+#### (2) **`ObservableMedia::asObservable()`**
 
 
 ```js
@@ -111,7 +111,7 @@ export class MyDemo {
 
 <br/>
 
-#### (3) **`.isActive()`**
+#### (3) **`ObservableMedia::isActive()`**
 
 ```js
 isActive(query: string): boolean
