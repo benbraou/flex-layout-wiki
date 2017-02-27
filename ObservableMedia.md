@@ -20,7 +20,7 @@ The injectable **ObservableMedia** service has three (3) APIs:
 ----
 
 
-####  API - **`.subscribe()`**
+####  (1) **`.subscribe()`**
 
 ```js
 subscribe(next?: (value: MediaChange) => void,
@@ -70,7 +70,7 @@ those fields will be ''.
 > This method is useful when the developer is not interested in using RxJS operators (eg `.map()`, `.filter()`).
 
 
-### API - `.asObservable()`
+#### (2) **`.asObservable()`**
 
 
 ```js
@@ -109,7 +109,7 @@ export class MyDemo implements OnDestroy {
 }
 ```
 
-### API - `.isActive()`
+#### (3) **`.isActive()`**
 
 ```js
 isActive(query: string): boolean
