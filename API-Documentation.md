@@ -35,9 +35,9 @@ API for DOM elements nested within FlexBox container elements:
 
 While the following APIs also add or remove DOM element inline styles, they are NOT FlexBox CSS specific. Instead these are **Responsive** APIs used to adjust specific, non-flexbox styles when a specific mediaQuery has activated:
 
-* **fxShow**: <br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow></div>`
+* **fxShow**: <br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow [fxShow.xs]="isVisibleOnMobile()"></div>`
 
-* **fxHide**: <br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide></div>`
+* **fxHide**: <br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide [fxHide.gt-sm]="isVisibleOnDesktop()"></div>`
 
 
 * **ngClass** :
