@@ -22,9 +22,20 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS clas
 
 
 ```html
-<some-element  ngClass="first" [ngClass.xs]="{'first':false, 'third':true}"> ... </some-element>
-<some-element [ngClass]="['first', 'second']" ngClass.gt-xm="third" > ... </some-element>
-<some-element [ngClass]="{'class1 class2 class3' : true}" [ngClass]="{'class1' : false, 'class4 class5':true}"> ... </some-element>
+<some-element  
+   ngClass="first" 
+  [ngClass.xs]="{'first':false, 'third':true}">  
+</some-element>
+<br/>
+<some-element 
+  [ngClass]="['first', 'second']" 
+  ngClass.gt-xm="third" >
+</some-element>
+<br/>
+<some-element 
+    [ngClass]="{'class1 class2 class3' : true}" 
+    [ngClass.md]="{'class1' : false, 'class4 class5':true}"> 
+</some-element>
 ```
 
 Note that the default classes (specified by `class=""` and `ngClass="..."` will be preserved for other activations and merged those extra classes UNLESS the breakpoint has specified that a default class should be removed:
