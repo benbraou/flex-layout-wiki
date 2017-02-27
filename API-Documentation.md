@@ -56,10 +56,10 @@ Instead these are **Responsive** APIs used to adjust specific, non-flexbox style
 * **fxHide**: <br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide [fxHide.gt-sm]="isVisibleOnDesktop()"></div>`
 
 
-* **ngClass** :
+* **[ngClass](https://github.com/angular/flex-layout/wiki/ngClass-API)** :
 <br/>Enhances the **ngClass** directives with class changes based on mediaQuery activations. <br/>`<div [ngClass.sm]="{'fxClass-sm': hasStyle}"></div>`. 
 
-* **ngStyle**: 
+* **[ngStyle](https://github.com/angular/flex-layout/wiki/ngStyle-API)**: 
 <br/>Enhances the **ngStyle** directive with style updates based on mediaQuery activations. <br/>`<div [ngStyle.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
 
 
