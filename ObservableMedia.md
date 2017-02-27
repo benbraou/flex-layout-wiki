@@ -12,9 +12,9 @@ currently active.
 
 The injectable **ObservableMedia** service has three (3) APIs:
 
-* **`subscribe(): Subscription`**
-* **`asObservable(): Observable<MediaChange>`**
-* **`isActive(query: string): boolean`**
+* `subscribe(): Subscription`
+* `asObservable(): Observable<MediaChange>`
+* `isActive(query: string): boolean`
 
 
 ----
@@ -24,9 +24,11 @@ The injectable **ObservableMedia** service has three (3) APIs:
 ####  (1) **`.subscribe()`**
 
 ```js
-subscribe(next?: (value: MediaChange) => void,
-                     error?: (error: any) => void,
-                     complete?: () => void): Subscription;
+subscribe(
+  next?: (value: MediaChange) => void,
+  error?: (error: any) => void,
+  complete?: () => void
+): Subscription;
 ```
 
 Developers use Angular DI to inject a reference to the **ObservableMedia** service as a **constructor** parameter. 
