@@ -12,9 +12,9 @@ currently active.
 
 The injectable **ObservableMedia** service has three (3) APIs:
 
-* `**subscribe()**: Subscription`
-* `**asObservable()**: Observable<MediaChange>`
-* `**isActive(query: string)**: boolean`
+* **`subscribe(): Subscription`**
+* **`asObservable(): Observable<MediaChange>`**
+* **`isActive(query: string): boolean`**
 
 
 ----
