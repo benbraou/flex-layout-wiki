@@ -46,7 +46,7 @@ export class MyDemo implements OnDestroy {
   watcher: Subscription;
   activeMediaQuery = "";
 
-  constructor(public media: ObservableMedia) {
+  constructor(media: ObservableMedia) {
     this.watcher = media.subscribe((change: MediaChange) => {
       this.activeMediaQuery = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : "";
       if ( change.mqAlias == 'xs') {
@@ -99,7 +99,7 @@ import {MediaChange, ObservableMedia} from "@angular/flex-layout";
 })
 export class MyDemo implements OnDestroy {
 
-  constructor(public media: ObservableMedia) {
+  constructor(media: ObservableMedia) {
       media.asObservable()
         .filter((change: MediaChange) => change.mqAlias == 'xs')
         .subscribe(() => this.loadMobileContent() );
