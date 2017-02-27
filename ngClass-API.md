@@ -1,4 +1,4 @@
-The [@angular/flex-layout **ngClass** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) is a subclass of [@angular/common ngClass](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43) with features to support *class* changes based on mediaQuery activations. 
+The [@angular/flex-layout **ngClass** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) is a subclass of [@angular/common **ngClass**](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43). 
 
 Traditionally **ngClass** adds and removes CSS classes on an HTML element:
 
@@ -18,7 +18,7 @@ The CSS classes are updated as follows, depending on the type of the expression 
 
 ### Responsive Features
 
-The Flex-Layout **ngClass** adds responsive features to also add/remove CSS classes for activated breakpoints.
+The Flex-Layout **ngClass** adds responsive features to also add/remove CSS classes; but only for activated breakpoints.
 
 
 ```html
