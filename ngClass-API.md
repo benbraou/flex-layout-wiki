@@ -16,6 +16,8 @@ The CSS classes are updated as follows, depending on the type of the expression 
 <some-element [ngClass]="{'class1 class2 class3' : true}"> ... </some-element>
 ```
 
+### Responsive Features
+
 The Flex-Layout **ngClass** adds responsive features to also add/remove CSS classes for activated breakpoints.
 
 
