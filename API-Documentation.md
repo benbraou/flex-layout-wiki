@@ -1,3 +1,17 @@
+
+## JavaScript API (Imperative)
+
+Most of the **@angular/flex-layout** functionality is provided via Directives. Three (3) programmatic features  are published for developer access:
+
+* **[ObservableMedia](https://github.com/angular/flex-layout/wiki/ObservableMedia)**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
+`constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
+
+* **BREAKPOINTS**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
+
+* **BaseFxDirectiveAdapter**: <br/> Adapter class useful to extend existing Directives with MediaQuery activation features. <br/> `export class ClassDirective extends NgClass { ... }` 
+
+<br/>
+
 ## HTML API (Declarative)
 
 Below are the links to the documentation pages for each directive within the **@angular/flex-layout** API.
@@ -47,15 +61,3 @@ While the following APIs also add or remove DOM element inline styles, they are 
 <br/>Enhances the **ngStyle** directive with style updates based on mediaQuery activations. <br/>`<div [ngStyle.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
 
 
-<br/>
-
-## JavaScript API (Imperative)
-
-Most of the **@angular/flex-layout** functionality is provided via Directives. Three (3) programmatic features  are published for developer access:
-
-* **[ObservableMedia](https://github.com/angular/flex-layout/wiki/ObservableMedia)**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
-`constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
-
-* **BREAKPOINTS**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
-
-* **BaseFxDirectiveAdapter**: <br/> Adapter class useful to extend existing Directives with MediaQuery activation features. <br/> `export class ClassDirective extends NgClass { ... }` 
