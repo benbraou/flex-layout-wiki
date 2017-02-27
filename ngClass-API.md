@@ -1,4 +1,4 @@
-The [**ngClass** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) is a subclass of Angular's [ngClass](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43) with features to support *class* changes based on mediaQuery activations. 
+The [@angular/flex-layout **ngClass** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) is a subclass of [@angular/common ngClass](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43) with features to support *class* changes based on mediaQuery activations. 
 
 Traditionally **ngClass** adds and removes CSS classes on an HTML element:
 
