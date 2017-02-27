@@ -1,4 +1,6 @@
-The *@angular/flex-layout* [**ngClass**](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) directive is a subclass of *@angular/common* [**ngClass**](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43) directive. 
+The *@angular/flex-layout* [**ngClass**](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/class.ts) directive is a subclass of the *@angular/common* [**ngClass**](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_class.ts#L43) directive. 
+
+### Standard Features
 
 Traditionally **ngClass** adds and removes CSS classes on an HTML element:
 
