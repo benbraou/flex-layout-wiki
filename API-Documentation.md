@@ -55,7 +55,7 @@ API for any DOM element:
 
 Most of the **@angular/flex-layout** functionality is provided via Directives. Three (3) programmatic features  are published for developer access:
 
-* **ObservableMedia**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
+* **[ObservableMedia](https://github.com/angular/flex-layout/wiki/ObservableMedia)**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
 `constructor(public watcher$:ObservableMedia ) { watcher$.subscribe(...); }`
 
 * **BREAKPOINTS**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
