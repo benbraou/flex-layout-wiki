@@ -31,9 +31,9 @@ API for DOM elements nested within FlexBox container elements:
 
 
 <br/>
-### Special Features
+### Special Responsive Features
 
-While the following APIs also add or remove DOM element inline styles, they are NOT FlexBox CSS specific. Instead these are **Responsive** APIs used to adjust specific styles for a DOM element when a specific mediaQuery has activated:
+While the following APIs also add or remove DOM element inline styles, they are NOT FlexBox CSS specific. Instead these are **Responsive** APIs used to adjust specific, non-flexbox styles when a specific mediaQuery has activated:
 
 * **fxShow**: <br/>This markup specifies if its host element should be displayed (or not).<br/>`<div fxShow></div>`
 
