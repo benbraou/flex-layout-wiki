@@ -38,7 +38,9 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS clas
 </some-element>
 ```
 
-Note that the default classes (specified by `class=""` and `ngClass="..."` will be preserved for other activations and merged those extra classes UNLESS the breakpoint has specified that a default class should be removed:
+#### Merging Classes
+
+Note that the default classes (specified by `class=""` and `ngClass="..."` will be preserved (and merged) into other activation class lists UNLESS the breakpoint has specified that a default class should be removed:
 
 Below the class === "first" used all mediaQuery activations **except** for 'xs' (mobile) where it is explicitly removed;
 
