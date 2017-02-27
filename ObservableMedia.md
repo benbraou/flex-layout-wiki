@@ -97,16 +97,12 @@ import {MediaChange, ObservableMedia} from "@angular/flex-layout";
 @Component({
    selector : 'responsive-component'
 })
-export class MyDemo implements OnDestroy {
+export class MyDemo {
 
   constructor(media: ObservableMedia) {
       media.asObservable()
         .filter((change: MediaChange) => change.mqAlias == 'xs')
         .subscribe(() => this.loadMobileContent() );
-  }
-
-  ngOnDestroy() {
-    this.watcher.unsubscribe();
   }
 
   loadMobileContent() {  }
