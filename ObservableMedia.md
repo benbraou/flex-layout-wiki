@@ -17,6 +17,9 @@ The injectable **ObservableMedia** service has three (3) APIs:
 * **`isActive**(query: string): boolean`
 
 
+----
+
+
 ####  API - **`.subscribe()`**
 
 ```js
