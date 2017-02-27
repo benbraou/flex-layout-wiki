@@ -40,13 +40,11 @@ API for any DOM element:
 * **fxHide**: <br/>This markup specifies if its host element should NOT be displayed.<br/>`<div fxHide></div>`
 
 
-* **class**: (deprecated)
 * **ngClass** :
-<br/>Enhances the **ngClass** directive with support for mediaQuery activations. <br/>`<div [ngClass.sm]="{'fxClass-sm': hasStyle}"></div>`
+<br/>Enhances the **ngClass** directives with class changes based on mediaQuery activations. <br/>`<div [ngClass.sm]="{'fxClass-sm': hasStyle}"></div>`. 
 
-* **style**: (deprecated) 
 * **ngStyle**: 
-<br/>Enhances the **ngStyle** directive with suport for mediaQuery activations. <br/>`<div [ngStyle.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
+<br/>Enhances the **ngStyle** directive with style updates based on mediaQuery activations. <br/>`<div [ngStyle.xs]="{'font-size.px': 10, color: 'blue'}"></div>`
 
 
 <br/>
