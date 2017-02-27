@@ -1,4 +1,4 @@
-The *@angular/flex-layout* [**ngStyle**](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/style.ts#L46) directive is a subclass of the *@angular/common* [**ngStyle**](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_style.ts#L34) directive. 
+The *@angular/flex-layout* [**ngStyle**](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/style.ts#L53) directive is a subclass of the *@angular/common* [**ngStyle**](https://github.com/angular/angular/blob/master/modules/@angular/common/src/directives/ng_style.ts#L34) directive. 
 
 ### Standard Features
 
