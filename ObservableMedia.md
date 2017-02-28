@@ -124,6 +124,8 @@ This method is useful both for expressions in component templates and in compone
 *  `xs` is a called a mediaQuery **alias**
 *  `screen and (max-width: 600px)` is an mediaQuery for mobile-only
 
+<br/>
+
 ```js
 import {MediaChange, ObservableMedia} from "@angular/flex-layout";
 
