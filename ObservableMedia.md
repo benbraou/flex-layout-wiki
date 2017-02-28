@@ -129,6 +129,8 @@ This method is useful both for expressions in component templates and in compone
 ```js
 import {MediaChange, ObservableMedia} from "@angular/flex-layout";
 
+const PRINT_MOBILE = 'print and (max-width: 600px)';
+
 @Component({
    selector : 'responsive-component',
    template: `
@@ -141,7 +143,6 @@ export class MyDemo implements OnInit {
   constructor(public media: ObservableMedia) { }
 
   ngOnInit() {
-    const PRINT_MOBILE = 'print and (max-width: 600px)';
     if (this.media.isActive('xs') && !this.media.isActive(PRINT_MOBILE)) {
        this.loadMobileContent();
     }
