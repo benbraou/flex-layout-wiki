@@ -3,19 +3,18 @@
   *  [Implementation](https://github.com/angular/flex-layout/wiki/Implementation)
   * [Browser Support](https://github.com/angular/flex-layout#browser-support)
 
+* How it Works?
+  *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
+  *  [Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API)
+  *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
+  *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
+  *  [Background](https://github.com/angular/flex-layout/wiki/Background)
+
 *  Getting Started
   *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
   *  [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
   *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
   *  [WebPack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
-
-* How it Works?
-  *  [Background](https://github.com/angular/flex-layout/wiki/Background)
-  *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
-  *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
-  *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
-  *  [Use Cases](https://github.com/angular/flex-layout/wiki/Use-Cases) 
-  *  [Known Issues](https://github.com/angular/flex-layout/wiki/API-Overview#known-issues)
 
 * Developer Guides
   *  [Contributing](https://github.com/angular/flex-layout/wiki/Contributing-to-Angular-2-Flex-Layout)
