@@ -32,3 +32,43 @@ Using the **BREAKPOINTS** OpaqueToken, developers can add custom breakpoints or 
 
 > NOTE: !! custom breakpoints lists MUST contain the following aliases & suffixes: [**xs, gt-xs, sm, gt-sm, md, gt-md, lg, gt-lg, xl**].
 
+For example to add mediaQueries that activate when printing:
+
+##### - custom-breakpoints.ts - 
+
+```js
+import {RAW_DEFAULTS} from '@angular/flex-layout';
+
+const PRINT_BREAKPOINTS = [{
+  alias: 'xs.print',
+  suffix: 'XsPrint',
+  mediaQuery: 'print and (max-width: 297px)',
+  overlapping: false
+}];
+
+export const CustomBreakPointsProvider = { 
+  provide: BREAKPOINTS,
+  useValue: [...RAW_DEFAULTS,...PRINT_BREAKPOINTS];
+};
+```
+
+##### - my-app-module.ts -
+
+```js
+import { CustomBreakPointsProvider } from 'custom-breakpoints.ts';
+
+@NgModule({
+  imports : [
+    CommonModule,
+    FlexLayoutModule,
+  ]
+  providers: [
+    CustomBreakPointsProvider,     // Adds breakpoints for 'print' mediaQueries
+  ]
+})
+export class MyAppModule {
+}
+```
+
+With the above changes, when printing on mobile-sized viewports the 'xs.print' mediaQuery will activate.
+
