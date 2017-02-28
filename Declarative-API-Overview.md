@@ -1,4 +1,4 @@
-### API Overview
+### Static API Overview
 
 The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
 
@@ -40,10 +40,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 <br/>
 
-Shown below is sample HTML markup that uses both the container and element API:
+Shown below is sample HTML markup that uses both the container and element Static API:
 
-
-### Static Markup Example
 
 ```html
 <div fxLayout='column' class="zero">
