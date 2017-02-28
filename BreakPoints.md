@@ -1,13 +1,29 @@
-The token **BREAKPOINTS** is an opaque token in **@angular/flex-layout** used to build a **Provider** for a raw list of breakpoints.
+The token **BREAKPOINTS** is an opaque token in **@angular/flex-layout** that is used to build a **Provider** for a raw list of breakpoints.
 
 ```js
+import {OpaqueToken} from '@angular/core';
+
 export const BreakPointsProvider = { 
   provide: BREAKPOINTS,
   useValue: RAW_DEFAULTS
 };
 ```
 
-This Provider is used to return a list to ALL known BreakPoint(s)... and this list is used internal to register mediaQueries and announce mediaQuery activations.
+```js
+@NgModule({
+  providers: [
+    MatchMedia,              // Low-level service to publish observables w/ window.matchMedia()
+    BreakPointsProvider,     // Supports developer overrides of list of known breakpoints
+    BreakPointRegistry,      // Registry of known/used BreakPoint(s)
+    MediaMonitor,            // MediaQuery monitor service observes all known breakpoints
+    ObservableMediaProvider  // easy subscription injectable `media$` matchMedia observable
+  ]
+})
+export class MediaQueriesModule {
+}
+```
+
+This provider is used to return a list to ALL known BreakPoint(s)... and this list is used internal to register mediaQueries and announce mediaQuery activations.
 
 
 ### Custom BreakPoints
