@@ -27,14 +27,14 @@ For examples of `fx-hide` usages in Adaptive layouts, please review the demo **S
 
 Responsive features for core Angular directives:
 
+*  `[ngStyle.<alias>]=""`  
+*  `[ngClass.<alias>]=""` 
 *  `*ngIf.<breakpoint alias>=""` is not yet supported. 
-*  `[ngStyle.<alias>]=""` is not yet supported. 
-*  `[ngClass.<alias>]=""` is not yet supported. 
 
 Here is the current solution solution to enabled responsive/adaptive features with **`*ngIf`**:
 
 ```js
-import {ObservableMediaService} from '@angular/flex-layout';
+import {ObservableMedia} from '@angular/flex-layout';
 
 @Component({
   selector : 'my-mobile-component',
@@ -49,7 +49,7 @@ import {ObservableMediaService} from '@angular/flex-layout';
 })
 export class MyMobileComponent {
   public state = '';
-  constructor( @Inject(ObservableMediaService) public media:any ) {
+  constructor(public media:ObservableMedia ) {
     media.asObservable()
       .subscribe((change:MediaChange) => {
         this.state = change ? `'${change.mqAlias}' = (${change.mediaQuery})` : ""
@@ -57,9 +57,3 @@ export class MyMobileComponent {
   }
 }
 ```
-
->  NOTE: The above import will not work for Beta.4. Developers must use the following as a work-around until Beta.5 is released:
-```js
-import {ObservableMediaService} from '@angular/flex-layout/media-query/observable-media-service';
-```
-
