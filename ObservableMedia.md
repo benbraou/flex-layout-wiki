@@ -117,7 +117,8 @@ export class MyDemo {
 isActive(query: string): boolean
 ```
 
-This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias OR an mediaQuery:
+This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias OR an mediaQuery. 
+e.g.
 
 *  `xs`,
 *  `screen and (min-width: 600px) and (max-width: 959px)`
