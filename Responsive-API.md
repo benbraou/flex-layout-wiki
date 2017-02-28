@@ -1,11 +1,10 @@
-## Responsive Features
-
 Responsive layouts in material design adapt to any possible screen size. Google's Material Design specifications provide guidance that includes a flexible grid that ensures consistency across layouts, breakpoint details about how content reflows on different screens, and a description of how an app can scale from small to extra-large screens.
 
 <a href="https://material.io/guidelines/layout/responsive-ui.html" target="_blank">
 ![](http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B8olV15J7abPSGFxemFiQVRtb1k/layout_adaptive_breakpoints_01.png)
 </a>
 
+## Responsive Features
 
 To extend the **@angular/flex-layout** [static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with responsive features, we will first associate specific breakpoint **aliases** with mediaQuery values. 
 
