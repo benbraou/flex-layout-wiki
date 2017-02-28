@@ -6,7 +6,7 @@ Responsive layouts in material design adapt to any possible screen size. Google'
 
 <br/>
 
-### Enhancing the Static API
+## Enhancing the Static API
 
 Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details, then simply extend the HTML  markup usages by adding the responsive suffixes (as discussed above)!
 
@@ -14,7 +14,7 @@ Developers should consult the **angular/flex-layout** [HTML Declarative API](htt
 
 <br/>
 
-### Responsive Features
+## Responsive Features
 
 To extend the **@angular/flex-layout** [static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with responsive features, we will first associate specific breakpoint **aliases** with mediaQuery values. 
 
