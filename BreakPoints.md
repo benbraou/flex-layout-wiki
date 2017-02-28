@@ -77,7 +77,7 @@ It must be noted that simply registering custom breakpoints will not automatical
 In the above example the custom Breakpoint has been registered, but HTML selectors for **`xs.print`** will not work automatically.  Consider the scenario below where some content should be hidden while printing and other content has different layouts while printing:
 
 ```html
-<section class="main" fxShow fxHide.xs.print> ... </section>
+<section class="main" fxShow fxHide.xs.print="true"> ... </section>
 <footer fxLayout="row" fxLayout.xs.print="column"> ... </section>
 ```
 
