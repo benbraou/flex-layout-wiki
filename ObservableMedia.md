@@ -121,7 +121,7 @@ This method is useful both for expressions in component templates and in compone
 
 <br/>e.g.
 
-*  `screen and (max-width: 600px)` is an mediaQuery for mobile-only viewport sizes.
+*  `screen and (max-width: 600px)` is a mediaQuery for mobile viewport sizes.
 *  `xs` is an alias associated with the mobile mediaQuery.
 
 <br/>
