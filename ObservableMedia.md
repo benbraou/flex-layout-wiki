@@ -121,8 +121,8 @@ This method is useful both for expressions in component templates and in compone
 
 <br/>For example:
 
-*  `screen and (max-width: 600px)` is a mediaQuery for mobile viewport sizes.
-*  `xs` is an alias associated with the mobile mediaQuery.
+*  `print and (max-width: 600px)` is a mediaQuery for printing with mobile viewport sizes.
+*  `xs` is an alias associated with the mediaQuery for mobile viewport sizes.
 
 <br/>
 
@@ -141,8 +141,8 @@ export class MyDemo implements OnInit {
   constructor(public media: ObservableMedia) { }
 
   ngOnInit() {
-    const MOBILE = 'screen and (max-width: 600px)';
-    if (this.media.isActive('xs') || this.media.isActive(MOBILE)) {
+    const PRINT_MOBILE = 'print and (max-width: 600px)';
+    if (this.media.isActive('xs') || this.media.isActive(PRINT_MOBILE)) {
        this.loadMobileContent();
     }
   }
