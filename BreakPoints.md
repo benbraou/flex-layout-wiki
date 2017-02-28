@@ -23,7 +23,7 @@ export class MediaQueriesModule {
 }
 ```
 
-This provider is used to return a list to ALL known BreakPoint(s)... and this list is used internally to register mediaQueries and announce mediaQuery activations.
+This provider is used to return a list to ALL known BreakPoint(s)... and, in turn, this list is used internally to register mediaQueries and announce mediaQuery activations.
 
 
 ### Custom BreakPoints
