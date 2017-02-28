@@ -26,8 +26,9 @@ We can associate breakpoints with mediaQuery definitions using breakpoint **alia
 | xl    | 'screen and (min-width: 1920px) and (max-width: 5000px)'|
 <br/>
 
-If we combine the breakpoint `alias` with the Layout API we can easily support Responsive breakpoints with a 
-simple markup convention: the `alias` is used as **suffix** extensions to the Layout API:
+If we combine the breakpoint `alias` with the Static Flex-Layout API, we can easily support Responsive breakpoints using a simple markup convention: 
+
+The `alias` is used as **suffix** extensions to the static API HTML markup!
 
 ```html
 <api>.<breakpoint alias>="<value>"
@@ -53,11 +54,13 @@ Below is an example usage of the Responsive Layout API:
 </div>
 ```
 
-In the markup above the layout directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
+In the markup above the HTML API directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
 
 <br/>
 
 ### Enhancing the Static API
 
-Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details... then simply extend usages with the responsive suffixes (as discussed above).
+Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details, then simply extend the HTML  markup usages with the responsive suffixes (as discussed above)...
+
+`@angular/flex-layout` will automatically handle all the details listening for mediaQuery activations and applying the responsive values to the hosting DOM elements.
 
