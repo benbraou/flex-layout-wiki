@@ -9,7 +9,6 @@ Responsive layouts in material design adapt to any possible screen size. Google'
 
 To extend the **@angular/flex-layout** [static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with responsive features, we will first associate specific breakpoint **aliases** with mediaQuery values. 
 
-<br/>
 
 We can associate breakpoints with mediaQuery definitions using breakpoint **alias(es)**:
 
