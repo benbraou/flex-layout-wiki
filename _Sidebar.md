@@ -7,9 +7,9 @@
   *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
   *  [Static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview)
   *  [Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API)
-  *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
   *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
   *  [Background](https://github.com/angular/flex-layout/wiki/Background)
+  *  [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
 
 *  Getting Started
   *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
