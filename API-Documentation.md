@@ -14,11 +14,12 @@ Most of the **@angular/flex-layout** functionality is provided via Directives us
 
 ## HTML API (Declarative)
 
-The features of Flex-Layout are best used, however, declaratively in template HTML. As each directive (aka API) within **@angular/flex-layout** has its own constraints and options, the links below should be used to navigate to the specific the documentation pages for each directive.
+The features of Flex-Layout are best used, however, declaratively in template HTML. This API has two (2) significant feature sets:
 
 *  **[Static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview)**: <br/>Introduction to static API features.<br/>
 *  **[Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API)**: <br/>Introduction to Responsive API and BreakPoints details.<br/>
 
+As each directive (aka API) within **@angular/flex-layout** has its own constraints and options, the links below should be used to navigate to the specific the documentation pages for each directive.
 
 ### Containers
 
