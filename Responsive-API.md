@@ -14,7 +14,7 @@ Developers should consult the **angular/flex-layout** [HTML Declarative API](htt
 
 <br/>
 
-## Responsive Features
+### Responsive Features
 
 To extend the **@angular/flex-layout** [static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with responsive features, we will first associate specific breakpoint **aliases** with mediaQuery values. 
 
