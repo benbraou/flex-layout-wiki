@@ -1,5 +1,6 @@
 ## Responsive Features
 
+Google's Material Design specifications have defined ranges of viewport sizes 
 To extend the [static API]() with responsive features, we first associate specific breakpoint aliases with mediaQuery values. And if we use Breakpoints as specified by Material Design:
 
 <a href="https://material.io/guidelines/layout/responsive-ui.html" target="_blank">
