@@ -24,7 +24,7 @@
 
 * History
   * [Why use it?](https://github.com/angular/flex-layout/wiki/Why-Use-Flex-Layout)
-  * [Browser Support](https://github.com/angular/flex-layout#browser-support)
+  * [Browser Support](https://github.com/angular/flex-layout/wiki/Browswer-Support)
   * [Background](https://github.com/angular/flex-layout/wiki/Background)
   * [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
 
