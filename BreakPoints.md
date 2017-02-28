@@ -70,5 +70,36 @@ export class MyAppModule {
 }
 ```
 
-With the above changes, when printing on mobile-sized viewports the 'xs.print' mediaQuery will activate.
+With the above changes, when printing on mobile-sized viewports the **`xs.print`** mediaQuery will activate.
 
+### Custom Breakpoints and Directives
+
+It must be noted that simply registering custom breakpoints will not automatically mean that Flex-Layout API will support those as selectors. Consider the above breakpoint with the alias **`xs.print`**, the following usages will not work automatically.
+
+Consider the scenario below where some content is hidden while printing and other content has different print layouts:
+
+```html
+<section class="main" fxShow fxHide.xs.print> ... </section>
+<footer fxLayout="row" fxLayout.xs.print="column"> ... </section>
+```
+
+To enable these custom responsive selectors, developers must **extend** the `ShowHideDirective` and the `LayoutDirective`.
+
+e.g.
+
+```js
+import { ShowHideDirective, negativeOf } from '@angular/flex-layout';
+
+@Directive({selector: `
+  [fxHide.xs.print]
+`})
+export class CustomShowHideDirective extends ShowHideDirective {
+  constructor(monitor: MediaMonitor, elRef: ElementRef, renderer: Renderer) {
+    super(monitor, elRef, renderer);
+  }
+
+  @Input('fxHide.xs.print')    set hideXs(val) {
+    this._cacheInput("showXsPrint", negativeOf(val));
+  }
+}
+```
