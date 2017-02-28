@@ -13,37 +13,6 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
 
 ----
 
-### Quick Links
-
-*  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
-*  [Gitter Chat](https://gitter.im/angular/flex-layout)
-*  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
-
-Learning FlexBox
-
-*  [CSS Flexbox Reference](http://cssreference.io/flexbox/)
-*  [Learning How Flexbox Works](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.dfi1sit87)
-*  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-
-Developers
-
-*  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
-*  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
-*  [Builds + Fast Start](https://github.com/angular/flex-layout/wiki/Fast-Starts)
-*  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
-*  [Webpack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
-
-Demos 
-
-*  [Explore Online](https://tburleson-layouts-demos.firebaseapp.com/)
-*  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
-
-Templates
-
-*  [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview)
-
-----
-
 ### Featured Demo
 
 One of the hardest features to implement is a grid layout with specific column spans. Our online demo shows how easy this is!
@@ -60,3 +29,14 @@ Source Code:
 ![screen shot 2016-12-16 at 1 05 45 pm](https://cloud.githubusercontent.com/assets/210413/21274996/6b640f8a-c390-11e6-87ac-ca85eb6c3983.png)
 </a>
 
+### Quick Links
+
+*  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
+*  [Gitter Chat](https://gitter.im/angular/flex-layout)
+*  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
+
+Learning FlexBox
+
+*  [CSS Flexbox Reference](http://cssreference.io/flexbox/)
+*  [Learning How Flexbox Works](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.dfi1sit87)
+*  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
