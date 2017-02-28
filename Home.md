@@ -13,6 +13,20 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
 
 ----
 
+### Quick Links
+
+*  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
+*  [Gitter Chat](https://gitter.im/angular/flex-layout)
+*  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
+
+Learning FlexBox
+
+*  [CSS Flexbox Reference](http://cssreference.io/flexbox/)
+*  [Learning How Flexbox Works](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.dfi1sit87)
+*  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+----
+
 ### Featured Demo
 
 One of the hardest features to implement is a grid layout with specific column spans. Our online demo shows how easy this is!
@@ -29,14 +43,4 @@ Source Code:
 ![screen shot 2016-12-16 at 1 05 45 pm](https://cloud.githubusercontent.com/assets/210413/21274996/6b640f8a-c390-11e6-87ac-ca85eb6c3983.png)
 </a>
 
-### Quick Links
 
-*  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
-*  [Gitter Chat](https://gitter.im/angular/flex-layout)
-*  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
-
-Learning FlexBox
-
-*  [CSS Flexbox Reference](http://cssreference.io/flexbox/)
-*  [Learning How Flexbox Works](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053#.dfi1sit87)
-*  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
