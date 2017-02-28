@@ -74,16 +74,18 @@ With the above changes, when printing on mobile-sized viewports the **`xs.print`
 
 ### Custom Breakpoints and Directives
 
-It must be noted that simply registering custom breakpoints will not automatically mean that Flex-Layout API will support those as selectors. Consider the above breakpoint with the alias **`xs.print`**, the following usages will not work automatically.
+It must be noted that simply registering custom breakpoints will not automatically mean that Flex-Layout API will support those as selectors. 
 
-Consider the scenario below where some content is hidden while printing and other content has different print layouts:
+In the above example the custom Breakpoint has been registered, but HTML selectors for **`xs.print`** will not work automatically.  Consider the scenario below where some content should be hidden while printing and other content has different layouts while printing:
 
 ```html
 <section class="main" fxShow fxHide.xs.print> ... </section>
 <footer fxLayout="row" fxLayout.xs.print="column"> ... </section>
 ```
 
-To enable these custom responsive selectors, developers must **extend** the `ShowHideDirective` and the `LayoutDirective`.
+> Notice the use of 'xs.print' alias in the selectors above ^.
+
+To enable these custom, **responsive selectors**, developers must **extend** the `ShowHideDirective` and the `LayoutDirective`.
 
 e.g.
 
