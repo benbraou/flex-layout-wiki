@@ -12,9 +12,9 @@ export const BreakPointsProvider = {
 ```js
 @NgModule({
   providers: [
- // MatchMedia,              // Low-level service to publish observables w/ window.matchMedia()
     BreakPointsProvider,     // Supports developer overrides of list of known breakpoints
  // BreakPointRegistry,      // Registry of known/used BreakPoint(s)
+ // MatchMedia,              // Low-level service to publish observables w/ window.matchMedia()
  // MediaMonitor,            // MediaQuery monitor service observes all known breakpoints
  // ObservableMediaProvider  // easy subscription injectable `media$` matchMedia observable
   ]
