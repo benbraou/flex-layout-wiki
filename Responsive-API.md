@@ -60,7 +60,7 @@ In the markup above the HTML API directives use both static values and expressio
 
 ### Enhancing the Static API
 
-Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details, then simply extend the HTML  markup usages with the responsive suffixes (as discussed above)...
+Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details, then simply extend the HTML  markup usages by adding the responsive suffixes (as discussed above)!
 
 `@angular/flex-layout` will automatically handle all the details listening for mediaQuery activations and applying the responsive values to the hosting DOM elements.
 
