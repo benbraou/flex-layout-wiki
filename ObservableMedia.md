@@ -142,7 +142,7 @@ export class MyDemo implements OnInit {
 
   ngOnInit() {
     const PRINT_MOBILE = 'print and (max-width: 600px)';
-    if (this.media.isActive('xs') || this.media.isActive(PRINT_MOBILE)) {
+    if (this.media.isActive('xs') && !this.media.isActive(PRINT_MOBILE)) {
        this.loadMobileContent();
     }
   }
