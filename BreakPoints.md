@@ -32,7 +32,7 @@ Using the **BREAKPOINTS** OpaqueToken, developers can add custom breakpoints or 
 
 For example to add mediaQueries that activate when printing:
 
-##### - custom-breakpoints.ts - 
+##### - `custom-breakpoints.ts` - 
 
 ```js
 import {RAW_DEFAULTS} from '@angular/flex-layout';
@@ -50,7 +50,7 @@ export const CustomBreakPointsProvider = {
 };
 ```
 
-##### - my-app-module.ts -
+##### - `my-app-module.ts` -
 
 ```js
 import { CustomBreakPointsProvider } from 'custom-breakpoints.ts';
