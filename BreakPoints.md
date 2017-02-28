@@ -28,9 +28,7 @@ This provider is used to return a list to ALL known BreakPoint(s)... and, in tur
 
 ### Custom BreakPoints
 
-Using the **BREAKPOINTS** OpaqueToken, developers can add custom breakpoints or easily override existing breakpoints.
-
-> NOTE: !! custom breakpoints lists MUST contain the following aliases & suffixes: [**xs, gt-xs, sm, gt-sm, md, gt-md, lg, gt-lg, xl**].
+Using the **BREAKPOINTS** OpaqueToken, developers can add custom breakpoints or easily override existing breakpoints. 
 
 For example to add mediaQueries that activate when printing:
 
