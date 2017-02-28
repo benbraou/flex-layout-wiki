@@ -9,6 +9,7 @@ Responsive layouts in material design adapt to any possible screen size. Google'
 
 To extend the **@angular/flex-layout** [static API](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) with responsive features, we will first associate specific breakpoint **aliases** with mediaQuery values. 
 
+### MediaQueries and Aliases
 
 We can associate breakpoints with mediaQuery definitions using breakpoint **alias(es)**:
 
@@ -56,6 +57,8 @@ Below is an example usage of the Responsive Layout API:
 In the markup above the layout directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
 
 <br/>
+
+### Enhancing the Static API
 
 Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific Static API details... then simply extend usages with the responsive suffixes (as discussed above).
 
