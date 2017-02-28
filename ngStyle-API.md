@@ -50,7 +50,7 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS styl
 
 #### Merging Classes
 
-Note that the default styles (specified by `style=""` and `ngStyle="..."` will be preserved (and merged) into other activation class lists UNLESS the breakpoint has specified that a style should be removed (using a null value)
+Note that the default styles (specified by `style=""` or `ngStyle="..."`) will be preserved (and merged) into other activation class lists UNLESS the breakpoint has specified that a style should be removed (using a null value)
 
 Below the font size and colors are changed for 'sm' and 'md' breakpoints. Yet for 'md', the `text-align` style remains the same as the default === 'left'. Deactivations of 'sm' or 'md' breakpoints to other breakpoints will result in only the default styles being re-applied.
 
