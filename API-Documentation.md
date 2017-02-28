@@ -6,9 +6,9 @@ Most of the **@angular/flex-layout** functionality is provided via Directives us
 * **[ObservableMedia](https://github.com/angular/flex-layout/wiki/ObservableMedia)**: <br/> Injectable Observable used to subscribe to MediaQuery activation changes.<br/>
 `constructor(public media:ObservableMedia ) { ... }`
 
-* **BREAKPOINTS**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
+* **[BREAKPOINTS](https://github.com/angular/flex-layout/wiki/BreakPoints)**: <br/> Opaque token used to override or extend the default breakpoints with custom MediaQuery breakpoints.<br/> `providers: [{provide: BREAKPOINTS, useValue: MY_CUSTOM_BREAKPOINTS }]`
 
-* **BaseFxDirectiveAdapter**: <br/> Adapter class useful to extend existing Directives with MediaQuery activation features. <br/> `export class ClassDirective extends NgClass { ... }` 
+* **[BaseFxDirectiveAdapter](https://github.com/angular/flex-layout/wiki/BaseFxDirectiveAdapter)**: <br/> Adapter class useful to extend existing Directives with MediaQuery activation features. <br/> `export class ClassDirective extends NgClass { ... }` 
 
 <br/>
 
