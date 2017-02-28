@@ -11,39 +11,6 @@ Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only
 *  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
 *  This implementation is currently only available for Angular (v2.4.3 and higher) applications.
 
-
-### Static Layouts 
-
-The Angular Flexbox Layout features enable developers to organize UI page elements in row and column structures with alignments, resizing, and padding. These layouts can be nested and easily used with hierarchical DOM structures. 
-
-Since the Layout applies/injects **Flexbox CSS**, Browsers will will fluidly update DOM element positioning and sizes as the window viewport size changes. 
-
-```html
-<div class="flex-container" fxLayout="row" fxLayoutAlign="center center">
-  <div class="flex-item"></div>
-  <div class="flex-item"></div>
-  <div class="flex-item"></div>
-</div> 
-```
-
-> Note: the above Flex-Layout usages do not require any external stylesheets nor any custom CSS programming. The Angular directives do all the work of *magically* setting the flexbox css styles.
-
-### Responsive Layouts
-
-Integrating **mediaQuery** features into the Layout engine enables the API to be **Responsive**: DOM elements can adjust layout-directions, visibility, and sizing constraints based on specific viewport sizes such as desktop or mobile devices. 
-
-```html
-<div class="flex-container" 
-     fxLayout="row" fxLayout.xs="column" 
-     fxLayoutAlign="center center" fxLayoutAlign.xs="start start">
-  <div class="flex-item"></div>
-  <div class="flex-item"></div>
-  <div class="flex-item"></div>
-</div> 
-```
-
-<br/>
-
 ----
 
 ### Quick Links
