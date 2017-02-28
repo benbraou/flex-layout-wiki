@@ -57,4 +57,5 @@ In the markup above the layout directives use both static values and expression 
 
 <br/>
 
+Developers should consult the **angular/flex-layout** [HTML Declarative API](https://github.com/angular/flex-layout/wiki/API-Documentation#html-api-declarative) for specific details of Responsive enhancements to the Flex-Layout Directives.
 
