@@ -1,7 +1,6 @@
 *  [Home](https://github.com/angular/flex-layout/wiki)
 
 *  Quick Links
-  *  [Wiki Docs](https://github.com/angular/flex-layout/wiki)
   *  [Gitter Chat](https://gitter.im/angular/flex-layout)
   *  [Discussion Forum](https://groups.google.com/forum/#!forum/angular-flex-layout)
 
