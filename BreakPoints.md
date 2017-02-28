@@ -1,4 +1,4 @@
-The token **BREAKPOINTS** is an opaque token in @angular/flex-layout used to build a **Provider** for a raw list of breakpoints.
+The token **BREAKPOINTS** is an opaque token in **@angular/flex-layout** used to build a **Provider** for a raw list of breakpoints.
 
 ```js
 export const BreakPointsProvider = { 
