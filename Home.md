@@ -6,11 +6,17 @@ The Layout engine intelligently automates the process of applying appropriate Fl
 
 ![css3-flexbox-model](https://cloud.githubusercontent.com/assets/210413/20034148/49a4fb62-a382-11e6-9822-42b90dec69be.jpg)
 
+Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only implementations published in other Flexbox libraries  and the JS+CSS implementation of Angular Material v1.x Layouts. 
+
+*  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
+*  This implementation is currently only available for Angular (v2.4.3 and higher) applications.
+
+
 ### Static Layouts 
 
-The Angular Flexbox Layout features enable developers to organize UI page elements in row and column structures with 
-alignments, resizing, and padding. These layouts can be nested and easily used with hierarchical DOM structures. 
-Since the Layout applies/injects **Flexbox CSS**, DOM elements will fluidly update their positioning and sizes as the  viewport size changes. 
+The Angular Flexbox Layout features enable developers to organize UI page elements in row and column structures with alignments, resizing, and padding. These layouts can be nested and easily used with hierarchical DOM structures. 
+
+Since the Layout applies/injects **Flexbox CSS**, Browsers will will fluidly update DOM element positioning and sizes as the window viewport size changes. 
 
 ```html
 <div class="flex-container" fxLayout="row" fxLayoutAlign="center center">
@@ -35,15 +41,6 @@ Integrating **mediaQuery** features into the Layout engine enables the API to be
   <div class="flex-item"></div>
 </div> 
 ```
-
-<br/>
-
-### Using Flex-Layout
-
-Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only implementations published in other Flexbox libraries  and the JS+CSS implementation of Angular Material v1.x Layouts. 
-
-*  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
-*  This implementation is currently only available for Angular (v2.4.3 and higher) applications.
 
 <br/>
 
