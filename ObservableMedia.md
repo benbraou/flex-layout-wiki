@@ -119,7 +119,7 @@ isActive(query: string): boolean
 
 This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias or a mediaQuery. 
 
-<br/>e.g.
+<br/>For example:
 
 *  `screen and (max-width: 600px)` is a mediaQuery for mobile viewport sizes.
 *  `xs` is an alias associated with the mobile mediaQuery.
