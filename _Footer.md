@@ -1,1 +1,1 @@
-- [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation) - [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview) - [Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
+ -&nbsp;&nbsp;&nbsp;[API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;[Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview))&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;[Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
