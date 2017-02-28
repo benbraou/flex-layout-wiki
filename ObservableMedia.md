@@ -117,11 +117,12 @@ export class MyDemo {
 isActive(query: string): boolean
 ```
 
-This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias OR an mediaQuery. 
+This method is useful both for expressions in component templates and in component imperative logic. The query can be an alias or a mediaQuery. 
+
 <br/>e.g.
 
-*  `xs`,
-*  `screen and (min-width: 600px) and (max-width: 959px)`
+*  `xs` is a called a mediaQuery **alias**
+*  `screen and (max-width: 600px)` is an mediaQuery for mobile-only
 
 ```js
 import {MediaChange, ObservableMedia} from "@angular/flex-layout";
@@ -138,8 +139,7 @@ export class MyDemo implements OnInit {
   constructor(public media: ObservableMedia) { }
 
   ngOnInit() {
-    const MOBILE = 'screen and (min-width: 600px) and (max-width: 959px)';
-
+    const MOBILE = 'screen and (max-width: 600px)';
     if (this.media.isActive('xs') || this.media.isActive(MOBILE)) {
        this.loadMobileContent();
     }
