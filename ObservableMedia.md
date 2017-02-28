@@ -138,7 +138,9 @@ export class MyDemo implements OnInit {
   constructor(public media: ObservableMedia) { }
 
   ngOnInit() {
-    if (this.media.isActive('xs')) {
+    const MQRY_MOBILE = 'screen and (min-width: 600px) and (max-width: 959px)';
+
+    if (this.media.isActive('xs') || this.media.isActive(MQRY_MOBILE)) {
        this.loadMobileContent();
     }
   }
