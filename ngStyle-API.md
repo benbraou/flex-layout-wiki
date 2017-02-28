@@ -16,11 +16,11 @@ The styles are updated according to the value of the expression evaluation:
    [ngStyle]="{'font-style': styleExp}">
  ... 
 </some-element>
-<br/>
+
 <some-element [ngStyle]="{'max-width.px': widthExp}">
   ...
 </some-element>
-<br/>
+
 <some-element [ngStyle]="objExp">
   ...
 </some-element>
@@ -38,11 +38,11 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS styl
     ngStyle.md="font-size: 24px; color : #0000ff; text-align: right;">
 ...
 </some-elment>
-<br/>
+
 <some-element [ngStyle]="{'max-width.px': widthExp}">
   ...
 </some-element>
-<br/>
+
 <some-element [ngStyle]="objExp">
   ...
 </some-element>
