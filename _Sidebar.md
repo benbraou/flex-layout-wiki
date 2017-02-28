@@ -12,7 +12,7 @@
   *  [Plunkr Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview)
 
 * History
-  * [Why use it?](https://github.com/angular/flex-layout#why-choose-flex-layout)
+  * [Why use it?](https://github.com/angular/flex-layout/wiki#why-choose-flex-layout)
   * [Browser Support](https://github.com/angular/flex-layout#browser-support)
   * [Background](https://github.com/angular/flex-layout/wiki/Background)
   * [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
