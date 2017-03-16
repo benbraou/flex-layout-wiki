@@ -158,8 +158,8 @@ import { DemoApp }          from './demo-app/demo-app';
   bootstrap       : [ DemoApp ],
   imports         : [
     BrowserModule,
-    MaterialModule.forRoot(),
-    FlexLayoutModule.forRoot()
+    MaterialModule,
+    FlexLayoutModule
   ]
 })
 export class DemoAppModule { }
