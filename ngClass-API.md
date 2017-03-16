@@ -36,7 +36,8 @@ For `xs`, the above ^ will <br/>
               [ngClass]="['first', 'second']" 
               ngClass.gt-xs="third" > </some-element>
 
-Here ^, for `sm` or larger viewport sizes the resulting host element's class will == 'third'.
+Here ^, for `sm` or larger viewport sizes the resulting <br/>
+host element's class will == 'third'.
 
 <some-element 
     [ngClass]="{'class1 class2 class3' : true}" 
