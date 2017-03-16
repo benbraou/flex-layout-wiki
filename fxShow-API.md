@@ -36,13 +36,15 @@ The *fallback* solution uses a **`largest_range-to-smallest_range`** search algo
 
 ### Overlapping Responsive API Usages
 
-When multiple overlapping breakpoint aliases are used, the one with the largest range wins. Consider:
+When multiple overlapping breakpoint aliases are used, the one with the largest range wins. 
+
+Consider:
 
 ```html
 <div fxShow="true" fxShow.gt-xs="true" fxShow.gt-md="false" ></div>
 ```
 
-when the media range for `md` activates, then **both** `gt-md` and `gt-xs` will match. But `gt-xs` matches **last** so that value will be used and therefore the div element will be shown.
+When the media range for `md` activates, then **both** `gt-md` and `gt-xs` responsive usages ^ will match. But `gt-xs` matches **last** so that value will be used and therefore the div element will be shown.
 
 
 ### Combine Uses of fxShow + fxHide
