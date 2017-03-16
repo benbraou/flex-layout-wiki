@@ -31,7 +31,7 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS clas
 
 <some-element 
     [ngClass]="['first', 'second']" 
-    ngClass.gt-xm="third" >
+    ngClass.gt-xs="third" >
 </some-element>
 
 <some-element 
