@@ -34,7 +34,7 @@ The *fallback* solution uses a **`largest_range-to-smallest_range`** search algo
 
 > Please note that there is no left-to-right precedence. This is an incorrect interpretation..
 
-##### Overlapping Ranges
+### Overlapping Responsive API Usages
 
 When multiple overlapping breakpoint aliases are used, the one with the largest range wins. Consider:
 
