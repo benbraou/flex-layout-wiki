@@ -24,14 +24,17 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS clas
 
 
 ```html
-<some-element ngClass="first second" [ngClass.xs]="{'first':false, 'third':true}">  </some-element>
+<some-element ngClass="first second" 
+              [ngClass.xs]="{'first':false, 'third':true}">  </some-element>
 
 For `xs`, the above ^ will <br/>
 *  remove the class='first', <br/>
 *  keep the class='second', and <br/>
 *  add the class='third' <br/>
 
-<some-element [ngClass]="['first', 'second']" ngClass.gt-xs="third" > </some-element>
+<some-element 
+              [ngClass]="['first', 'second']" 
+              ngClass.gt-xs="third" > </some-element>
 
 Here ^, for `sm` or larger viewport sizes the resulting host element's class will == 'third'.
 
