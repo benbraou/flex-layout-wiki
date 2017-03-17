@@ -20,13 +20,14 @@ One of the hardest features to implement is a grid layout with specific column s
 Live Demo:
 
 <a href="https://tburleson-layouts-demos.firebaseapp.com/#/stackoverflow" target="_blank">
-![featured](https://cloud.githubusercontent.com/assets/210413/24045163/216dae9c-0aec-11e7-8b22-616a4328eca3.jpg)
+<img alt="Featured" src="https://cloud.githubusercontent.com/assets/210413/24045163/216dae9c-0aec-11e7-8b22-616a4328eca3.jpg"></img>
 </a>
 
 Source Code:
 
-<a href="https://github.com/angular/flex-layout/blob/master/src/demo-app/app/stack-overflow/columnSpan.demo.ts#L23" target="_blank">
-![featured_source](https://cloud.githubusercontent.com/assets/210413/24045169/247bad3c-0aec-11e7-827a-6ece0775ff39.jpg)
+<a href="https://github.com/angular/flex-layout/blob/master/src/demo-app/app/stack-overflow/columnSpan.demo.ts#L23" target="_blank" >
+<img src="https://cloud.githubusercontent.com/assets/210413/24045169/247bad3c-0aec-11e7-827a-6ece0775ff39.jpg" alt="Feature Source" >
+</img>
 </a>
 
 
