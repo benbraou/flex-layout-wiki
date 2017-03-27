@@ -2,6 +2,18 @@ The *@angular/flex-layout* [**ngClass**](https://github.com/angular/flex-layout/
 
 ### Standard Features
 
+Developers using the `class` selector should note that classname assignments with this selector (and its responsive versions) are destructive and will overwrite any existing classnames in use.
+
+For example:
+
+```html
+<div class="class0" class.xs="class1 class2"></div>
+```
+By default the **div** will have only the `class0` classname assigned. 
+
+*  When the **xs** breakpoint activates, then the div will have `class1` and `class2` assigned but not `class0`.
+*  When the **xs** breakpoint deactivates, then the div will only have the `class0` name assigned.
+
 Traditionally **ngClass** adds and removes CSS classes on an HTML element:
 
 The CSS classes are updated as follows, depending on the type of the expression evaluation:
