@@ -24,7 +24,6 @@ We can associate breakpoints with mediaQuery definitions using breakpoint **alia
 
 | breakpoint | mediaQuery |
 |--------|--------|
-| ""    | 'screen'                                                |
 | xs    | 'screen and (max-width: 599px)'                         |
 | sm    | 'screen and (min-width: 600px) and (max-width: 959px)'  |
 | md    | 'screen and (min-width: 960px) and (max-width: 1279px)' |
