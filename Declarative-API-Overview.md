@@ -2,7 +2,7 @@
 
 The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
 
-The **Flex-Layout API** is a simply list of HTML directives (aka attributes) that can be used on HTML containers and elements.
+The **Flex-Layout API** is an intuitive list of HTML directives (aka attributes) that can be used on HTML containers and elements.
 An important [fundamental] concept is understanding which APIs are used on DOM containers versus APIs used on DOM elements in those containers.  
 
 #### API for DOM containers:  
