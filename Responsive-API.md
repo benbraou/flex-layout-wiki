@@ -60,7 +60,7 @@ Below is an example usage of the Responsive Layout API:
   <div fxFlex="33" [fxLayout]="direction" fxLayout.md="row" class="two">
 
     <div fxFlex="22"    fxFlex.md="10px" fxHide.lg                       class="two_one"></div>
-    <div fxFlex="205"   fxFlex.md="65"                                    class="two_two"></div>
+    <div fxFlex="205px" fxFlex.md="65"                                    class="two_two"></div>
     <div fxFlex="30px"  fxFlex.md="25"   fxShow [fxHide.md]="hideBox"   class="two_three"></div>
 
   </div>
@@ -71,6 +71,7 @@ Below is an example usage of the Responsive Layout API:
 
 In the markup above the HTML API directives use both static values and expression bindings; where the values are expressed as raw, percentage, or pixel values.
 
+> Note: numerica values not explicitly annotated as `px`, `vw`, or `vh` default to percentage values.
 <br/>
 
 
