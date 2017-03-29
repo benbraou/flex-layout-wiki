@@ -26,14 +26,18 @@ We can associate breakpoints with mediaQuery definitions using breakpoint **alia
 |--------|--------|
 | ""    | 'screen'                                                |
 | xs    | 'screen and (max-width: 599px)'                         |
-| gt-xs | 'screen and (min-width: 600px)'                         |
 | sm    | 'screen and (min-width: 600px) and (max-width: 959px)'  |
-| gt-sm | 'screen and (min-width: 960px)'                         |
 | md    | 'screen and (min-width: 960px) and (max-width: 1279px)' |
-| gt-md | 'screen and (min-width: 1280px)'                        |
 | lg    | 'screen and (min-width: 1280px) and (max-width: 1919px)'|
-| gt-lg | 'screen and (min-width: 1920px)'                        |
 | xl    | 'screen and (min-width: 1920px) and (max-width: 5000px)'|
+| lt-sm | 'screen and (max-width: 599px)'                         |
+| lt-md | 'screen and (max-width: 959px)'                         |
+| lt-lg | 'screen and (max-width: 1279px)'                        |
+| lt-xl | 'screen and (max-width: 1919px)'                        |
+| gt-xs | 'screen and (min-width: 600px)'                         |
+| gt-sm | 'screen and (min-width: 960px)'                         |
+| gt-md | 'screen and (min-width: 1280px)'                        |
+| gt-lg | 'screen and (min-width: 1920px)'                        |
 <br/>
 
 If we combine the breakpoint `alias` with the Static Flex-Layout API, we can easily support Responsive breakpoints using a simple markup convention: 
