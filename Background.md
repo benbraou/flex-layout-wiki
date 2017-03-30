@@ -8,7 +8,7 @@ Now let's add these complexities the requirements that developers often want com
 
 
 <a href="" target="_blank">
-![screen shot 2016-11-05 at 7 24 42 am](https://cloud.githubusercontent.com/assets/210413/20029960/fbbc0e62-a328-11e6-8045-c6532affc857.png)
+<img src="https://cloud.githubusercontent.com/assets/210413/20029960/fbbc0e62-a328-11e6-8045-c6532affc857.png">
 </a>
 
 
