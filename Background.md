@@ -11,6 +11,7 @@ Now let's add these complexities the requirements that developers often want com
 <img src="https://cloud.githubusercontent.com/assets/210413/20029960/fbbc0e62-a328-11e6-8045-c6532affc857.png">
 </a>
 
+<br/>
 
 Unfortunately, developers manually implementing Flexbox CSS must become experts at both the syntax and the workarounds to accommodate browser-specific differences in Flexbox runtime support.
 
