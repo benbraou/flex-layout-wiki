@@ -82,9 +82,9 @@ This algorithm searches:
 
 * For non-overlapping breakpoints: the search scans from largest-to-small breakpoint range to find the closest, matching activation value.
   * (**`xl`**, **`lg`**, **`md`**, **`sm`**, **`xs`**)
-* For overlapping breakpoints: the search scans from smallest -to-largest breakpoint range to find the closest, matching activation value.
-  *  (**`gt-lg`**, **`gt-md`**, **`gt-sm`**, **`gt-xs`**)
-  *  (**`lt-xl`**, **`lt-lg`**, **`lt-md`**, **`lt-sm`**)
+* For overlapping breakpoints: the search scans from smallest-to-largest breakpoint range to find the closest, matching activation value.
+  *  (**`gt-lg`**, **`gt-md`**, **`gt-sm`**, **`gt-xs`**); where **`gt-xs`** is the largest range.
+  *  (**`lt-xl`**, **`lt-lg`**, **`lt-md`**, **`lt-sm`**); where **`lt-xl`** is the largest range
 
 Consider the following responsive markup examples:
 
