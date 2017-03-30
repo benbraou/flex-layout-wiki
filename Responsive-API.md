@@ -96,10 +96,10 @@ Consider the following responsive markup examples:
 
 When the activated breakpoint is:
 
-* `xl`, then both closest, activated match is the default fxShow; so the **div** is shown
+* `xl`, then *fallback* to the default fxShow; so the **div** is shown
 * `lg`, then the **div** is hidden (since the value === 'true')
-* `md`, then both closest, activated match is the default fxShow; so the **div** is shown
-* `sm`, then both closest, activated match is the default fxShow; so the **div** is shown
+* `md`, then *fallback* to the default fxShow; so the **div** is shown
+* `sm`, then *fallback* to the default fxShow; so the **div** is shown
 * `xs`, then the **div** is shown (since the value === 'false')
 
 #### Example #2
@@ -110,8 +110,8 @@ When the activated breakpoint is:
 
 When the activated breakpoint is:
 
-* `xl`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
-* `lg`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
-* `md`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
-* `sm`, then both closest, activated match is the default fxFlex="50%"; so the **div** sizing is 50% 
-* `xs`, then both closest, activated match is the default fxFlex="50%"; so the **div** sizing is 50% 
+* `xl`, then *fallback* to 'gt-sm' so the **div** sizing is 100%
+* `lg`, then *fallback* to 'gt-sm' so the **div** sizing is 100%
+* `md`, then *fallback* to 'gt-sm' so the **div** sizing is 100%
+* `sm`, then *fallback* to the default fxFlex="50%"; so the **div** sizing is 50% 
+* `xs`, then *fallback* to the default fxFlex="50%"; so the **div** sizing is 50% 
