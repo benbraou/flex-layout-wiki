@@ -74,4 +74,38 @@ In the markup above the HTML API directives use both static values and expressio
 > Note: numerica values not explicitly annotated as `px`, `vw`, or `vh` default to percentage values.
 <br/>
 
+### Breakpoint Activation Fallback Algorithm
 
+When a breakpoint is activated and the hosting element does NOT have a responsive API defined for the newly activated breakpoint, the Flex-Layout responsive engine uses a **fallback, descending-scan** algorithm to determine the replacement activation value.
+
+This algorithm searches from largest-to-small breakpoint range to find the closest, matching activation value.
+
+Consider the following responsive markup examples:
+
+#### Example #1
+
+```html
+<div fxShow fxHide.xs="false" fxHide.lg="true"> ... </div>
+```
+
+When the activated breakpoint is:
+
+* `xl`, then both closest, activated match is the default fxShow; so the **div** is shown
+* `lg`, then the **div** is hidden (since the value === 'true')
+* `md`, then both closest, activated match is the default fxShow; so the **div** is shown
+* `sm`, then both closest, activated match is the default fxShow; so the **div** is shown
+* `xs`, then the **div** is shown (since the value === 'false')
+
+#### Example #2
+
+```html
+<div fxFlex="50%" fxFlex.gt-sm="100%"> ... </div>
+```
+
+When the activated breakpoint is:
+
+* `xl`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
+* `lg`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
+* `md`, then both closest, activated match is 'gt-sm' so the **div** sizing is 100%
+* `sm`, then both closest, activated match is the default fxFlex="50%"; so the **div** sizing is 50% 
+* `xs`, then both closest, activated match is the default fxFlex="50%"; so the **div** sizing is 50% 
