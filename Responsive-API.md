@@ -78,7 +78,13 @@ In the markup above the HTML API directives use both static values and expressio
 
 When a breakpoint is activated and the hosting element does NOT have a responsive API defined for the newly activated breakpoint, the Flex-Layout responsive engine uses a **fallback, descending-scan** algorithm to determine the replacement activation value.
 
-This algorithm searches from largest-to-small breakpoint range to find the closest, matching activation value.
+This algorithm searches:
+
+* For non-overlapping breakpoints: the search scans from largest-to-small breakpoint range to find the closest, matching activation value.
+  * (**`xl`**, **`lg`**, **`md`**, **`sm`**, **`xs`**)
+* For overlapping breakpoints: the search scans from smallest -to-largest breakpoint range to find the closest, matching activation value.
+  *  (**`gt-lg`**, **`gt-md`**, **`gt-sm`**, **`gt-xs`**)
+  *  (**`lt-xl`**, **`lt-lg`**, **`lt-md`**, **`lt-sm`**)
 
 Consider the following responsive markup examples:
 
