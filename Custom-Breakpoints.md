@@ -77,9 +77,10 @@ export class LayoutDirective extends BaseFxDirective {
 }
 ```
 
+> This restriction will be removed in the future; with the resolution of [Issue @angular/#13355](https://github.com/angular/angular/issues/13355).
 
 
-These **hard-coded** responsive selectors present two (2) requirements:
+For the present, these **hard-coded** responsive selectors present two (2) requirements:
 
 #### (1) Required Aliases
 
