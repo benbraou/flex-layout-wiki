@@ -69,7 +69,7 @@ Example #3:
 
 Note that the default classes (specified by `class=""` and `ngClass="..."` will be preserved (and merged) into other activation class lists UNLESS the breakpoint has specified that a default class should be removed:
 
-Below the class === "first" used all mediaQuery activations **except** for 'xs' (mobile) where it is explicitly removed;
+Below the class `first` is used for all mediaQuery activations **except** for 'xs' (mobile) where it is explicitly removed;
 
 ```html
 <some-element  
