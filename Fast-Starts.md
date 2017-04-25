@@ -1,7 +1,7 @@
 ### NPM Install
 
 ```terminal
-npm - @angular/flex-layout -D
+npm install @angular/flex-layout -D
 ```
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
@@ -9,7 +9,6 @@ Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
 ```js
 import { NgModule }         from '@angular/core';
 import { BrowserModule }    from '@angular/platform-browser';
-import { MaterialModule }   from "@angular/material";
 import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { DemoApp }          from './demo-app/demo-app';
@@ -19,7 +18,6 @@ import { DemoApp }          from './demo-app/demo-app';
   bootstrap       : [ DemoApp ],
   imports         : [
     BrowserModule,
-    MaterialModule,
     FlexLayoutModule
   ]
 })
