@@ -92,26 +92,41 @@ System.config({
   }
 });
 ```
-
 ----
-
-### Local Builds
-
-Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
-and a directory copy:
-
-```console
-gulp build:release
-ditto ./dist/@angular/flex-layout <projectPath>/node_modules/@angular/flex-layout
-```
-
-> The expected deployment process to **npm** (and the standardized use 
-of `npm i @angular/flex-layout`) is **NOT** yet available. NPM installs will be available 
-after the the flex-layout v1.0.0-beta.1 release (week of December 20, 2016).
 
 <br/>
 
-### 1) UMD + `<script>`
+### 1) Angular CLI + **yarn** + `@angular/flex-layout`
+
+If you are using the Angular CLI to bundle and serve your application (using `ng serve`). 
+
+```terminal
+yarn install @angular/flex-layout
+```
+
+Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
+
+```js
+import { NgModule }         from '@angular/core';
+import { BrowserModule }    from '@angular/platform-browser';
+import { FlexLayoutModule } from "@angular/flex-layout";
+
+import { DemoApp }          from './demo-app/demo-app';
+
+@NgModule({
+  declarations    : [ DemoApp ],
+  bootstrap       : [ DemoApp ],
+  imports         : [
+    BrowserModule,
+    FlexLayoutModule
+  ]
+})
+export class DemoAppModule { }
+```
+
+<br/>
+
+### 2) UMD + `<script>`
 
 Use Gulp and Rollup to build `flex-layout.umd.js` UMD:
 
@@ -129,38 +144,16 @@ Use the bundle with an external script tag in the index.html of your Angular 2 a
 
 <br/>
 
-### 2) Angular CLI + `@angular/flex-layout`
+### Local Builds
 
-If you are using the Angular CLI to bundle and serve your application (using `ng serve`), 
-you can use the `ngc` to build the *flex-layout* files; each with  generated metadata files. 
+Developers can, however, easily install this `@angular/flex-layout` library using a **local repository build** 
+and a directory copy:
 
-Copy that directory to your project's `node_modules/@angular/flex-layout` directory:
-
-```terminal
+```console
 gulp build:release
-cp -rF ./dist/@angular/flex-layout <ngCLiProjectPath>/node_modules/@angular/
+ditto ./dist/@angular/flex-layout <projectPath>/node_modules/@angular/flex-layout
 ```
 
-Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
-
-```js
-import { NgModule }         from '@angular/core';
-import { BrowserModule }    from '@angular/platform-browser';
-import { MaterialModule }   from "@angular/material";
-import { FlexLayoutModule } from "@angular/flex-layout";
-
-import { DemoApp }          from './demo-app/demo-app';
-
-@NgModule({
-  declarations    : [ DemoApp ],
-  bootstrap       : [ DemoApp ],
-  imports         : [
-    BrowserModule,
-    MaterialModule,
-    FlexLayoutModule
-  ]
-})
-export class DemoAppModule { }
-```
-
-
+> The expected deployment process to **npm** (and the standardized use 
+of `npm i @angular/flex-layout`) is **NOT** yet available. NPM installs will be available 
+after the the flex-layout v1.0.0-beta.1 release (week of December 20, 2016).
