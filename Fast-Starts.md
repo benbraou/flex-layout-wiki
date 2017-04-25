@@ -1,7 +1,7 @@
 ### NPM Install
 
 ```terminal
-npm install @angular/flex-layout -D
+npm install @angular/flex-layout -saveDev
 ```
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
