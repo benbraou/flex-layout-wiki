@@ -25,8 +25,10 @@ import { NgModule } from '@angular/core';
 import { RAW_DEFAULTS, BreakPoint } from '@angular/flex-layout'
 import { validateSuffixes } from '@angular/flex-layout/utils';
 
+/**
+ * For mobile and tablet, reset ranges
+ */
 function updateBreakpoints((it:BreakPoint) => {
-  // For mobile and tablet, reset ranges
   switch(it.alias) {
     case 'xs' : it.mediaQuery =  '(max-width: 470px)';   break;
     case 'sm' : it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; break;
@@ -36,7 +38,7 @@ function updateBreakpoints((it:BreakPoint) => {
 
 @NgModule({
   providers: [
-    // register a custom provider
+    // register a Custom BREAKPOINT Provider
     {
       provide : BREAKPOINTS,
       useFactory : function customizeBreakPoints() {
