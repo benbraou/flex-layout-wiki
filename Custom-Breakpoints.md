@@ -2,15 +2,30 @@ Developers can easily override the default breakpoints used within Flex-Layout.
 
 ### Default Breakpoints
 
-The default breakpoints are defined in [break-points-provider.ts](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/providers/break-points-provider.ts#L15) and are registered as a provider using the [`BREAKPOINTS`](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/providers/break-points-provider.ts#L76) opaque token.
+The default breakpoints are defined in [break-points.ts](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/breakpoints/data/break-points.ts#L14) and are registered as a provider using the [`BREAKPOINTS`](https://github.com/angular/flex-layout/blob/master/src/lib/media-query/breakpoints/break-points-token.ts#L16) injection token.
 
 ```js
+import { DEFAULT_BREAKPOINTS } from '@angular/flex-layout';
+import { validateSuffixes } from '@angular/flex-layout/utils';
+
 /**
- *  Provider to return a list to ALL known BreakPoint(s)
+ *  Ensure that only a single global BreakPoint list is instantiated...
  */
-export const BreakPointsProvider = { 
-  provide: BREAKPOINTS,       // opaque token
-  useValue: RAW_DEFAULTS      // raw object list
+export function DEFAULT_BREAKPOINTS_PROVIDER_FACTORY() {
+  return validateSuffixes(DEFAULT_BREAKPOINTS);
+}
+/**
+ * Default Provider that does not support external customization nor provide
+ * the extra extended breakpoints:   "handset", "tablet", and "web"
+ *
+ *  NOTE: !! breakpoints are considered to have unique 'alias' properties,
+ *        custom breakpoints matching existing breakpoints will override the properties
+ *        of the existing (and not be added as an extra breakpoint entry).
+ *        [xs, gt-xs, sm, gt-sm, md, gt-md, lg, gt-lg, xl]
+ */
+export const DEFAULT_BREAKPOINTS_PROVIDER = { // tslint:disable-line:variable-name
+  provide: BREAKPOINTS,
+  useFactory: DEFAULT_BREAKPOINTS_PROVIDER_FACTORY
 };
 ```
 
@@ -22,7 +37,7 @@ Developers should build custom providers to override the default **BreakPointReg
 
 ```js
 import { NgModule } from '@angular/core';
-import { RAW_DEFAULTS, BreakPoint } from '@angular/flex-layout'
+import { DEFAULT_BREAKPOINTS, BreakPoint } from '@angular/flex-layout'
 import { validateSuffixes } from '@angular/flex-layout/utils';
 
 /**
