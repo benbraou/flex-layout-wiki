@@ -21,8 +21,18 @@ Please review the wiki [Responsive API](https://github.com/angular/flex-layout/w
 Developers should build custom providers to override the default **BreakPointRegistry** provider.
 
 ```js
-import {NgModule } from '@angular/core';
-import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
+import { NgModule } from '@angular/core';
+import { RAW_DEFAULTS, BreakPoint } from '@angular/flex-layout'
+import { validateSuffixes } from '@angular/flex-layout/utils';
+
+function updateBreakpoints((it:BreakPoint) => {
+  // For mobile and tablet, reset ranges
+  switch(it.alias) {
+    case 'xs' : it.mediaQuery =  '(max-width: 470px)';   break;
+    case 'sm' : it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; break;
+  }
+  return it;
+})
 
 @NgModule({
   providers: [
@@ -30,18 +40,7 @@ import { RAW_DEFAULTS, BreakPoint } from '@angular/flex'
     {
       provide : BREAKPOINTS,
       useFactory : function customizeBreakPoints() {
-          return RAW_DEFAULTS
-            .map((it:BreakPoint) => {
-              // For mobile and tablet, reset ranges
-              switch(it.alias) {
-                case 'xs' : 
-                  it.mediaQuery =  '(max-width: 470px)';                        
-                  break;
-                case 'sm' : 
-                  it.mediaQuery =  '(min-width: 471px) and (max-width: 820px)'; 
-                  break;
-              }
-            });
+        return validateSuffixes(RAW_DEFAULTS.map( updateBreakpoints ));
       }
     }
   ]
