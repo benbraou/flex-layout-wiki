@@ -48,7 +48,7 @@ The Flex-Layout **ngClass** adds responsive features to also add/remove CSS styl
 </some-element>
 ```
 
-#### Merging Classes
+#### Merging Styles
 
 Note that the default styles (specified by `style=""` or `ngStyle="..."`) will be preserved (and merged) into other activation class lists UNLESS the breakpoint has specified that a style should be removed (using a null value)
 
