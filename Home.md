@@ -9,7 +9,8 @@ The Layout engine intelligently automates the process of applying appropriate Fl
 Angular Flex Layout is a pure-Typescript Layout engine; unlike the pure CSS-only implementations published in other Flexbox libraries  and the JS+CSS implementation of Angular Material v1.x Layouts. 
 
 *  This implementation of Angular Flex Layouts is independent of Angular Material (v1 or v2).
-*  This implementation is currently only available for Angular (v2.4.3 and higher) applications.
+*  This implementation is currently only available for Angular (v4.1 and higher) applications.
+  > Recent changes to AOT support and Renderers require v4.1. Support for Angular 2.4.x is terminates after Beta 7.
 
 ----
 
