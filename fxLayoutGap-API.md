@@ -3,7 +3,7 @@ The [**fxLayoutGap** directive](https://github.com/angular/flex-layout/blob/mast
 *  `margin-right` used when the parent container `flex-direction` == "row" 
 *  `margin-bottom` used when the parent container `flex-direction` == "column" 
 
-> Note that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
+> Note that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified. Additionally, `fxLayoutGap` does not respond to reveresed flow directions: `column-reverse` or `row-reverse` are used.
 
 <br/>
 
@@ -51,4 +51,39 @@ The [**fxLayoutGap** directive](https://github.com/angular/flex-layout/blob/mast
 
 When using `fxLayoutWrap` to wrap rows or columns, developers should account for the gap sizes when specifying the child item sizes (using fxFlex).
 
-> fxLayoutGap does not track whether `column-reverse` or `row-reverse` are used.
+<br/>
+
+#### Rendered Layout without gap considerations:
+
+![screen shot 2017-05-20 at 4 03 37 pm](https://cloud.githubusercontent.com/assets/210413/26279328/19c32142-3d76-11e7-826c-837603a6db76.png)
+
+#### Rendered Layout **WITH* gap considerations:
+
+![image](https://cloud.githubusercontent.com/assets/210413/26279332/2dfe9d76-3d76-11e7-810b-e15cbcd5dd21.png)
+
+----
+
+```html
+<md-card fxFlex fxFlexAlign="start">
+
+    <md-card-content>
+      <div fxLayout fxLayout.xs="column" fxLayoutWrap fxLayoutGap="25px">
+        <md-input-container fxFlex="calc(50%-25px)">
+          <input mdInput placeholder="Name">
+        </md-input-container>
+        <md-input-container fxFlex="calc(50%-25px)">
+          <input mdInput placeholder="Occupation">
+        </md-input-container>
+        <md-input-container fxFlex="calc(50%-25px)">
+          <input mdInput placeholder="Compnay">
+        </md-input-container>
+      </div>
+    </md-card-content>
+
+    <md-card-actions>
+      <button md-button>Anterior</button>
+      <button md-button>Proximo</button>
+    </md-card-actions>
+</md-card>
+
+
