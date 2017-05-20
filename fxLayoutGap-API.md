@@ -1,23 +1,13 @@
 The [**fxLayoutGap** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout-gap.tst#L38) should be used on to specify margin gaps on children within a flexbox container (e.g. nested within a fxLayout container).
 
-DOM containers whose children should layout or flow as the text direction along the main-axis or the cross-axis. 
-
-```html
-<div fxLayout="row" fxLayoutGap="25px">
-  <div>1. One</div> <div>2. Two</div> <div>3. Three</div> <div>4. Four</div>
-</div>
-```
-
-or
-
+Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon the flow direction of the parent container.
 
 ```html
 <div fxLayout="row">
   <div>1. One</div> <div>2. Two</div> <div>3. Three</div> <div>4. Four</div>
 </div>
 ```
-
-![fxLayout_row](https://cloud.githubusercontent.com/assets/210413/26279205/f0d8901c-3d72-11e7-825a-4f0223c11cb1.jpg)
+![lg_1](https://cloud.githubusercontent.com/assets/210413/26279226/7d1633c2-3d73-11e7-8378-4eaca05a78a0.jpg)
 
 ```html
 <div fxLayout="row" fxLayoutGap="20px">
@@ -25,7 +15,7 @@ or
 </div>
 ```
 
-![fxLayout_row_gap](https://cloud.githubusercontent.com/assets/210413/26279206/f242a212-3d72-11e7-9929-4803ac30f75e.jpg)
+![lg_2](https://cloud.githubusercontent.com/assets/210413/26279227/7d1660c2-3d73-11e7-94a2-b604ba319cbe.jpg)
 
 ```html
 <div fxLayout="column" >
@@ -43,24 +33,5 @@ or
 
 <br/>
 
-### fxLayout Options
+Note: that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
 
-Shown below are the supported **fxLayout** directive values and their resulting CSS stylings on the hosting element container:
-
-| Value | Equivalent CSS | 
-| ----- | -------------- |
-|  '' (default)    | `{flex-direction: row}` |
-|  `row`     | `{flex-direction: row}` |
-|  `row-reverse`  | `{flex-direction: row-reverse}` |
-|  `column`     | `{flex-direction: column}` |
-|  `column-reverse`     | `{flex-direction: column-reverse}` |
-
-<br/>
-
-### fxLayout Side-Effects
-
-Changes to the fxLayout value will cause the following directives to update and modify their element stylings:
-
-*  **fxLayoutGap**
-*  **fxFlex**
-*  **fxLayoutAlign**
