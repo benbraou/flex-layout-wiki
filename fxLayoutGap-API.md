@@ -38,5 +38,11 @@ Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon
 
 <br/>
 
-Note: that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
+> Note that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
 
+
+### Using fxLayoutGap with **Wrap**
+
+When using `fxLayoutWrap` to wrap rows or columns, developers should account for the gap sizes when specifying the child item sizes (using fxFlex).
+
+> fxLayoutGap does not track whether `column-reverse` or `row-reverse` are used.
