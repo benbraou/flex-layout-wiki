@@ -53,11 +53,11 @@ When using `fxLayoutWrap` to wrap rows or columns, developers should account for
 
 <br/>
 
-#### Rendered Layout without gap considerations:
+#### Issue: Rendered Layout without gap considerations:
 
 ![screen shot 2017-05-20 at 4 03 37 pm](https://cloud.githubusercontent.com/assets/210413/26279328/19c32142-3d76-11e7-826c-837603a6db76.png)
 
-#### Rendered Layout **WITH* gap considerations:
+#### Solution: Rendered Layout **WITH* gap considerations:
 
 ![image](https://cloud.githubusercontent.com/assets/210413/26279332/2dfe9d76-3d76-11e7-810b-e15cbcd5dd21.png)
 
