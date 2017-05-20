@@ -1,8 +1,15 @@
 The [**fxLayoutGap** directive](https://github.com/angular/flex-layout/blob/master/src/lib/flexbox/api/layout-gap.tst#L38) should be used on to specify margin gaps on children within a flexbox container (e.g. nested within a fxLayout container).
 
-Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon the flow direction of the parent container.
+*  `margin-right` used when the parent container `flex-direction` == "row" 
+*  `margin-bottom` used when the parent container `flex-direction` == "column" 
 
-### Flex-Direction: Row
+> Note that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
+
+<br/>
+
+## Examples:
+
+#### Flex-Direction: Row
 
 ```html
 <div fxLayout="row">
@@ -19,7 +26,7 @@ Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon
 
 ![lg_2](https://cloud.githubusercontent.com/assets/210413/26279227/7d1660c2-3d73-11e7-94a2-b604ba319cbe.jpg)
 
-### Flex-Direction: Column
+#### Flex-Direction: Column
 
 
 ```html
@@ -38,7 +45,6 @@ Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon
 
 <br/>
 
-> Note that the last child item will **NOT** have a margin gap specified; only the inside gaps are specified.
 
 
 ### Using fxLayoutGap with **Wrap**
