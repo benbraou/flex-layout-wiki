@@ -2,6 +2,8 @@ The [**fxLayoutGap** directive](https://github.com/angular/flex-layout/blob/mast
 
 Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon the flow direction of the parent container.
 
+### Flex-Direction: Row
+
 ```html
 <div fxLayout="row">
   <div>1. One</div> <div>2. Two</div> <div>3. Three</div> <div>4. Four</div>
@@ -16,6 +18,9 @@ Either `margin-right` or `margin-bottom` are used to create gaps; dependent upon
 ```
 
 ![lg_2](https://cloud.githubusercontent.com/assets/210413/26279227/7d1660c2-3d73-11e7-94a2-b604ba319cbe.jpg)
+
+### Flex-Direction: Column
+
 
 ```html
 <div fxLayout="column" >
