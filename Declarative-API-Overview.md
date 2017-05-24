@@ -10,7 +10,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 | HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
 |  [fxLayout](https://github.com/angular/flex-layout/wiki/fxLayout-API)         | `row \| column \| row-reverse \| column-reverse`                           |                  
-|  fxLayoutAlign   | `start \|center \| end \| space-around \| space-between`, `start \| center \| end \| stretch`                  |  fxLayoutWrap    | `"" \| wrap \| none \| nowrap \| reverse`                                   |                   
+|  fxLayoutAlign   | `start \|center \| end \| space-around \| space-between` <br/> `start \| center \| end \| stretch`                  |  fxLayoutWrap    | `"" \| wrap \| none \| nowrap \| reverse`                                   |                   
 |  [fxLayoutGap](https://github.com/angular/flex-layout/wiki/fxLayoutGap-API)     | % \|  px \|  vw \|  vh                                                           |     
 
 > These directives ^ affect the flow and layout children elements in the container
