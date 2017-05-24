@@ -11,7 +11,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |--------------------|-------------------------------------------------------------------------|
 |  [fxLayout](https://github.com/angular/flex-layout/wiki/fxLayout-API)         | `row \| column \| row-reverse \| column-reverse`                           |                  
 |  fxLayoutAlign   | `start \|center \| end \| space-around \| space-between`, `start \| center \| end \| stretch`                  |  fxLayoutWrap    | `"" \| wrap \| none \| nowrap \| reverse`                                   |                   
-|  [fxLayoutGap](https://github.com/angular/flex-layout/wiki/fxLayoutGap-API)     | %, px, vw, vh                                                           |     
+|  [fxLayoutGap](https://github.com/angular/flex-layout/wiki/fxLayoutGap-API)     | % \|  px \|  vw \|  vh                                                           |     
 
 > These directives ^ affect the flow and layout children elements in the container
 
@@ -19,9 +19,9 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
-|  [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
+|  [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)           | ""  \| px  \|  % \|  vw \|  vh \|  `<grow> <shrink> <basis>`,                         |              
 |  fxFlexOrder     | int                                                                     |                       
-|  fxFlexOffset    | %, px, vw, vh                                                           |     
+|  fxFlexOffset    | % \|  px \|  vw \|  vh                                                           |     
 |  fxFlexAlign      | `start \| baseline \| center \| end`                                             |                   
 |  fxFlexFill       |                                                                         |
 
@@ -31,8 +31,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 
 | HTML API    | Allowed values                                                                 |
 |--------------------|-------------------------------------------------------------------------|
-|  fxHide           | TRUE, FALSE, 0, ""                                                      |     
-|  fxShow           | TRUE, FALSE, 0, ""                                                      |     
+|  fxHide           | TRUE \|  FALSE \|  0 \|  ""                                                      |     
+|  fxShow           | TRUE \|  FALSE \|  0 \|  ""                                                      |     
 |  ngClass          | @see [ngClass](https://angular.io/docs/ts/latest/api/common/index/NgClass-directive.html)                                                      |     
 |  ngStyle          | @see [ngStyle](https://angular.io/docs/ts/latest/api/common/index/NgStyle-directive.html)                                                      |      
 
