@@ -10,7 +10,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 | HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
 |--------------------|-------------------------------------------------------------------------|
 |  [fxLayout](https://github.com/angular/flex-layout/wiki/fxLayout-API)         | `row \| column \| row-reverse \| column-reverse`                           |                  
-|  fxLayoutAlign   | [`start \|center \| end`,`space-around`,`space-between`] [`start`,`center`,`end`,`stretch`]                  |  fxLayoutWrap    | `"" | wrap | none | nowrap | reverse`                                   |                   
+|  fxLayoutAlign   | `start \|center \| end \| space-around \| space-between`, `start \| center \| end \| stretch`                  |  fxLayoutWrap    | `"" \| wrap \| none \| nowrap \| reverse`                                   |                   
 |  [fxLayoutGap](https://github.com/angular/flex-layout/wiki/fxLayoutGap-API)     | %, px, vw, vh                                                           |     
 
 > These directives ^ affect the flow and layout children elements in the container
@@ -22,7 +22,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM c
 |  [fxFlex](https://github.com/angular/flex-layout/wiki/fxFlex-API)           | "" , px , %, vw, vh, "<grow> <shrink> <basis>",                         |              
 |  fxFlexOrder     | int                                                                     |                       
 |  fxFlexOffset    | %, px, vw, vh                                                           |     
-|  fxFlexAlign      | `start|baseline|center|end`                                             |                   
+|  fxFlexAlign      | `start \| baseline \| center \| end`                                             |                   
 |  fxFlexFill       |                                                                         |
 
 > These directives ^ affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
