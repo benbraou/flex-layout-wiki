@@ -23,7 +23,7 @@
   *  [Complete Guide to FlexBox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   
 * History
-  * [Why use it?](https://github.com/angular/flex-layout/wiki/Why-Use-Flex-Layout)
+  * [Why use it?](https://github.com/angular/flex-layout/wiki/Why-use-@angular-flex-layout-%3F)
   * [Browser Support](https://github.com/angular/flex-layout/wiki/Browswer-Support)
   * [Background](https://github.com/angular/flex-layout/wiki/Background)
   * [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
