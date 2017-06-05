@@ -1,17 +1,17 @@
 ### Why choose Flex-Layout
 
-While other Flexbox CSS libraries are implementations of:
+Other Flexbox CSS libraries are implementations of:
 
 * pure CSS-only implementations, or 
-* the JS+CSS Stylesheets implementation of Angular Material v1.x Layouts.
+* JS+CSS stylesheets. An implementation of this is available in Angular Material v1.x Layouts API.
 
-Angular Flex Layout - in contrast - is a pure-Typescript UI Layout engine with an implementation that: 
+In contrast, @angular/flex-layout is a pure-Typescript UI Layout engine with an implementation that: 
 
-*  uses HTML attributes (aka Layout API) to specify the layout configurations
-*  is currently only available for Angular (v2.x or higher) Applications.
+*  uses HTML markup (aka Layout API) to specify the layout configurations
 *  is independent of Angular Material (v1 or v2).
 *  requires no external stylesheets.
-*  requires Angular v2.4.3 or higher.
+*  requires Angular v4.1.x or higher.
+*  is currently only available for Angular (v2.x or higher) Applications.
 
 <br/>
 
