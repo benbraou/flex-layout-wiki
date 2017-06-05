@@ -39,7 +39,7 @@ And other more important benefits have also been realized:
 
 ### Issues with CSS-based Flexbox
 
-Angular Material clearly demonstrated the limitations of a FlexBox-solution implemented as CSS class solutions. The most significant of these was the limitations with using parameterized values. 
+Angular Material clearly demonstrated the limitations of a FlexBox-solution implemented as CSS classes. The most significant of these was the limitations with using parameterized values. 
 
 Consider the **allowed values** listed in the [Static API tables](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview#api-for-dom-containers). Support for even a limited set of **Allowed Value** variations lead to a combinatorial explosion of required CSS classes... 
 
