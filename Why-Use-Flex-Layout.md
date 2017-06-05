@@ -33,6 +33,10 @@ And other more important benefits have also been realized:
   *  Includes workaround for MediaQuery issues with **overlapping** breakpoints
 *  MediaQuery Activation detection 
 
+<br/>
+
+----
+
 ### Issues with CSS-based Flexbox
 
 Angular Material clearly demonstrated the limitations of a FlexBox-solution implemented as CSS class solutions. The most significant of these was the limitations with using parameterized values. 
