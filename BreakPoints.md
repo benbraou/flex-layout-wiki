@@ -5,7 +5,7 @@ import {OpaqueToken} from '@angular/core';
 
 export const BreakPointsProvider = { 
   provide: BREAKPOINTS,
-  useValue: RAW_DEFAULTS
+  useValue: DEFAULT_BREAKPOINTS
 };
 ```
 
@@ -35,7 +35,7 @@ For example to add mediaQueries that activate when printing:
 ##### - `custom-breakpoints.ts` - 
 
 ```js
-import {RAW_DEFAULTS} from '@angular/flex-layout';
+import {DEFAULT_BREAKPOINTS} from '@angular/flex-layout';
 
 const PRINT_BREAKPOINTS = [{
   alias: 'xs.print',
@@ -46,7 +46,7 @@ const PRINT_BREAKPOINTS = [{
 
 export const CustomBreakPointsProvider = { 
   provide: BREAKPOINTS,
-  useValue: [...RAW_DEFAULTS,...PRINT_BREAKPOINTS];
+  useValue: [...DEFAULT_BREAKPOINTS,...PRINT_BREAKPOINTS];
 };
 ```
 
