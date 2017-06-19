@@ -30,6 +30,12 @@ The new command creates a project with a build system for your Angular app.
 npm install --save @angular/flex-layout@latest
 ```
 
+Or install latest updates in master/HEAD using:
+
+```bash
+npm i github:angular/flex-layout-builds --save
+```
+
 ## Import the Angular Flex-Layout NgModule
   
 **src/app/app.module.ts**
