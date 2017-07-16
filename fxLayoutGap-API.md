@@ -70,14 +70,14 @@ When using `fxLayoutWrap` to wrap rows or columns, developers should account for
 
     <md-card-content>
       <div fxLayout fxLayout.xs="column" fxLayoutWrap fxLayoutGap="25px">
-        <md-input-container fxFlex="calc(50%-25px)">
+        <md-input-container fxFlex="calc(50% - 25px)">
           <input mdInput placeholder="Name">
         </md-input-container>
-        <md-input-container fxFlex="calc(50%-25px)">
+        <md-input-container fxFlex="calc(50% - 25px)">
           <input mdInput placeholder="Occupation">
         </md-input-container>
-        <md-input-container fxFlex="calc(50%-25px)">
-          <input mdInput placeholder="Compnay">
+        <md-input-container fxFlex="calc(50% - 25px)">
+          <input mdInput placeholder="Company">
         </md-input-container>
       </div>
     </md-card-content>
