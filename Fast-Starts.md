@@ -34,7 +34,7 @@ If your approach follows those shown on the tutorials at **angular.io**, then us
 Here is a Plunkr [Flex-Layout Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview):
 
 <a href="https://plnkr.co/edit/h8hzyoEyqdCXmTBA7DfK?p=preview" target="_blank">
-![screen shot 2016-12-14 at 1 37 51 pm](https://cloud.githubusercontent.com/assets/210413/21197851/9bb2de6c-c202-11e6-9165-53c08663d788.png)
+<img src="https://cloud.githubusercontent.com/assets/210413/21197851/9bb2de6c-c202-11e6-9165-53c08663d788.png"></img>
 </a>
 
 <br/>
