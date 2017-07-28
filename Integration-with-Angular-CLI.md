@@ -36,6 +36,12 @@ If you want the most recent fixes [that have not yet been released to NPM], you 
 npm i github:angular/flex-layout-builds --save
 ```
 
+or 
+
+```bash
+yarn add angular/flex-layout-builds --save
+```
+
 ## Import the Angular Flex-Layout NgModule
   
 **src/app/app.module.ts**
@@ -68,4 +74,4 @@ System.config({
 Developers are encouraged to review the live demos and source for the Flex-Layout Demos:
 
 *  [Live Demos](https://tburleson-layouts-demos.firebaseapp.com/)
-*  [Demo Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
+*  [Demo Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/)
