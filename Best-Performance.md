@@ -17,7 +17,7 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 
 ![screen shot 2017-08-03 at 12 46 39 pm](https://user-images.githubusercontent.com/210413/28935328-d1667e58-7849-11e7-8e2d-5983b4071a1d.png)
 
-> Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts; which requires significant webkit engine processing to adjust column heights appropriately.
+> Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts. Developers should note that FlexBox CSS with `flex-direction = "column"` requires significantly more webkit engine processing to properly adjust column heights and layout the composition.
 
 #### Use Responsive Class API for large Tables
 
