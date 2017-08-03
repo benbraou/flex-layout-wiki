@@ -8,20 +8,24 @@ Developers generating dynamic tables (using `*ngFor`) should be aware of perform
 For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice for layouts. Consider the table definition below were each row has column elements; each using a `fxFlex`. Since the directives apply styles inline for each element in each row, large tables may manifest performance impacts with dynamic inline stylings.
 
 ```
-<div *ngFor="let obj of data" fxLayout fxLayout.xs="column" class.xs="column">
+<div *ngFor="let obj of data" fxLayout fxLayout.xs="column">
   <div fxFlex="40" >{{obj.origin}}</div>
   <div fxFlex="40" >{{obj.destination}}</div>
   <div fxFlex="20" >{{obj.price}}</div>
 </div>  
 ```
 
+Note that both the **initial** and **media-query**-triggered layout phase manifest redraw-performance issues.
+
 ![screen shot 2017-08-03 at 12 46 39 pm](https://user-images.githubusercontent.com/210413/28935328-d1667e58-7849-11e7-8e2d-5983b4071a1d.png)
 
-> Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts. 
+#### Impacts of "column" flex-direction
+
+Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts. 
 
 Developers should note that FlexBox CSS with `flex-direction = "column"` requires significantly more webkit engine processing to properly adjust column heights and layout the composition.  Reduce the demo viewport size to < 600px (to force a column direction layout).  
 
-Both **initial** and **media-query**-triggered layouts manifest redraw-performance issues.
+<br/>
 
 #### Use Responsive Class API for large Tables
 
