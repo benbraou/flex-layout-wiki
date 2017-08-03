@@ -49,6 +49,7 @@ This API set applies flexbox CSS stylings for a DOM element nested within FlexBo
 
 
 <br/>
+
 ### Special Responsive Features
 
 While the following APIs also add or remove DOM element inline styles, they are NOT FlexBox CSS specific. 
