@@ -19,7 +19,7 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 
 #### Use Responsive Class API for large Tables
 
-For **responsive large table layouts**, developers should use the responsive `class` API to specify a flexbox CSS style class instead of inline flexbox styles. 
+For **responsive table layouts** with large number of rows, developers should use the responsive `class` API to specify a flexbox CSS style class instead of inline flexbox styles. 
 
 Below we are using the responsive `class` and `class.xs` API to specify class names.
 
