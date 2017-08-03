@@ -1,4 +1,7 @@
-@angular/flex-layout performs extremely well for most usage scenarios EXCEPT large tables.
+#### Performance considerations with Tables
+
+**@angular/flex-layout** performs extremely well for most usage scenarios EXCEPT large tables.
+
 
 Developers generating dynamic tables (using `*ngFor`) should be aware of performance impacts using flex-layout directives. 
 
@@ -13,6 +16,8 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 ```
 
 > Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts; which requires significant webkit engine processing to adjust column heights appropriately.
+
+#### Use Responsive Class API for large Tables
 
 For **responsive large table layouts**, developers should use the responsive `class` API to specify a flexbox CSS style class instead of inline flexbox styles. 
 
