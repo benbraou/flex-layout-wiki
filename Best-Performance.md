@@ -67,5 +67,7 @@ Below we are using the responsive `class` and `class.xs` API to specify class na
 .column  .item_40 {   max-height: 40%; }
 .column  .item_20 {  max-height: 20%; }
 ```
-  
+
+This **`class`-based** approach performs very well by leveraging stylesheets instead of inline-styles.  
+
 > Here is an online [Plunkr - Flex-Layout Performance](https://plnkr.co/edit/s0Hkx4S9Xc830Kzoj48V?p=preview) that demonstrates the issue (see `Use fxLayout` button) and solution (see `Use CSS` button).
