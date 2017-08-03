@@ -15,6 +15,9 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 </div>  
 ```
 
+![screen shot 2017-05-31 at 2 01 44 pm](https://user-images.githubusercontent.com/210413/28935287-b49aa560-7849-11e7-8e3e-5157f14e29bb.png)
+
+
 > Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts; which requires significant webkit engine processing to adjust column heights appropriately.
 
 #### Use Responsive Class API for large Tables
@@ -29,7 +32,9 @@ Below we are using the responsive `class` and `class.xs` API to specify class na
       <div class="item_40" style="background-color: #aaddaa">{{obj.destination}}</div>
       <div class="item_20" style="background-color: #ddaadd">{{obj.price}}</div>
     </div>  
-  ```
+```
+
+
 ```css  
 .flow { 
   display: flex;  
