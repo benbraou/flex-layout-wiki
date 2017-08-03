@@ -19,13 +19,15 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 
 > Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts. 
 
-Developers should note that FlexBox CSS with `flex-direction = "column"` requires significantly more webkit engine processing to properly adjust column heights and layout the composition.
+Developers should note that FlexBox CSS with `flex-direction = "column"` requires significantly more webkit engine processing to properly adjust column heights and layout the composition.  Reduce the demo viewport size to < 600px (to force a column direction layout).  
+
+Both **initial** and **media-query**-triggered layouts manifest redraw-performance issues.
 
 #### Use Responsive Class API for large Tables
 
 For **responsive table layouts** with large number of rows, developers should use the responsive `class` API to specify a flexbox CSS style class instead of inline flexbox styles. 
 
-Below we are using the responsive `class` and `class.xs` API to specify class names.
+Below we are using the responsive `class` and `class.xs` API to specify class names. Notice that mobile devices will use a flow-direction == "column":
 
 ```html
     <div *ngFor="let obj of data" class="flow row" class.xs="flow column">
@@ -35,6 +37,7 @@ Below we are using the responsive `class` and `class.xs` API to specify class na
     </div>  
 ```
 
+##### Custom Flexbox CSS  
 
 ```css  
 .flow { 
