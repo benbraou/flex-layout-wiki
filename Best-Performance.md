@@ -2,7 +2,6 @@
 
 **@angular/flex-layout** performs extremely well for most usage scenarios EXCEPT large tables.
 
-
 Developers generating dynamic tables (using `*ngFor`) should be aware of performance impacts using flex-layout directives. 
 
 For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice for layouts. Consider the table definition below were each row has column elements; each using a `fxFlex`. Since the directives apply styles inline for each element in each row, large tables may manifest performance impacts with dynamic inline stylings.
@@ -18,6 +17,8 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 Note that both the **initial** and **media-query**-triggered layout phase manifest redraw-performance issues.
 
 ![screen shot 2017-08-03 at 12 46 39 pm](https://user-images.githubusercontent.com/210413/28935328-d1667e58-7849-11e7-8e2d-5983b4071a1d.png)
+
+<br/>
 
 #### Impacts of "column" flex-direction
 
