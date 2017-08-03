@@ -15,8 +15,7 @@ For small number of rows (eg. < 100), @angular/flex-layout is a excellent choice
 </div>  
 ```
 
-![screen shot 2017-05-31 at 2 01 44 pm](https://user-images.githubusercontent.com/210413/28935287-b49aa560-7849-11e7-8e3e-5157f14e29bb.png)
-
+![screen shot 2017-08-03 at 12 46 39 pm](https://user-images.githubusercontent.com/210413/28935328-d1667e58-7849-11e7-8e2d-5983b4071a1d.png)
 
 > Dynamic-inline-styling performance impacts are especially noticeable for **column** layouts; which requires significant webkit engine processing to adjust column heights appropriately.
 
