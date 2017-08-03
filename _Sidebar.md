@@ -9,7 +9,7 @@
   *  [Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API)
   *  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)
   *  [Custom Breakpoints](https://github.com/angular/flex-layout/wiki/Custom-Breakpoints)
-
+  *  [Performance Considerations](https://github.com/angular/flex-layout/wiki/Performance-Considerations)
 * Demos 
   *  [Live Online](https://tburleson-layouts-demos.firebaseapp.com/)
   *  [Source Code](https://github.com/angular/flex-layout/blob/master/src/demo-app/app/demo-app-module.ts)
