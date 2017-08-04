@@ -36,9 +36,9 @@ Below we are using the responsive `class` and `class.xs` API to specify class na
 
 ```html
     <div *ngFor="let obj of data" class="flow row" class.xs="flow column">
-      <div class="item_40" style="background-color: #ccdeee">{{obj.origin}}</div>
-      <div class="item_40" style="background-color: #aaddaa">{{obj.destination}}</div>
-      <div class="item_20" style="background-color: #ddaadd">{{obj.price}}</div>
+      <div class="item_40"> {{obj.origin}}      </div>
+      <div class="item_40"> {{obj.destination}} </div>
+      <div class="item_20"> {{obj.price}}       </div>
     </div>  
 ```
 
