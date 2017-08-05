@@ -29,14 +29,14 @@
   * [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
 
 *  Developer Guides
-  *  [NPM Installs](https://github.com/angular/flex-layout/wiki/NPM-Installs)
-  *  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
-  *  [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
-  *  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
-  *  [WebPack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
+  * [NPM Installs](https://github.com/angular/flex-layout/wiki/NPM-Installs)
+  * [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
+  * [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
+  * [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Integration-with-Angular-CLI)
+  * [WebPack Configuration](https://github.com/angular/flex-layout/wiki/Webpack-Configuration)
 
 * Contributing
-  *  [Contributing](https://github.com/angular/flex-layout/wiki/Contributing-to-Angular-2-Flex-Layout)
-  *  [Coding Standards](https://github.com/angular/flex-layout/wiki/Angular-Flex-Layout-Coding-Standards)
-  *  [Code Review](https://github.com/angular/flex-layout/wiki/Code-reviews)
+  * [Contributing](https://github.com/angular/flex-layout/wiki/Contributing-to-Angular-2-Flex-Layout)
+  * [Coding Standards](https://github.com/angular/flex-layout/wiki/Angular-Flex-Layout-Coding-Standards)
+  * [Code Review](https://github.com/angular/flex-layout/wiki/Code-reviews)
 
