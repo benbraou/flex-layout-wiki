@@ -32,7 +32,7 @@ An important [fundamental] concept is understanding which APIs are used on DOM *
 |  fxFlexAlign      | `start \| baseline \| center \| end`                                             |                   
 |  fxFlexFill       |                                                                         |
 
-> These directives ^ affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
+> These directives ^ affect the layout and size of the host element. Note the API expects their host elements to be inside a DOM flexbox container [a 'block' element which is itself using the Layout API for containers].
 
 <br/>
 
