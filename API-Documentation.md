@@ -21,6 +21,8 @@ The features of Flex-Layout are best used, however, declaratively in template HT
 
 As each directive (aka API) within **@angular/flex-layout** has its own constraints and options, the links below should be used to navigate to the specific the documentation pages for each directive.
 
+<br/>
+
 ### Containers
 
 This API set applies flexbox CSS stylings for DOM **container elements** with 1 or more nested flex children:
