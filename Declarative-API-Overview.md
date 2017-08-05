@@ -8,6 +8,8 @@ The **Flex-Layout API** is an intuitive list of HTML directives (aka attributes)
 
 An important [fundamental] concept is understanding which APIs are used on DOM **containers** versus APIs used on DOM child elements in those containers.  
 
+<br/>
+
 #### API for DOM containers:  
 
 | HTML API &nbsp;&nbsp;&nbsp;    | Allowed values                                                          |
@@ -17,6 +19,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM *
 |  [fxLayoutGap](https://github.com/angular/flex-layout/wiki/fxLayoutGap-API)     | % \|  px \|  vw \|  vh                                                           |     
 
 > These directives ^ affect the flow and layout children elements in the container
+
+<br/>
 
 #### API for DOM elements:   
 
@@ -29,6 +33,8 @@ An important [fundamental] concept is understanding which APIs are used on DOM *
 |  fxFlexFill       |                                                                         |
 
 > These directives ^ affect the layout and size of the host element. Note the API expects their elements to inside a DOM container which is itself using the Layout API for containers.
+
+<br/>
 
 #### API for any element: 
 
