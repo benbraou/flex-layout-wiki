@@ -69,6 +69,8 @@ Shown below is sample HTML markup that uses both the container and element Stati
 
 Flex Layout directives **assign CSS styles** directly in-line to the host element. These in-line styles override inherited styles, **ShadowDOM** styles and even ShadowDOM tree stylings on the element  `:host`
 
+<br/>
+
 ## Responsive API
 
 Flex-Layout also has a huge set of responsive features that enable developers to easily change the UX layout configurations for different display devices. See the our documentation on [Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API).
