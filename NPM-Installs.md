@@ -1,4 +1,4 @@
-## NPM Install Angular Flex-Layout components  
+## Install Latest NPM Release
 
 ```bash
 npm install --save @angular/flex-layout@latest
