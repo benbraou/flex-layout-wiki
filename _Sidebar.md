@@ -28,7 +28,7 @@
   * [Background](https://github.com/angular/flex-layout/wiki/Background)
   * [Adaptive Layouts](https://github.com/angular/flex-layout/wiki/Adaptive-Layouts)
 
-*  Developer Guides
+* Developer Guides
   * [NPM Installs](https://github.com/angular/flex-layout/wiki/NPM-Installs)
   * [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)
   * [Builds + Fast Starts](https://github.com/angular/flex-layout/wiki/Fast-Starts)
