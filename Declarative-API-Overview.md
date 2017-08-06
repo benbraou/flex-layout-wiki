@@ -2,7 +2,7 @@
 
 The Flex Layout features provide smart, syntactic directives to allow developers to easily and intuitively create responsive and adaptive layouts using Flexbox CSS. 
 
-> The **API** outline here is considered static and provides a UX that will adjust element sizes and positions as the Browser window width changes. The static API can be consider the default *desktop* layout API. <br/> <br/>The static API will not, however, be sufficient to support alternate layout configurations for mobile or tablet devices.
+> The **API** outline here is considered static and provides a UX that will adjust element sizes and positions as the browser window width changes. The static API can be considered the default *desktop* layout API. <br/> <br/>The static API will not, however, be sufficient to support alternate layout configurations for mobile or tablet devices.
 
 The **Flex-Layout API** is an intuitive list of HTML directives (aka attributes) that can be used on HTML containers and elements. Instead of using traditional CSS stylesheets, developers will define their layouts declaratively directly in the HTML.
 
