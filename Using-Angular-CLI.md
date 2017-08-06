@@ -39,6 +39,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 export class PizzaPartyAppModule { }
 ```
 
+<br/>
+
 ## Configuring SystemJS
 If your project is using SystemJS for module loading, you will need to add `@angular/flex-layout` 
 to the SystemJS configuration:
