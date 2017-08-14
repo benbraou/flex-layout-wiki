@@ -57,7 +57,7 @@ function updateBreakpoints((it:BreakPoint) => {
     {
       provide : BREAKPOINTS,
       useFactory : function customizeBreakPoints() {
-        return validateSuffixes(RAW_DEFAULTS.map( updateBreakpoints ));
+        return validateSuffixes(DEFAULT_BREAKPOINTS.map( updateBreakpoints ));
       }
     }
   ]
