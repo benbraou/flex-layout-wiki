@@ -43,44 +43,38 @@ Here is a Plunkr [Flex-Layout Template](https://plnkr.co/edit/h8hzyoEyqdCXmTBA7D
 
 ```js
 System.config({
-  //use typescript for compilation
   transpiler: 'typescript',
-  //typescript compiler options
   typescriptOptions: {
       // Copy of compiler options in standard tsconfig.json
       "target": "es5",
-      "module": "es2015",
-      "moduleResolution": "node",
       "sourceMap": true,
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
-      "noImplicitAny": true,
       "suppressImplicitAnyIndexErrors": true
   },
-  meta: {
-      'typescript': {
-        "exports": "ts"
-      }
-    },  
   paths: {
     'npm:': 'https://unpkg.com/'
   },
-  //map tells the System loader where to look for things
-  map: {
-    
+  map: {    
     'app': './src',
-
     '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
     '@angular/common': 'npm:@angular/common/bundles/common.umd.js',
     '@angular/compiler': 'npm:@angular/compiler/bundles/compiler.umd.js',
+    '@angular/animations': 'npm:@angular/animations/bundles/animations.umd.js',
+    '@angular/animations/browser': 'npm:@angular/animations/bundles/animations-browser.umd.js',
+    '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+    '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
     '@angular/platform-browser': 'npm:@angular/platform-browser/bundles/platform-browser.umd.js',
+    '@angular/platform-browser/animations': 'npm:@angular/platform-browser/bundles/platform-browser-animations.umd.js',
     '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js',
-    '@angular/flex-layout' : 'npm:@angular/flex-layout/bundles/flex-layout.umd.js',
+    '@angular/flex-layout' : 'https://rawgit.com/angular/flex-layout-builds/master/bundles/flex-layout.umd.js',
+
+    // [optional] need to use Angular Material components
+    '@angular/material' : 'npm:@angular/material/bundles/material.umd.js',
+    '@angular/cdk' : 'npm:@angular/cdk/bundles/cdk.umd.js',
     
     // other libraries
     'rxjs':                      'npm:rxjs',
-    'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-    'typescript':                'npm:typescript@2.0.10/lib/typescript.js',    
   },
   //packages defines our app package
   packages: {
@@ -103,7 +97,7 @@ System.config({
 If you are using the Angular CLI to bundle and serve your application (using `ng serve`). 
 
 ```terminal
-yarn install @angular/flex-layout
+yarn install @angular/flex-layout-builds
 ```
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
@@ -133,8 +127,8 @@ export class DemoAppModule { }
 Use Gulp and Rollup to build `flex-layout.umd.js` UMD:
 
 ```console
-gulp build:lib
-cp ./dist/@angular/flex-layout/flex-layout.umd.js  <yourProjectPath>/scripts/flex-layout.umd.js
+gulp :publish:build-releases
+cp ./dist/bundles/flex-layout.umd.js  <yourProjectPath>/scripts/flex-layout.umd.js
 ```
 
 Use the bundle with an external script tag in the index.html of your Angular 2 application shell:
@@ -152,10 +146,7 @@ Developers can, however, easily install this `@angular/flex-layout` library usin
 and a directory copy:
 
 ```console
-gulp build:release
-ditto ./dist/@angular/flex-layout <projectPath>/node_modules/@angular/flex-layout
+gulp :publish:build-releases
+ditto ./dist/packages/flex-layout <projectPath>/node_modules/@angular/flex-layout
 ```
 
-> The expected deployment process to **npm** (and the standardized use 
-of `npm i @angular/flex-layout`) is **NOT** yet available. NPM installs will be available 
-after the the flex-layout v1.0.0-beta.1 release (week of December 20, 2016).
