@@ -15,7 +15,7 @@ npm install -g @angular/cli
  ng new my-project
 ```
 
-## Use with existing project
+## Or, use with existing project
 
 ```bash
 rm -rf node_modules/
@@ -24,7 +24,13 @@ npm install
 
 The new command creates a project with a build system for your Angular app.
 
+## Install the latest build of Flex-Layout
 
+```bash
+npm install --save @angular/flex-layout@latest
+```
+
+> This installs a nightly build which provides supports for the current Angular 4.0, AOT, Universal, and CLI 1.3.0.
 
 ## Import the Angular Flex-Layout NgModule
   
@@ -50,7 +56,7 @@ System.config({
   // existing configuration options
   map: {
     ...,
-    '@angular/flex-layout': 'npm:@angular/flex-layout/bundles/flex-layout.umd.js'
+    '@angular/flex-layout': 'npm:@angular/flex-layout-builds/bundles/flex-layout.umd.js'
   }
 });
 ```
