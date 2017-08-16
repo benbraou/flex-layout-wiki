@@ -1,8 +1,10 @@
 ### NPM Install
 
 ```terminal
-npm install @angular/flex-layout -saveDev
+npm install @angular/flex-layout-builds -saveDev
 ```
+
+> Note: this installs a nightly build required for Angular 4.x; until Beta.9 is released.
 
 Next, modify your `app.module.ts` to use the `FlexLayoutModule`:
 
