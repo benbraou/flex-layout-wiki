@@ -20,7 +20,7 @@ or
 yarn add angular/flex-layout-builds --save
 ```
 
-<br/>&nbps;
+----
 
 > Developers may need to first clear their existing `node_modules` directory using:
 ```bash
