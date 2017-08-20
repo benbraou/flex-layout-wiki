@@ -10,6 +10,8 @@ This API makes it super easy to add progressive images to your HTML... by using 
 *  `[srcset.md]`
 *  ...
 
+<br/>&nbsp;
+
 ### Isolated Img 
 
 When **not nested** within a `<picture>` DOM element, the Image element may specify both `src` and `srcset` attributes.
@@ -20,6 +22,8 @@ When **not nested** within a `<picture>` DOM element, the Image element may spec
 
 
 ##### References
+
+<br/>&nbsp;
 
 ----
 
